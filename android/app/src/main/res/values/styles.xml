@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- LaunchTheme: pre-engine window. Light ink-paper background
+         (#F7F5F0); values-night flips it to the dark ink (#0B0C10)
+         via the launch_bg color resource. -->
+    <style name="LaunchTheme" parent="@android:style/Theme.Light.NoTitleBar">
+        <item name="android:windowBackground">@drawable/launch_background</item>
+    </style>
+
+    <!-- NormalTheme: used by the Flutter engine once it takes over.
+         Material3 DayNight auto-switches with system dark mode. -->
+    <style name="NormalTheme" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="android:windowBackground">@drawable/launch_background</item>
+    </style>
+</resources>

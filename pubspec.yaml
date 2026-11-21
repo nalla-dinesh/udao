@@ -1,0 +1,93 @@
+name: udao
+description: "UDAO — fully on-device, Hinglish-first agentic expense tracker with attitude."
+publish_to: "none"
+version: 0.1.0+1
+
+environment:
+  sdk: ">=3.5.0 <4.0.0"
+  flutter: ">=3.24.0"
+
+# Pinned to known-good majors; every entry carries a `# verify-latest`
+# marker so the monthly dependency sweep can find them. NEVER add
+# network packages (ADR-0001).
+dependencies:
+  crypto: ^3.0.3 # verify-latest
+  device_info_plus: ^10.1.2 # verify-latest
+  file_picker: ^8.0.3 # verify-latest — PDF/CSV statement picking (T2)
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+  flutter_riverpod: ^2.5.1 # verify-latest
+  flutter_secure_storage: ^9.2.2 # verify-latest
+  flutter_svg: ^2.0.10+1 # verify-latest
+  go_router: ^14.2.0 # verify-latest
+  google_mlkit_text_recognition: ^0.13.0 # verify-latest — fully offline receipt OCR (T3)
+  image_picker: ^1.1.2 # verify-latest — receipt camera/gallery (T3)
+  path_provider: ^2.1.4 # verify-latest
+  pdfrx: 2.4.7 # exact pin — the version analyze+test ran against locally
+  # NOTE: prompt suggested ^0.5.x; current stable is 2.10.1 (verified
+  # publisher, Oct-2026). The 2.x API is isolated behind the
+  # PdfTextExtractor seam (one adapter file).
+  permission_handler: ^11.3.1 # verify-latest — SMS runtime permission, power flavor only (T1)
+  phosphor_flutter: ^2.1.0 # verify-latest
+  pointycastle: ^3.9.1 # verify-latest — AES-GCM receipt vault at rest (T3)
+  share_plus: ^10.0.2 # verify-latest
+  shared_preferences: ^2.3.2 # verify-latest
+  speech_to_text: 7.4.0 # exact pin — ^6.7.0 does not exist on pub
+  sqflite_sqlcipher: ^3.0.0 # verify-latest
+  # sqflite_sqlcipher = sqflite API + `password:` openDatabase param;
+  # shares sqflite_common types with the FFI test factory (see
+  # UdaoDatabase doc + AGENT_LOG phase-02 notes).
+  sqlcipher_flutter_libs: ^0.6.4 # verify-latest
+  uuid: ^4.5.1 # verify-latest
+  workmanager: 0.10.10 # exact pin — background jobs (ADR-0006); sorts last alphabetically
+
+dev_dependencies:
+  flutter_lints: ^4.0.0 # verify-latest
+  flutter_test:
+    sdk: flutter
+  # Desktop/JVM sqlite for `flutter test` (sqlite3.dll bundled in
+  # debug/test — no Windows setup script needed).
+  sqflite_common_ffi: ^2.3.7 # verify-latest
+
+flutter:
+  # Framework internals (e.g. text-selection toolbar) may reference the
+  # Material icon font. OUR code never uses it — the ban on Material/
+  # Cupertino icon classes in lib/ is enforced by CI (see analysis_options
+  # comment + .github/workflows/ci.yml).
+  uses-material-design: true
+
+  assets:
+    - assets/icons/
+    - assets/l10n/
+    - assets/docs/
+    - assets/capture/
+
+  fonts:
+    - family: Inter
+      fonts:
+        - asset: assets/fonts/Inter-Reg.ttf
+          weight: 400
+        - asset: assets/fonts/Inter-Med.ttf
+          weight: 500
+        - asset: assets/fonts/Inter-Semi.ttf
+          weight: 600
+        - asset: assets/fonts/Inter-Bold.ttf
+          weight: 700
+        - asset: assets/fonts/Inter-Xbold.ttf
+          weight: 800
+    - family: SpaceGrotesk
+      fonts:
+        - asset: assets/fonts/SG-Reg.ttf
+          weight: 400
+        - asset: assets/fonts/SG-Med.ttf
+          weight: 500
+        - asset: assets/fonts/SG-Bold.ttf
+          weight: 700
+    - family: Syne
+      fonts:
+        - asset: assets/fonts/Syne-Bold.ttf
+          weight: 700
+        - asset: assets/fonts/Syne-Xbold.ttf
+          weight: 800

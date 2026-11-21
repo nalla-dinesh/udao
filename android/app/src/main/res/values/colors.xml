@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Launch/splash background: light "ink paper" by day… -->
+    <color name="launch_bg">#F7F5F0</color>
+    <!-- …and the UDAO dark ink behind the adaptive launcher icon. -->
+    <color name="launcher_background">#0B0C10</color>
+</resources>

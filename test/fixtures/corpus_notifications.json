@@ -1,0 +1,1094 @@
+{
+ "receivedAtIso": "2026-10-27T18:45:03+05:30",
+ "samples": [
+  {
+   "id": "gpay_0141",
+   "kind": "notification",
+   "packageKey": "com.google.android.apps.nbu.paysa",
+   "sender": null,
+   "text": "₹148 sent to Swiggy",
+   "expect": {
+    "class": "auto",
+    "amountPaise": 14800,
+    "direction": "debit",
+    "merchantClean": "Swiggy",
+    "confidenceMin": 0.95,
+    "parserId": "gpay",
+    "hasVpa": false,
+    "occurredAtIsoDate": "2026-10-27"
+   }
+  },
+  {
+   "id": "gpay_0142",
+   "kind": "notification",
+   "packageKey": "com.google.android.apps.nbu.paysa",
+   "sender": null,
+   "text": "₹99.50 sent to zepto",
+   "expect": {
+    "class": "auto",
+    "amountPaise": 9950,
+    "direction": "debit",
+    "merchantClean": "Zepto",
+    "confidenceMin": 0.95,
+    "parserId": "gpay",
+    "hasVpa": false,
+    "occurredAtIsoDate": "2026-10-27"
+   }
+  },
+  {
+   "id": "gpay_0143",
+   "kind": "notification",
+   "packageKey": "com.google.android.apps.nbu.paysa",
+   "sender": null,
+   "text": "₹1,250 sent to BLINKIT",
+   "expect": {
+    "class": "auto",
+    "amountPaise": 125000,
+    "direction": "debit",
+    "merchantClean": "Blinkit",
+    "confidenceMin": 0.95,
+    "parserId": "gpay",
+    "hasVpa": false,
+    "occurredAtIsoDate": "2026-10-27"
+   }
+  },
+  {
+   "id": "gpay_0144",
+   "kind": "notification",
+   "packageKey": "com.google.android.apps.nbu.paysa",
+   "sender": null,
+   "text": "You sent ₹99.50 to Swiggy",
+   "expect": {
+    "class": "auto",
+    "amountPaise": 9950,
+    "direction": "debit",
+    "merchantClean": "Swiggy",
+    "confidenceMin": 0.95,
+    "parserId": "gpay",
+    "hasVpa": false,
+    "occurredAtIsoDate": "2026-10-27"
+   }
+  },
+  {
+   "id": "gpay_0145",
+   "kind": "notification",
+   "packageKey": "com.google.android.apps.nbu.paysa",
+   "sender": null,
+   "text": "You sent ₹1,250 to zepto",
+   "expect": {
+    "class": "auto",
+    "amountPaise": 125000,
+    "direction": "debit",
+    "merchantClean": "Zepto",
+    "confidenceMin": 0.95,
+    "parserId": "gpay",
+    "hasVpa": false,
+    "occurredAtIsoDate": "2026-10-27"
+   }
+  },
+  {
+   "id": "gpay_0146",
+   "kind": "notification",
+   "packageKey": "com.google.android.apps.nbu.paysa",
+   "sender": null,
+   "text": "You sent ₹2,500.75 to BLINKIT",
+   "expect": {
+    "class": "auto",
+    "amountPaise": 250075,
+    "direction": "debit",
+    "merchantClean": "Blinkit",
+    "confidenceMin": 0.95,
+    "parserId": "gpay",
+    "hasVpa": false,
+    "occurredAtIsoDate": "2026-10-27"
+   }
+  },
+  {
+   "id": "gpay_0147",
+   "kind": "notification",
+   "packageKey": "com.google.android.apps.nbu.paysa",
+   "sender": null,
+   "text": "Paid ₹1,250 to Swiggy via UPI",
+   "expect": {
+    "class": "auto",
+    "amountPaise": 125000,
+    "direction": "debit",
+    "merchantClean": "Swiggy",
+    "confidenceMin": 0.95,
+    "parserId": "gpay",
+    "hasVpa": false,
+    "occurredAtIsoDate": "2026-10-27"
+   }
+  },
+  {
+   "id": "gpay_0148",
+   "kind": "notification",
+   "packageKey": "com.google.android.apps.nbu.paysa",
+   "sender": null,
+   "text": "Paid ₹2,500.75 to zepto via UPI",
+   "expect": {
+    "class": "auto",
+    "amountPaise": 250075,
+    "direction": "debit",
+    "merchantClean": "Zepto",
+    "confidenceMin": 0.95,
+    "parserId": "gpay",
+    "hasVpa": false,
+    "occurredAtIsoDate": "2026-10-27"
+   }
+  },
+  {
+   "id": "gpay_0149",
+   "kind": "notification",
+   "packageKey": "com.google.android.apps.nbu.paysa",
+   "sender": null,
+   "text": "Paid ₹72 to BLINKIT via UPI",
+   "expect": {
+    "class": "auto",
+    "amountPaise": 7200,
+    "direction": "debit",
+    "merchantClean": "Blinkit",
+    "confidenceMin": 0.95,
+    "parserId": "gpay",
+    "hasVpa": false,
+    "occurredAtIsoDate": "2026-10-27"
+   }
+  },
+  {
+   "id": "gpay_0150",
+   "kind": "notification",
+   "packageKey": "com.google.android.apps.nbu.paysa",
+   "sender": null,
+   "text": "Received ₹2,500.75 from Swiggy",
+   "expect": {
+    "class": "auto",
+    "amountPaise": 250075,
+    "direction": "credit",
+    "merchantClean": "Swiggy",
+    "confidenceMin": 0.95,
+    "parserId": "gpay",
+    "hasVpa": false,
+    "occurredAtIsoDate": "2026-10-27"
+   }
+  },
+  {
+   "id": "gpay_0151",
+   "kind": "notification",
+   "packageKey": "com.google.android.apps.nbu.paysa",
+   "sender": null,
+   "text": "Received ₹72 from zepto",
+   "expect": {
+    "class": "auto",
+    "amountPaise": 7200,
+    "direction": "credit",
+    "merchantClean": "Zepto",
+    "confidenceMin": 0.95,
+    "parserId": "gpay",
+    "hasVpa": false,
+    "occurredAtIsoDate": "2026-10-27"
+   }
+  },
+  {
+   "id": "gpay_0152",
+   "kind": "notification",
+   "packageKey": "com.google.android.apps.nbu.paysa",
+   "sender": null,
+   "text": "Received ₹148 from BLINKIT",
+   "expect": {
+    "class": "auto",
+    "amountPaise": 14800,
+    "direction": "credit",
+    "merchantClean": "Blinkit",
+    "confidenceMin": 0.95,
+    "parserId": "gpay",
+    "hasVpa": false,
+    "occurredAtIsoDate": "2026-10-27"
+   }
+  },
+  {
+   "id": "gpay_0153",
+   "kind": "notification",
+   "packageKey": "com.google.android.apps.nbu.paysa",
+   "sender": null,
+   "text": "₹72 received from Swiggy",
+   "expect": {
+    "class": "auto",
+    "amountPaise": 7200,
+    "direction": "credit",
+    "merchantClean": "Swiggy",
+    "confidenceMin": 0.95,
+    "parserId": "gpay",
+    "hasVpa": false,
+    "occurredAtIsoDate": "2026-10-27"
+   }
+  },
+  {
+   "id": "gpay_0154",
+   "kind": "notification",
+   "packageKey": "com.google.android.apps.nbu.paysa",
+   "sender": null,
+   "text": "₹148 received from zepto",
+   "expect": {
+    "class": "auto",
+    "amountPaise": 14800,
+    "direction": "credit",
+    "merchantClean": "Zepto",
+    "confidenceMin": 0.95,
+    "parserId": "gpay",
+    "hasVpa": false,
+    "occurredAtIsoDate": "2026-10-27"
+   }
+  },
+  {
+   "id": "gpay_0155",
+   "kind": "notification",
+   "packageKey": "com.google.android.apps.nbu.paysa",
+   "sender": null,
+   "text": "₹99.50 received from BLINKIT",
+   "expect": {
+    "class": "auto",
+    "amountPaise": 9950,
+    "direction": "credit",
+    "merchantClean": "Blinkit",
+    "confidenceMin": 0.95,
+    "parserId": "gpay",
+    "hasVpa": false,
+    "occurredAtIsoDate": "2026-10-27"
+   }
+  },
+  {
+   "id": "phonepe_0156",
+   "kind": "notification",
+   "packageKey": "com.phonepe.app",
+   "sender": null,
+   "text": "You paid ₹148 to Swiggy",
+   "expect": {
+    "class": "auto",
+    "amountPaise": 14800,
+    "direction": "debit",
+    "merchantClean": "Swiggy",
+    "confidenceMin": 0.95,
+    "parserId": "phonepe",
+    "hasVpa": false,
+    "occurredAtIsoDate": "2026-10-27"
+   }
+  },
+  {
+   "id": "phonepe_0157",
+   "kind": "notification",
+   "packageKey": "com.phonepe.app",
+   "sender": null,
+   "text": "You paid ₹99.50 to zepto",
+   "expect": {
+    "class": "auto",
+    "amountPaise": 9950,
+    "direction": "debit",
+    "merchantClean": "Zepto",
+    "confidenceMin": 0.95,
+    "parserId": "phonepe",
+    "hasVpa": false,
+    "occurredAtIsoDate": "2026-10-27"
+   }
+  },
+  {
+   "id": "phonepe_0158",
+   "kind": "notification",
+   "packageKey": "com.phonepe.app",
+   "sender": null,
+   "text": "You paid ₹1,250 to BLINKIT",
+   "expect": {
+    "class": "auto",
+    "amountPaise": 125000,
+    "direction": "debit",
+    "merchantClean": "Blinkit",
+    "confidenceMin": 0.95,
+    "parserId": "phonepe",
+    "hasVpa": false,
+    "occurredAtIsoDate": "2026-10-27"
+   }
+  },
+  {
+   "id": "phonepe_0159",
+   "kind": "notification",
+   "packageKey": "com.phonepe.app",
+   "sender": null,
+   "text": "₹99.50 paid to Swiggy via PhonePe",
+   "expect": {
+    "class": "auto",
+    "amountPaise": 9950,
+    "direction": "debit",
+    "merchantClean": "Swiggy",
+    "confidenceMin": 0.95,
+    "parserId": "phonepe",
+    "hasVpa": false,
+    "occurredAtIsoDate": "2026-10-27"
+   }
+  },
+  {
+   "id": "phonepe_0160",
+   "kind": "notification",
+   "packageKey": "com.phonepe.app",
+   "sender": null,
+   "text": "₹1,250 paid to zepto via PhonePe",
+   "expect": {
+    "class": "auto",
+    "amountPaise": 125000,
+    "direction": "debit",
+    "merchantClean": "Zepto",
+    "confidenceMin": 0.95,
+    "parserId": "phonepe",
+    "hasVpa": false,
+    "occurredAtIsoDate": "2026-10-27"
+   }
+  },
+  {
+   "id": "phonepe_0161",
+   "kind": "notification",
+   "packageKey": "com.phonepe.app",
+   "sender": null,
+   "text": "₹2,500.75 paid to BLINKIT via PhonePe",
+   "expect": {
+    "class": "auto",
+    "amountPaise": 250075,
+    "direction": "debit",
+    "merchantClean": "Blinkit",
+    "confidenceMin": 0.95,
+    "parserId": "phonepe",
+    "hasVpa": false,
+    "occurredAtIsoDate": "2026-10-27"
+   }
+  },
+  {
+   "id": "phonepe_0162",
+   "kind": "notification",
+   "packageKey": "com.phonepe.app",
+   "sender": null,
+   "text": "Sent ₹1,250 to Swiggy on PhonePe",
+   "expect": {
+    "class": "auto",
+    "amountPaise": 125000,
+    "direction": "debit",
+    "merchantClean": "Swiggy",
+    "confidenceMin": 0.95,
+    "parserId": "phonepe",
+    "hasVpa": false,
+    "occurredAtIsoDate": "2026-10-27"
+   }
+  },
+  {
+   "id": "phonepe_0163",
+   "kind": "notification",
+   "packageKey": "com.phonepe.app",
+   "sender": null,
+   "text": "Sent ₹2,500.75 to zepto on PhonePe",
+   "expect": {
+    "class": "auto",
+    "amountPaise": 250075,
+    "direction": "debit",
+    "merchantClean": "Zepto",
+    "confidenceMin": 0.95,
+    "parserId": "phonepe",
+    "hasVpa": false,
+    "occurredAtIsoDate": "2026-10-27"
+   }
+  },
+  {
+   "id": "phonepe_0164",
+   "kind": "notification",
+   "packageKey": "com.phonepe.app",
+   "sender": null,
+   "text": "Sent ₹72 to BLINKIT on PhonePe",
+   "expect": {
+    "class": "auto",
+    "amountPaise": 7200,
+    "direction": "debit",
+    "merchantClean": "Blinkit",
+    "confidenceMin": 0.95,
+    "parserId": "phonepe",
+    "hasVpa": false,
+    "occurredAtIsoDate": "2026-10-27"
+   }
+  },
+  {
+   "id": "phonepe_0165",
+   "kind": "notification",
+   "packageKey": "com.phonepe.app",
+   "sender": null,
+   "text": "₹2,500.75 received from Swiggy",
+   "expect": {
+    "class": "auto",
+    "amountPaise": 250075,
+    "direction": "credit",
+    "merchantClean": "Swiggy",
+    "confidenceMin": 0.95,
+    "parserId": "phonepe",
+    "hasVpa": false,
+    "occurredAtIsoDate": "2026-10-27"
+   }
+  },
+  {
+   "id": "phonepe_0166",
+   "kind": "notification",
+   "packageKey": "com.phonepe.app",
+   "sender": null,
+   "text": "₹72 received from zepto",
+   "expect": {
+    "class": "auto",
+    "amountPaise": 7200,
+    "direction": "credit",
+    "merchantClean": "Zepto",
+    "confidenceMin": 0.95,
+    "parserId": "phonepe",
+    "hasVpa": false,
+    "occurredAtIsoDate": "2026-10-27"
+   }
+  },
+  {
+   "id": "phonepe_0167",
+   "kind": "notification",
+   "packageKey": "com.phonepe.app",
+   "sender": null,
+   "text": "₹148 received from BLINKIT",
+   "expect": {
+    "class": "auto",
+    "amountPaise": 14800,
+    "direction": "credit",
+    "merchantClean": "Blinkit",
+    "confidenceMin": 0.95,
+    "parserId": "phonepe",
+    "hasVpa": false,
+    "occurredAtIsoDate": "2026-10-27"
+   }
+  },
+  {
+   "id": "phonepe_0168",
+   "kind": "notification",
+   "packageKey": "com.phonepe.app",
+   "sender": null,
+   "text": "You received ₹72 from Swiggy",
+   "expect": {
+    "class": "auto",
+    "amountPaise": 7200,
+    "direction": "credit",
+    "merchantClean": "Swiggy",
+    "confidenceMin": 0.95,
+    "parserId": "phonepe",
+    "hasVpa": false,
+    "occurredAtIsoDate": "2026-10-27"
+   }
+  },
+  {
+   "id": "phonepe_0169",
+   "kind": "notification",
+   "packageKey": "com.phonepe.app",
+   "sender": null,
+   "text": "You received ₹148 from zepto",
+   "expect": {
+    "class": "auto",
+    "amountPaise": 14800,
+    "direction": "credit",
+    "merchantClean": "Zepto",
+    "confidenceMin": 0.95,
+    "parserId": "phonepe",
+    "hasVpa": false,
+    "occurredAtIsoDate": "2026-10-27"
+   }
+  },
+  {
+   "id": "phonepe_0170",
+   "kind": "notification",
+   "packageKey": "com.phonepe.app",
+   "sender": null,
+   "text": "You received ₹99.50 from BLINKIT",
+   "expect": {
+    "class": "auto",
+    "amountPaise": 9950,
+    "direction": "credit",
+    "merchantClean": "Blinkit",
+    "confidenceMin": 0.95,
+    "parserId": "phonepe",
+    "hasVpa": false,
+    "occurredAtIsoDate": "2026-10-27"
+   }
+  },
+  {
+   "id": "paytm_0171",
+   "kind": "notification",
+   "packageKey": "net.one97.paytm",
+   "sender": null,
+   "text": "₹148 paid to Swiggy",
+   "expect": {
+    "class": "auto",
+    "amountPaise": 14800,
+    "direction": "debit",
+    "merchantClean": "Swiggy",
+    "confidenceMin": 0.9,
+    "parserId": "paytm",
+    "hasVpa": false,
+    "occurredAtIsoDate": "2026-10-27"
+   }
+  },
+  {
+   "id": "paytm_0172",
+   "kind": "notification",
+   "packageKey": "net.one97.paytm",
+   "sender": null,
+   "text": "₹99.50 paid to zepto",
+   "expect": {
+    "class": "auto",
+    "amountPaise": 9950,
+    "direction": "debit",
+    "merchantClean": "Zepto",
+    "confidenceMin": 0.9,
+    "parserId": "paytm",
+    "hasVpa": false,
+    "occurredAtIsoDate": "2026-10-27"
+   }
+  },
+  {
+   "id": "paytm_0173",
+   "kind": "notification",
+   "packageKey": "net.one97.paytm",
+   "sender": null,
+   "text": "₹1,250 paid to BLINKIT",
+   "expect": {
+    "class": "auto",
+    "amountPaise": 125000,
+    "direction": "debit",
+    "merchantClean": "Blinkit",
+    "confidenceMin": 0.9,
+    "parserId": "paytm",
+    "hasVpa": false,
+    "occurredAtIsoDate": "2026-10-27"
+   }
+  },
+  {
+   "id": "paytm_0174",
+   "kind": "notification",
+   "packageKey": "net.one97.paytm",
+   "sender": null,
+   "text": "Paid ₹99.50 to Swiggy",
+   "expect": {
+    "class": "auto",
+    "amountPaise": 9950,
+    "direction": "debit",
+    "merchantClean": "Swiggy",
+    "confidenceMin": 0.9,
+    "parserId": "paytm",
+    "hasVpa": false,
+    "occurredAtIsoDate": "2026-10-27"
+   }
+  },
+  {
+   "id": "paytm_0175",
+   "kind": "notification",
+   "packageKey": "net.one97.paytm",
+   "sender": null,
+   "text": "Paid ₹1,250 to zepto",
+   "expect": {
+    "class": "auto",
+    "amountPaise": 125000,
+    "direction": "debit",
+    "merchantClean": "Zepto",
+    "confidenceMin": 0.9,
+    "parserId": "paytm",
+    "hasVpa": false,
+    "occurredAtIsoDate": "2026-10-27"
+   }
+  },
+  {
+   "id": "paytm_0176",
+   "kind": "notification",
+   "packageKey": "net.one97.paytm",
+   "sender": null,
+   "text": "Paid ₹2,500.75 to BLINKIT",
+   "expect": {
+    "class": "auto",
+    "amountPaise": 250075,
+    "direction": "debit",
+    "merchantClean": "Blinkit",
+    "confidenceMin": 0.9,
+    "parserId": "paytm",
+    "hasVpa": false,
+    "occurredAtIsoDate": "2026-10-27"
+   }
+  },
+  {
+   "id": "paytm_0177",
+   "kind": "notification",
+   "packageKey": "net.one97.paytm",
+   "sender": null,
+   "text": "₹1,250 sent to Swiggy via Paytm UPI",
+   "expect": {
+    "class": "auto",
+    "amountPaise": 125000,
+    "direction": "debit",
+    "merchantClean": "Swiggy",
+    "confidenceMin": 0.9,
+    "parserId": "paytm",
+    "hasVpa": false,
+    "occurredAtIsoDate": "2026-10-27"
+   }
+  },
+  {
+   "id": "paytm_0178",
+   "kind": "notification",
+   "packageKey": "net.one97.paytm",
+   "sender": null,
+   "text": "₹2,500.75 sent to zepto via Paytm UPI",
+   "expect": {
+    "class": "auto",
+    "amountPaise": 250075,
+    "direction": "debit",
+    "merchantClean": "Zepto",
+    "confidenceMin": 0.9,
+    "parserId": "paytm",
+    "hasVpa": false,
+    "occurredAtIsoDate": "2026-10-27"
+   }
+  },
+  {
+   "id": "paytm_0179",
+   "kind": "notification",
+   "packageKey": "net.one97.paytm",
+   "sender": null,
+   "text": "₹72 sent to BLINKIT via Paytm UPI",
+   "expect": {
+    "class": "auto",
+    "amountPaise": 7200,
+    "direction": "debit",
+    "merchantClean": "Blinkit",
+    "confidenceMin": 0.9,
+    "parserId": "paytm",
+    "hasVpa": false,
+    "occurredAtIsoDate": "2026-10-27"
+   }
+  },
+  {
+   "id": "paytm_0180",
+   "kind": "notification",
+   "packageKey": "net.one97.paytm",
+   "sender": null,
+   "text": "Received ₹2,500.75 from Swiggy",
+   "expect": {
+    "class": "auto",
+    "amountPaise": 250075,
+    "direction": "credit",
+    "merchantClean": "Swiggy",
+    "confidenceMin": 0.9,
+    "parserId": "paytm",
+    "hasVpa": false,
+    "occurredAtIsoDate": "2026-10-27"
+   }
+  },
+  {
+   "id": "paytm_0181",
+   "kind": "notification",
+   "packageKey": "net.one97.paytm",
+   "sender": null,
+   "text": "Received ₹72 from zepto",
+   "expect": {
+    "class": "auto",
+    "amountPaise": 7200,
+    "direction": "credit",
+    "merchantClean": "Zepto",
+    "confidenceMin": 0.9,
+    "parserId": "paytm",
+    "hasVpa": false,
+    "occurredAtIsoDate": "2026-10-27"
+   }
+  },
+  {
+   "id": "paytm_0182",
+   "kind": "notification",
+   "packageKey": "net.one97.paytm",
+   "sender": null,
+   "text": "Received ₹148 from BLINKIT",
+   "expect": {
+    "class": "auto",
+    "amountPaise": 14800,
+    "direction": "credit",
+    "merchantClean": "Blinkit",
+    "confidenceMin": 0.9,
+    "parserId": "paytm",
+    "hasVpa": false,
+    "occurredAtIsoDate": "2026-10-27"
+   }
+  },
+  {
+   "id": "paytm_0183",
+   "kind": "notification",
+   "packageKey": "net.one97.paytm",
+   "sender": null,
+   "text": "₹72 received from Swiggy",
+   "expect": {
+    "class": "auto",
+    "amountPaise": 7200,
+    "direction": "credit",
+    "merchantClean": "Swiggy",
+    "confidenceMin": 0.9,
+    "parserId": "paytm",
+    "hasVpa": false,
+    "occurredAtIsoDate": "2026-10-27"
+   }
+  },
+  {
+   "id": "paytm_0184",
+   "kind": "notification",
+   "packageKey": "net.one97.paytm",
+   "sender": null,
+   "text": "₹148 received from zepto",
+   "expect": {
+    "class": "auto",
+    "amountPaise": 14800,
+    "direction": "credit",
+    "merchantClean": "Zepto",
+    "confidenceMin": 0.9,
+    "parserId": "paytm",
+    "hasVpa": false,
+    "occurredAtIsoDate": "2026-10-27"
+   }
+  },
+  {
+   "id": "paytm_0185",
+   "kind": "notification",
+   "packageKey": "net.one97.paytm",
+   "sender": null,
+   "text": "₹99.50 received from BLINKIT",
+   "expect": {
+    "class": "auto",
+    "amountPaise": 9950,
+    "direction": "credit",
+    "merchantClean": "Blinkit",
+    "confidenceMin": 0.9,
+    "parserId": "paytm",
+    "hasVpa": false,
+    "occurredAtIsoDate": "2026-10-27"
+   }
+  },
+  {
+   "id": "adv_0191",
+   "kind": "notification",
+   "packageKey": "com.google.android.apps.nbu.paysa",
+   "sender": null,
+   "text": "556677 is your verification code for Google Pay",
+   "expect": {
+    "class": "drop",
+    "dropReason": "otp_security"
+   }
+  },
+  {
+   "id": "adv_0195",
+   "kind": "notification",
+   "packageKey": "net.one97.paytm",
+   "sender": null,
+   "text": "Cashback offer! Get Rs.50 back on your next recharge.",
+   "expect": {
+    "class": "drop",
+    "dropReason": "promo_marketing"
+   }
+  },
+  {
+   "id": "adv_0204",
+   "kind": "notification",
+   "packageKey": "com.google.android.apps.nbu.paysa",
+   "sender": null,
+   "text": "Payment of ₹250 pending approval",
+   "expect": {
+    "class": "pending",
+    "amountPaise": 25000,
+    "direction": "debit",
+    "merchantClean": "Unknown",
+    "confidenceMin": 0.7,
+    "parserId": "gpay",
+    "occurredAtIsoDate": "2026-10-27"
+   }
+  },
+  {
+   "id": "adv_0210",
+   "kind": "notification",
+   "packageKey": "com.google.android.apps.nbu.paysa",
+   "sender": null,
+   "text": "Money sent to Swiggy: ₹150",
+   "expect": {
+    "class": "pending",
+    "amountPaise": 15000,
+    "direction": "debit",
+    "merchantClean": "Unknown",
+    "confidenceMin": 0.7,
+    "parserId": "gpay",
+    "occurredAtIsoDate": "2026-10-27"
+   }
+  },
+  {
+   "id": "adv_0211",
+   "kind": "notification",
+   "packageKey": "net.one97.paytm",
+   "sender": null,
+   "text": "₹1,000 deducted from wallet",
+   "expect": {
+    "class": "pending",
+    "amountPaise": 100000,
+    "direction": "debit",
+    "merchantClean": "Unknown",
+    "confidenceMin": 0.7,
+    "parserId": "paytm",
+    "occurredAtIsoDate": "2026-10-27"
+   }
+  },
+  {
+   "id": "adv_0212",
+   "kind": "notification",
+   "packageKey": "com.phonepe.app",
+   "sender": null,
+   "text": "Transaction ₹88 at CHAI POINT successful",
+   "expect": {
+    "class": "pending",
+    "amountPaise": 8800,
+    "direction": "debit",
+    "merchantClean": "Unknown",
+    "confidenceMin": 0.7,
+    "parserId": "phonepe",
+    "occurredAtIsoDate": "2026-10-27"
+   }
+  },
+  {
+   "id": "adv_0216",
+   "kind": "notification",
+   "packageKey": "com.google.android.apps.nbu.paysa",
+   "sender": null,
+   "text": "You sent ₹150 to ramesh@okhdfcbank",
+   "expect": {
+    "class": "auto",
+    "amountPaise": 15000,
+    "direction": "debit",
+    "merchantClean": "ramesh@okhdfcbank",
+    "confidenceMin": 0.95,
+    "parserId": "gpay",
+    "hasVpa": true,
+    "occurredAtIsoDate": "2026-10-27"
+   }
+  },
+  {
+   "id": "adv_0217",
+   "kind": "notification",
+   "packageKey": "com.google.android.apps.nbu.paysa",
+   "sender": null,
+   "text": "Received ₹1,234.56 from AMAZON PAY INDIA",
+   "expect": {
+    "class": "auto",
+    "amountPaise": 123456,
+    "direction": "credit",
+    "merchantClean": "Amazon Pay",
+    "confidenceMin": 0.95,
+    "parserId": "gpay",
+    "hasVpa": false,
+    "occurredAtIsoDate": "2026-10-27"
+   }
+  },
+  {
+   "id": "adv_0218",
+   "kind": "notification",
+   "packageKey": "com.phonepe.app",
+   "sender": null,
+   "text": "You paid ₹1,499 to FLIPKART INDIA PVT LTD",
+   "expect": {
+    "class": "auto",
+    "amountPaise": 149900,
+    "direction": "debit",
+    "merchantClean": "Flipkart",
+    "confidenceMin": 0.95,
+    "parserId": "phonepe",
+    "hasVpa": false,
+    "occurredAtIsoDate": "2026-10-27"
+   }
+  },
+  {
+   "id": "adv_0219",
+   "kind": "notification",
+   "packageKey": "net.one97.paytm",
+   "sender": null,
+   "text": "₹99 paid to DOMINOS PIZZA",
+   "expect": {
+    "class": "auto",
+    "amountPaise": 9900,
+    "direction": "debit",
+    "merchantClean": "Domino's",
+    "confidenceMin": 0.9,
+    "parserId": "paytm",
+    "hasVpa": false,
+    "occurredAtIsoDate": "2026-10-27"
+   }
+  },
+  {
+   "id": "adv_0226",
+   "kind": "notification",
+   "packageKey": "com.google.android.apps.nbu.paysa",
+   "sender": null,
+   "text": "₹0.50 sent to CHAI POINT",
+   "expect": {
+    "class": "auto",
+    "amountPaise": 50,
+    "direction": "debit",
+    "merchantClean": "Chai Point",
+    "confidenceMin": 0.95,
+    "parserId": "gpay",
+    "hasVpa": false,
+    "occurredAtIsoDate": "2026-10-27"
+   }
+  },
+  {
+   "id": "adv_0227",
+   "kind": "notification",
+   "packageKey": "com.google.android.apps.nbu.paysa",
+   "sender": null,
+   "text": "₹1000000 sent to BUILDER via UPI",
+   "expect": {
+    "class": "auto",
+    "amountPaise": 100000000,
+    "direction": "debit",
+    "merchantClean": "Builder",
+    "confidenceMin": 0.95,
+    "parserId": "gpay",
+    "hasVpa": false,
+    "occurredAtIsoDate": "2026-10-27"
+   }
+  },
+  {
+   "id": "adv_0235",
+   "kind": "notification",
+   "packageKey": "com.google.android.apps.nbu.paysa",
+   "sender": null,
+   "text": "You sent ₹220.50 to MCD",
+   "expect": {
+    "class": "auto",
+    "amountPaise": 22050,
+    "direction": "debit",
+    "merchantClean": "McDonald's",
+    "confidenceMin": 0.95,
+    "parserId": "gpay",
+    "hasVpa": false,
+    "occurredAtIsoDate": "2026-10-27"
+   }
+  },
+  {
+   "id": "adv_0239",
+   "kind": "notification",
+   "packageKey": "com.phonepe.app",
+   "sender": null,
+   "text": "Received ₹5,000 from N KIRANA ENTERPRISES",
+   "expect": {
+    "class": "auto",
+    "amountPaise": 500000,
+    "direction": "credit",
+    "merchantClean": "N Kirana",
+    "confidenceMin": 0.95,
+    "parserId": "phonepe",
+    "hasVpa": false,
+    "occurredAtIsoDate": "2026-10-27"
+   }
+  },
+  {
+   "id": "adv_0240",
+   "kind": "notification",
+   "packageKey": "com.google.android.apps.nbu.paysa",
+   "sender": null,
+   "text": "₹148 paid to ZEPTO via UPI",
+   "expect": {
+    "class": "auto",
+    "amountPaise": 14800,
+    "direction": "debit",
+    "merchantClean": "Zepto",
+    "confidenceMin": 0.95,
+    "parserId": "gpay",
+    "hasVpa": false,
+    "occurredAtIsoDate": "2026-10-27"
+   }
+  },
+  {
+   "id": "adv_0244",
+   "kind": "notification",
+   "packageKey": "com.google.android.apps.nbu.paysa",
+   "sender": null,
+   "text": "₹1,499.50 sent to BIGBASKET",
+   "expect": {
+    "class": "auto",
+    "amountPaise": 149950,
+    "direction": "debit",
+    "merchantClean": "BigBasket",
+    "confidenceMin": 0.95,
+    "parserId": "gpay",
+    "hasVpa": false,
+    "occurredAtIsoDate": "2026-10-27"
+   }
+  },
+  {
+   "id": "adv_0246",
+   "kind": "notification",
+   "packageKey": "net.one97.paytm",
+   "sender": null,
+   "text": "Sent ₹75 to freshmilk@paytm",
+   "expect": {
+    "class": "auto",
+    "amountPaise": 7500,
+    "direction": "debit",
+    "merchantClean": "freshmilk@paytm",
+    "confidenceMin": 0.9,
+    "parserId": "paytm",
+    "hasVpa": true,
+    "occurredAtIsoDate": "2026-10-27"
+   }
+  },
+  {
+   "id": "adv_0247",
+   "kind": "notification",
+   "packageKey": "com.phonepe.app",
+   "sender": null,
+   "text": "You paid ₹60 to bhuttawala@ybl",
+   "expect": {
+    "class": "auto",
+    "amountPaise": 6000,
+    "direction": "debit",
+    "merchantClean": "bhuttawala@ybl",
+    "confidenceMin": 0.95,
+    "parserId": "phonepe",
+    "hasVpa": true,
+    "occurredAtIsoDate": "2026-10-27"
+   }
+  },
+  {
+   "id": "adv_0248",
+   "kind": "notification",
+   "packageKey": null,
+   "sender": null,
+   "text": "Sent ₹500 to SWIGGY via Google Pay",
+   "expect": {
+    "class": "auto",
+    "amountPaise": 50000,
+    "direction": "debit",
+    "merchantClean": "Swiggy",
+    "confidenceMin": 0.95,
+    "parserId": "gpay",
+    "hasVpa": false,
+    "occurredAtIsoDate": "2026-10-27"
+   }
+  },
+  {
+   "id": "adv_0249",
+   "kind": "notification",
+   "packageKey": null,
+   "sender": null,
+   "text": "₹25 paid to CHAI WALA using PhonePe",
+   "expect": {
+    "class": "auto",
+    "amountPaise": 2500,
+    "direction": "debit",
+    "merchantClean": "Chai Wala",
+    "confidenceMin": 0.95,
+    "parserId": "phonepe",
+    "hasVpa": false,
+    "occurredAtIsoDate": "2026-10-27"
+   }
+  }
+ ]
+}

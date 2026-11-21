@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- API 31+ extraction rules: same policy as backup_rules.xml —
+     allowBackup=false at the manifest level means nothing is extracted
+     to cloud or device-transfer. Kept explicit for auditability. -->
+<data-extraction-rules>
+    <cloud-backup>
+    </cloud-backup>
+    <device-transfer>
+    </device-transfer>
+</data-extraction-rules>

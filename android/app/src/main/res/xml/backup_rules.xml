@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- UDAO ships with allowBackup=false: an encrypted DB restored without
+     its Keystore-wrapped key is useless, and cloud backup of financial
+     metadata contradicts the zero-cloud promise. These rules exist to
+     satisfy AGP lint and deliberately exclude nothing at the rules level
+     because backup is disabled at the manifest level. -->
+<full-backup-content>
+</full-backup-content>

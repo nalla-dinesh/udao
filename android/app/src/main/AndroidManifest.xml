@@ -1,0 +1,94 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- ============================================================
+         UDAO permission set — deliberately minimal and auditable.
+         Phase 05 wires the specialUse foreground service; its
+         permission is declared now so the platform layer stays stable.
+
+         The INTERNET permission appears ONLY in the src/debug and
+         src/profile overlays (Dart VM service for hot reload) — it is
+         NEVER merged into a release build of ANY flavor.
+         ============================================================ -->
+    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE_SPECIAL_USE" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+
+    <application
+        android:name="${applicationName}"
+        android:allowBackup="false"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:enableOnBackInvokedCallback="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="UDAO">
+
+        <activity
+            android:name=".MainActivity"
+            android:exported="true"
+            android:launchMode="singleTop"
+            android:taskAffinity=""
+            android:theme="@style/LaunchTheme"
+            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+            android:hardwareAccelerated="true"
+            android:windowSoftInputMode="adjustResize">
+
+            <meta-data
+                android:name="io.flutter.embedding.android.NormalTheme"
+                android:resource="@style/NormalTheme" />
+
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="flutterEmbedding"
+            android:value="2" />
+
+        <!-- ============================================================
+             Phase 03 — notification capture. Bound by the SYSTEM (not
+             by us): events arrive even after process death. The WAL
+             write happens inside the service before anything else.
+             ============================================================ -->
+        <service
+            android:name=".capture.UdaoNotificationListener"
+            android:exported="true"
+            android:label="UDAO Capture"
+            android:permission="android.permission.BIND_NOTIFICATION_LISTENER_SERVICE">
+            <intent-filter>
+                <action android:name="android.service.notification.NotificationListenerService" />
+            </intent-filter>
+        </service>
+        <!--
+          Phase 05: optional user-armed keep-alive FGS (specialUse).
+          Started ONLY from the health dashboard (never from boot,
+          never implicitly — see docs/adr/ADR-0006 and
+          docs/oem-survival.md). stopWithTask="false" + the empty
+          onTaskRemoved override make swipe-away a no-op.
+        -->
+        <service
+            android:name="in.udao.app.survival.KeepAliveService"
+            android:exported="false"
+            android:foregroundServiceType="specialUse"
+            android:stopWithTask="false">
+            <property
+                android:name="android.app.PROPERTY_SPECIAL_USE_FGS_SUBTYPE"
+                android:value="Expects to retain access to notification data for user-visible financial tracking while the user has explicitly armed keep-alive mode" />
+        </service>
+
+
+        <!-- Boot restore: ask the system to rebind the listener and
+             queue one health check. -->
+        <receiver
+            android:name=".capture.BootReceiver"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+            </intent-filter>
+        </receiver>
+    </application>
+</manifest>

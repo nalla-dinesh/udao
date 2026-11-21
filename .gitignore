@@ -1,0 +1,44 @@
+# Flutter / Dart
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+.pub-cache/
+.pub/
+build/
+coverage/
+
+# Local Flutter config (contains machine-specific SDK paths)
+local.properties
+android/local.properties
+
+# Android build + signing (NEVER commit keystores — see android/app/build.gradle.kts)
+android/.gradle/
+android/key.properties
+key.properties
+*.jks
+*.keystore
+
+# IDE
+.idea/
+.vscode/
+*.iml
+
+# Secrets / environment
+.env*
+
+# On-device model binaries — NEVER in git (loaded via PAD or user import)
+/assets/models/
+*.gguf
+*.task
+*.litertlm
+*.tflite
+
+# Codegen is banned in v1 (ADR-0003); if it ever appears, ignore it
+*.g.dart
+*.freezed.dart
+
+# OS junk
+.DS_Store
+Thumbs.db
+__pycache__/

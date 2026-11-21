@@ -1,0 +1,30 @@
+# UDAO analysis options — strict from day one.
+#
+# House conventions (CI-enforced, see .github/workflows/ci.yml):
+#   * Material `Icons` / `CupertinoIcons` classes are BANNED in lib/ —
+#     brand marks come from assets via AppIcons, generic glyphs from
+#     phosphor_flutter.
+#   * No print() anywhere — use UdaoLogger (core/log/udao_logger.dart).
+#   * No codegen (ADR-0003): no *.g.dart, no build_runner.
+include: package:flutter_lints/flutter.yaml
+
+analyzer:
+  language:
+    strict-casts: true
+    strict-raw-types: true
+    strict-inference: true
+
+linter:
+  rules:
+    - always_declare_return_types
+    - always_put_required_named_parameters_first
+    - avoid_dynamic_calls
+    - avoid_print
+    - curly_braces_in_flow_control_structures
+    - prefer_const_constructors
+    - prefer_const_declarations
+    - prefer_final_locals
+    - prefer_single_quotes
+    - require_trailing_commas
+    - sort_pub_dependencies
+    - unawaited_futures

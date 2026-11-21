@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- UDAO adaptive-icon foreground (placeholder art — Phase 08 replaces
+     this with the final brand pass via flutter_launcher_icons).
+     Flame in brand orange (#FF5A3C) with a white U rising from its base.
+     108dp adaptive canvas; shapes kept inside the central ~66dp safe zone. -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- flame -->
+    <path
+        android:fillColor="#FF5A3C"
+        android:pathData="M56,22 C51,30 44,36 44,48 L44,58 A12,12 0 0 0 68,58 L68,48 C68,38 64,33 61,28 C59,25 58,23 59,20 C58,21 57,21 56,22 Z" />
+    <!-- the U -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M49,50 L49,58 A7,7 0 0 0 63,58 L63,50 L58,50 L58,58 A2,2 0 0 1 54,58 L54,50 Z" />
+</vector>

@@ -1,0 +1,3047 @@
+{
+ "receivedAtIso": "2026-10-27T18:45:03+05:30",
+ "samples": [
+  {
+   "id": "hdfc_0001",
+   "kind": "sms",
+   "packageKey": null,
+   "sender": "VM-HDFCBK",
+   "text": "Rs.148 debited from A/c No. XX1234 on 27-10-26 REF 512345678901 SWIGGY.",
+   "expect": {
+    "class": "auto",
+    "amountPaise": 14800,
+    "direction": "debit",
+    "merchantClean": "Swiggy",
+    "confidenceMin": 0.85,
+    "parserId": "hdfc",
+    "hasRef": true,
+    "occurredAtIsoDate": "2026-10-27"
+   }
+  },
+  {
+   "id": "hdfc_0002",
+   "kind": "sms",
+   "packageKey": null,
+   "sender": "VM-HDFCBK",
+   "text": "Rs.148.50 debited from A/c No. XX1234 on 27-10-26 REF 412345678901 ZOMATO.",
+   "expect": {
+    "class": "auto",
+    "amountPaise": 14850,
+    "direction": "debit",
+    "merchantClean": "Zomato",
+    "confidenceMin": 0.85,
+    "parserId": "hdfc",
+    "hasRef": true,
+    "occurredAtIsoDate": "2026-10-27"
+   }
+  },
+  {
+   "id": "hdfc_0003",
+   "kind": "sms",
+   "packageKey": null,
+   "sender": "VM-HDFCBK",
+   "text": "Rs.1,250 debited from A/c No. XX1234 on 27-10-26 REF 512345678 BLINKIT.",
+   "expect": {
+    "class": "auto",
+    "amountPaise": 125000,
+    "direction": "debit",
+    "merchantClean": "Blinkit",
+    "confidenceMin": 0.85,
+    "parserId": "hdfc",
+    "hasRef": true,
+    "occurredAtIsoDate": "2026-10-27"
+   }
+  },
+  {
+   "id": "hdfc_0004",
+   "kind": "sms",
+   "packageKey": null,
+   "sender": "VM-HDFCBK",
+   "text": "Rs.2,500.75 debited from A/c No. XX1234 on 27-10-26 REF 4123456789012 AMAZON PAY INDIA.",
+   "expect": {
+    "class": "auto",
+    "amountPaise": 250075,
+    "direction": "debit",
+    "merchantClean": "Amazon Pay",
+    "confidenceMin": 0.85,
+    "parserId": "hdfc",
+    "hasRef": true,
+    "occurredAtIsoDate": "2026-10-27"
+   }
+  },
+  {
+   "id": "hdfc_0005",
+   "kind": "sms",
+   "packageKey": null,
+   "sender": "VM-HDFCBK",
+   "text": "Rs.148.50 credited to A/c No. XX1234 on 27-10-26 REF 412345678901 BIGBASKET.",
+   "expect": {
+    "class": "auto",
+    "amountPaise": 14850,
+    "direction": "credit",
+    "merchantClean": "BigBasket",
+    "confidenceMin": 0.85,
+    "parserId": "hdfc",
+    "hasRef": true,
+    "occurredAtIsoDate": "2026-10-27"
+   }
+  },
+  {
+   "id": "hdfc_0006",
+   "kind": "sms",
+   "packageKey": null,
+   "sender": "VM-HDFCBK",
+   "text": "Rs.1,250 credited to A/c No. XX1234 on 27-10-26 REF 512345678 DOMINOS PIZZA.",
+   "expect": {
+    "class": "auto",
+    "amountPaise": 125000,
+    "direction": "credit",
+    "merchantClean": "Domino's",
+    "confidenceMin": 0.85,
+    "parserId": "hdfc",
+    "hasRef": true,
+    "occurredAtIsoDate": "2026-10-27"
+   }
+  },
+  {
+   "id": "hdfc_0007",
+   "kind": "sms",
+   "packageKey": null,
+   "sender": "VM-HDFCBK",
+   "text": "Rs.2,500.75 credited to A/c No. XX1234 on 27-10-26 REF 4123456789012 NETFLIX.",
+   "expect": {
+    "class": "auto",
+    "amountPaise": 250075,
+    "direction": "credit",
+    "merchantClean": "Netflix",
+    "confidenceMin": 0.85,
+    "parserId": "hdfc",
+    "hasRef": true,
+    "occurredAtIsoDate": "2026-10-27"
+   }
+  },
+  {
+   "id": "hdfc_0008",
+   "kind": "sms",
+   "packageKey": null,
+   "sender": "VM-HDFCBK",
+   "text": "Rs.148 credited to A/c No. XX1234 on 27-10-26 REF 512345678901 TATA POWER.",
+   "expect": {
+    "class": "auto",
+    "amountPaise": 14800,
+    "direction": "credit",
+    "merchantClean": "Tata Power",
+    "confidenceMin": 0.85,
+    "parserId": "hdfc",
+    "hasRef": true,
+    "occurredAtIsoDate": "2026-10-27"
+   }
+  },
+  {
+   "id": "hdfc_0009",
+   "kind": "sms",
+   "packageKey": null,
+   "sender": "VM-HDFCBK",
+   "text": "Rs.1,250 debited from A/c **1234 on 27-10-26 REF 512345678 BSES YAMUNA. Avl Bal Rs.12,345.67.",
+   "expect": {
+    "class": "auto",
+    "amountPaise": 125000,
+    "direction": "debit",
+    "merchantClean": "BSES Yamuna",
+    "confidenceMin": 0.85,
+    "parserId": "hdfc",
+    "hasRef": true,
+    "occurredAtIsoDate": "2026-10-27"
+   }
+  },
+  {
+   "id": "hdfc_0010",
+   "kind": "sms",
+   "packageKey": null,
+   "sender": "VM-HDFCBK",
+   "text": "Rs.2,500.75 debited from A/c **1234 on 27-10-26 REF 4123456789012 AIRTEL. Avl Bal Rs.12,345.67.",
+   "expect": {
+    "class": "auto",
+    "amountPaise": 250075,
+    "direction": "debit",
+    "merchantClean": "Airtel",
+    "confidenceMin": 0.85,
+    "parserId": "hdfc",
+    "hasRef": true,
+    "occurredAtIsoDate": "2026-10-27"
+   }
+  },
+  {
+   "id": "hdfc_0011",
+   "kind": "sms",
+   "packageKey": null,
+   "sender": "VM-HDFCBK",
+   "text": "Rs.148 debited from A/c **1234 on 27-10-26 REF 512345678901 RAPIDO. Avl Bal Rs.12,345.67.",
+   "expect": {
+    "class": "auto",
+    "amountPaise": 14800,
+    "direction": "debit",
+    "merchantClean": "Rapido",
+    "confidenceMin": 0.85,
+    "parserId": "hdfc",
+    "hasRef": true,
+    "occurredAtIsoDate": "2026-10-27"
+   }
+  },
+  {
+   "id": "hdfc_0012",
+   "kind": "sms",
+   "packageKey": null,
+   "sender": "VM-HDFCBK",
+   "text": "Rs.148.50 debited from A/c **1234 on 27-10-26 REF 412345678901 IRCTC. Avl Bal Rs.12,345.67.",
+   "expect": {
+    "class": "auto",
+    "amountPaise": 14850,
+    "direction": "debit",
+    "merchantClean": "IRCTC",
+    "confidenceMin": 0.85,
+    "parserId": "hdfc",
+    "hasRef": true,
+    "occurredAtIsoDate": "2026-10-27"
+   }
+  },
+  {
+   "id": "hdfc_0013",
+   "kind": "sms",
+   "packageKey": null,
+   "sender": "VM-HDFCBK",
+   "text": "Your A/c XX1234 debited Rs.2,500.75 on 27-10-26 REF 4123456789012 ZEPTO TECHNOLOGIES PVT LTD.",
+   "expect": {
+    "class": "auto",
+    "amountPaise": 250075,
+    "direction": "debit",
+    "merchantClean": "Zepto",
+    "confidenceMin": 0.85,
+    "parserId": "hdfc",
+    "hasRef": true,
+    "occurredAtIsoDate": "2026-10-27"
+   }
+  },
+  {
+   "id": "hdfc_0014",
+   "kind": "sms",
+   "packageKey": null,
+   "sender": "VM-HDFCBK",
+   "text": "Your A/c XX1234 debited Rs.148 on 27-10-26 REF 512345678901 FLIPKART INDIA PVT LTD.",
+   "expect": {
+    "class": "auto",
+    "amountPaise": 14800,
+    "direction": "debit",
+    "merchantClean": "Flipkart",
+    "confidenceMin": 0.85,
+    "parserId": "hdfc",
+    "hasRef": true,
+    "occurredAtIsoDate": "2026-10-27"
+   }
+  },
+  {
+   "id": "hdfc_0015",
+   "kind": "sms",
+   "packageKey": null,
+   "sender": "VM-HDFCBK",
+   "text": "Your A/c XX1234 debited Rs.148.50 on 27-10-26 REF 412345678901 AVENUE SUPERMARTS LTD.",
+   "expect": {
+    "class": "auto",
+    "amountPaise": 14850,
+    "direction": "debit",
+    "merchantClean": "DMart",
+    "confidenceMin": 0.85,
+    "parserId": "hdfc",
+    "hasRef": true,
+    "occurredAtIsoDate": "2026-10-27"
+   }
+  },
+  {
+   "id": "hdfc_0016",
+   "kind": "sms",
+   "packageKey": null,
+   "sender": "VM-HDFCBK",
+   "text": "Your A/c XX1234 debited Rs.1,250 on 27-10-26 REF 512345678 RELIANCE FRESH.",
+   "expect": {
+    "class": "auto",
+    "amountPaise": 125000,
+    "direction": "debit",
+    "merchantClean": "Reliance Fresh",
+    "confidenceMin": 0.85,
+    "parserId": "hdfc",
+    "hasRef": true,
+    "occurredAtIsoDate": "2026-10-27"
+   }
+  },
+  {
+   "id": "hdfc_0017",
+   "kind": "sms",
+   "packageKey": null,
+   "sender": "VM-HDFCBK",
+   "text": "Rs.148 spent on A/c **1234 on 27-10-26 REF 512345678901 MCD.",
+   "expect": {
+    "class": "auto",
+    "amountPaise": 14800,
+    "direction": "debit",
+    "merchantClean": "McDonald's",
+    "confidenceMin": 0.85,
+    "parserId": "hdfc",
+    "hasRef": true,
+    "occurredAtIsoDate": "2026-10-27"
+   }
+  },
+  {
+   "id": "hdfc_0018",
+   "kind": "sms",
+   "packageKey": null,
+   "sender": "VM-HDFCBK",
+   "text": "Rs.148.50 spent on A/c **1234 on 27-10-26 REF 412345678901 KFC.",
+   "expect": {
+    "class": "auto",
+    "amountPaise": 14850,
+    "direction": "debit",
+    "merchantClean": "KFC",
+    "confidenceMin": 0.85,
+    "parserId": "hdfc",
+    "hasRef": true,
+    "occurredAtIsoDate": "2026-10-27"
+   }
+  },
+  {
+   "id": "hdfc_0019",
+   "kind": "sms",
+   "packageKey": null,
+   "sender": "VM-HDFCBK",
+   "text": "Rs.1,250 spent on A/c **1234 on 27-10-26 REF 512345678 NAMMA YATRI.",
+   "expect": {
+    "class": "auto",
+    "amountPaise": 125000,
+    "direction": "debit",
+    "merchantClean": "Namma Yatri",
+    "confidenceMin": 0.85,
+    "parserId": "hdfc",
+    "hasRef": true,
+    "occurredAtIsoDate": "2026-10-27"
+   }
+  },
+  {
+   "id": "hdfc_0020",
+   "kind": "sms",
+   "packageKey": null,
+   "sender": "VM-HDFCBK",
+   "text": "Rs.2,500.75 spent on A/c **1234 on 27-10-26 REF 4123456789012 CHAI POINT.",
+   "expect": {
+    "class": "auto",
+    "amountPaise": 250075,
+    "direction": "debit",
+    "merchantClean": "Chai Point",
+    "confidenceMin": 0.85,
+    "parserId": "hdfc",
+    "hasRef": true,
+    "occurredAtIsoDate": "2026-10-27"
+   }
+  },
+  {
+   "id": "sbi_0021",
+   "kind": "sms",
+   "packageKey": null,
+   "sender": "VM-SBI",
+   "text": "Your A/c XX1234 debited on 27-10-26 for Rs.148 by SWIGGY (UPI Ref No 512345678901).",
+   "expect": {
+    "class": "auto",
+    "amountPaise": 14800,
+    "direction": "debit",
+    "merchantClean": "Swiggy",
+    "confidenceMin": 0.85,
+    "parserId": "sbi",
+    "hasRef": true,
+    "occurredAtIsoDate": "2026-10-27"
+   }
+  },
+  {
+   "id": "sbi_0022",
+   "kind": "sms",
+   "packageKey": null,
+   "sender": "VM-SBI",
+   "text": "Your A/c XX1234 debited on 27-10-26 for Rs.148.50 by ZOMATO (UPI Ref No 412345678901).",
+   "expect": {
+    "class": "auto",
+    "amountPaise": 14850,
+    "direction": "debit",
+    "merchantClean": "Zomato",
+    "confidenceMin": 0.85,
+    "parserId": "sbi",
+    "hasRef": true,
+    "occurredAtIsoDate": "2026-10-27"
+   }
+  },
+  {
+   "id": "sbi_0023",
+   "kind": "sms",
+   "packageKey": null,
+   "sender": "VM-SBI",
+   "text": "Your A/c XX1234 debited on 27-10-26 for Rs.1,250 by BLINKIT (UPI Ref No 512345678).",
+   "expect": {
+    "class": "auto",
+    "amountPaise": 125000,
+    "direction": "debit",
+    "merchantClean": "Blinkit",
+    "confidenceMin": 0.85,
+    "parserId": "sbi",
+    "hasRef": true,
+    "occurredAtIsoDate": "2026-10-27"
+   }
+  },
+  {
+   "id": "sbi_0024",
+   "kind": "sms",
+   "packageKey": null,
+   "sender": "VM-SBI",
+   "text": "Your A/c XX1234 debited on 27-10-26 for Rs.2,500.75 by AMAZON PAY INDIA (UPI Ref No 4123456789012).",
+   "expect": {
+    "class": "auto",
+    "amountPaise": 250075,
+    "direction": "debit",
+    "merchantClean": "Amazon Pay",
+    "confidenceMin": 0.85,
+    "parserId": "sbi",
+    "hasRef": true,
+    "occurredAtIsoDate": "2026-10-27"
+   }
+  },
+  {
+   "id": "sbi_0025",
+   "kind": "sms",
+   "packageKey": null,
+   "sender": "VM-SBI",
+   "text": "Your A/c XX1234 credited on 27-10-26 for Rs.148.50 by BIGBASKET (Ref No 412345678901).",
+   "expect": {
+    "class": "auto",
+    "amountPaise": 14850,
+    "direction": "credit",
+    "merchantClean": "BigBasket",
+    "confidenceMin": 0.85,
+    "parserId": "sbi",
+    "hasRef": true,
+    "occurredAtIsoDate": "2026-10-27"
+   }
+  },
+  {
+   "id": "sbi_0026",
+   "kind": "sms",
+   "packageKey": null,
+   "sender": "VM-SBI",
+   "text": "Your A/c XX1234 credited on 27-10-26 for Rs.1,250 by DOMINOS PIZZA (Ref No 512345678).",
+   "expect": {
+    "class": "auto",
+    "amountPaise": 125000,
+    "direction": "credit",
+    "merchantClean": "Domino's",
+    "confidenceMin": 0.85,
+    "parserId": "sbi",
+    "hasRef": true,
+    "occurredAtIsoDate": "2026-10-27"
+   }
+  },
+  {
+   "id": "sbi_0027",
+   "kind": "sms",
+   "packageKey": null,
+   "sender": "VM-SBI",
+   "text": "Your A/c XX1234 credited on 27-10-26 for Rs.2,500.75 by NETFLIX (Ref No 4123456789012).",
+   "expect": {
+    "class": "auto",
+    "amountPaise": 250075,
+    "direction": "credit",
+    "merchantClean": "Netflix",
+    "confidenceMin": 0.85,
+    "parserId": "sbi",
+    "hasRef": true,
+    "occurredAtIsoDate": "2026-10-27"
+   }
+  },
+  {
+   "id": "sbi_0028",
+   "kind": "sms",
+   "packageKey": null,
+   "sender": "VM-SBI",
+   "text": "Your A/c XX1234 credited on 27-10-26 for Rs.148 by TATA POWER (Ref No 512345678901).",
+   "expect": {
+    "class": "auto",
+    "amountPaise": 14800,
+    "direction": "credit",
+    "merchantClean": "Tata Power",
+    "confidenceMin": 0.85,
+    "parserId": "sbi",
+    "hasRef": true,
+    "occurredAtIsoDate": "2026-10-27"
+   }
+  },
+  {
+   "id": "sbi_0029",
+   "kind": "sms",
+   "packageKey": null,
+   "sender": "VM-SBI",
+   "text": "Your A/c XX1234 debited for Rs.1,250 on 27-10-26 by BSES YAMUNA UPI Ref 512345678.",
+   "expect": {
+    "class": "auto",
+    "amountPaise": 125000,
+    "direction": "debit",
+    "merchantClean": "BSES Yamuna",
+    "confidenceMin": 0.85,
+    "parserId": "sbi",
+    "hasRef": true,
+    "occurredAtIsoDate": "2026-10-27"
+   }
+  },
+  {
+   "id": "sbi_0030",
+   "kind": "sms",
+   "packageKey": null,
+   "sender": "VM-SBI",
+   "text": "Your A/c XX1234 debited for Rs.2,500.75 on 27-10-26 by AIRTEL UPI Ref 4123456789012.",
+   "expect": {
+    "class": "auto",
+    "amountPaise": 250075,
+    "direction": "debit",
+    "merchantClean": "Airtel",
+    "confidenceMin": 0.85,
+    "parserId": "sbi",
+    "hasRef": true,
+    "occurredAtIsoDate": "2026-10-27"
+   }
+  },
+  {
+   "id": "sbi_0031",
+   "kind": "sms",
+   "packageKey": null,
+   "sender": "VM-SBI",
+   "text": "Your A/c XX1234 debited for Rs.148 on 27-10-26 by RAPIDO UPI Ref 512345678901.",
+   "expect": {
+    "class": "auto",
+    "amountPaise": 14800,
+    "direction": "debit",
+    "merchantClean": "Rapido",
+    "confidenceMin": 0.85,
+    "parserId": "sbi",
+    "hasRef": true,
+    "occurredAtIsoDate": "2026-10-27"
+   }
+  },
+  {
+   "id": "sbi_0032",
+   "kind": "sms",
+   "packageKey": null,
+   "sender": "VM-SBI",
+   "text": "Your A/c XX1234 debited for Rs.148.50 on 27-10-26 by IRCTC UPI Ref 412345678901.",
+   "expect": {
+    "class": "auto",
+    "amountPaise": 14850,
+    "direction": "debit",
+    "merchantClean": "IRCTC",
+    "confidenceMin": 0.85,
+    "parserId": "sbi",
+    "hasRef": true,
+    "occurredAtIsoDate": "2026-10-27"
+   }
+  },
+  {
+   "id": "sbi_0033",
+   "kind": "sms",
+   "packageKey": null,
+   "sender": "VM-SBI",
+   "text": "Rs.2,500.75 debited from your A/c XX1234 on 27-10-26 by ZEPTO TECHNOLOGIES PVT LTD. UPI Ref 4123456789012. Avl Bal: Rs.8,000.",
+   "expect": {
+    "class": "auto",
+    "amountPaise": 250075,
+    "direction": "debit",
+    "merchantClean": "Zepto",
+    "confidenceMin": 0.85,
+    "parserId": "sbi",
+    "hasRef": true,
+    "occurredAtIsoDate": "2026-10-27"
+   }
+  },
+  {
+   "id": "sbi_0034",
+   "kind": "sms",
+   "packageKey": null,
+   "sender": "VM-SBI",
+   "text": "Rs.148 debited from your A/c XX1234 on 27-10-26 by FLIPKART INDIA PVT LTD. UPI Ref 512345678901. Avl Bal: Rs.8,000.",
+   "expect": {
+    "class": "auto",
+    "amountPaise": 14800,
+    "direction": "debit",
+    "merchantClean": "Flipkart",
+    "confidenceMin": 0.85,
+    "parserId": "sbi",
+    "hasRef": true,
+    "occurredAtIsoDate": "2026-10-27"
+   }
+  },
+  {
+   "id": "sbi_0035",
+   "kind": "sms",
+   "packageKey": null,
+   "sender": "VM-SBI",
+   "text": "Rs.148.50 debited from your A/c XX1234 on 27-10-26 by AVENUE SUPERMARTS LTD. UPI Ref 412345678901. Avl Bal: Rs.8,000.",
+   "expect": {
+    "class": "auto",
+    "amountPaise": 14850,
+    "direction": "debit",
+    "merchantClean": "DMart",
+    "confidenceMin": 0.85,
+    "parserId": "sbi",
+    "hasRef": true,
+    "occurredAtIsoDate": "2026-10-27"
+   }
+  },
+  {
+   "id": "sbi_0036",
+   "kind": "sms",
+   "packageKey": null,
+   "sender": "VM-SBI",
+   "text": "Rs.1,250 debited from your A/c XX1234 on 27-10-26 by RELIANCE FRESH. UPI Ref 512345678. Avl Bal: Rs.8,000.",
+   "expect": {
+    "class": "auto",
+    "amountPaise": 125000,
+    "direction": "debit",
+    "merchantClean": "Reliance Fresh",
+    "confidenceMin": 0.85,
+    "parserId": "sbi",
+    "hasRef": true,
+    "occurredAtIsoDate": "2026-10-27"
+   }
+  },
+  {
+   "id": "sbi_0037",
+   "kind": "sms",
+   "packageKey": null,
+   "sender": "VM-SBI",
+   "text": "Your A/c XX1234 is debited for Rs.148 on 27-10-26 by MCD Ref 512345678901.",
+   "expect": {
+    "class": "auto",
+    "amountPaise": 14800,
+    "direction": "debit",
+    "merchantClean": "McDonald's",
+    "confidenceMin": 0.85,
+    "parserId": "sbi",
+    "hasRef": true,
+    "occurredAtIsoDate": "2026-10-27"
+   }
+  },
+  {
+   "id": "sbi_0038",
+   "kind": "sms",
+   "packageKey": null,
+   "sender": "VM-SBI",
+   "text": "Your A/c XX1234 is debited for Rs.148.50 on 27-10-26 by KFC Ref 412345678901.",
+   "expect": {
+    "class": "auto",
+    "amountPaise": 14850,
+    "direction": "debit",
+    "merchantClean": "KFC",
+    "confidenceMin": 0.85,
+    "parserId": "sbi",
+    "hasRef": true,
+    "occurredAtIsoDate": "2026-10-27"
+   }
+  },
+  {
+   "id": "sbi_0039",
+   "kind": "sms",
+   "packageKey": null,
+   "sender": "VM-SBI",
+   "text": "Your A/c XX1234 is debited for Rs.1,250 on 27-10-26 by NAMMA YATRI Ref 512345678.",
+   "expect": {
+    "class": "auto",
+    "amountPaise": 125000,
+    "direction": "debit",
+    "merchantClean": "Namma Yatri",
+    "confidenceMin": 0.85,
+    "parserId": "sbi",
+    "hasRef": true,
+    "occurredAtIsoDate": "2026-10-27"
+   }
+  },
+  {
+   "id": "sbi_0040",
+   "kind": "sms",
+   "packageKey": null,
+   "sender": "VM-SBI",
+   "text": "Your A/c XX1234 is debited for Rs.2,500.75 on 27-10-26 by CHAI POINT Ref 4123456789012.",
+   "expect": {
+    "class": "auto",
+    "amountPaise": 250075,
+    "direction": "debit",
+    "merchantClean": "Chai Point",
+    "confidenceMin": 0.85,
+    "parserId": "sbi",
+    "hasRef": true,
+    "occurredAtIsoDate": "2026-10-27"
+   }
+  },
+  {
+   "id": "icici_0041",
+   "kind": "sms",
+   "packageKey": null,
+   "sender": "VM-ICICIB",
+   "text": "Your A/c XX1234 debited for Rs.148 on 27-10-26. Info: SWIGGY. UPI:512345678901.",
+   "expect": {
+    "class": "auto",
+    "amountPaise": 14800,
+    "direction": "debit",
+    "merchantClean": "Swiggy",
+    "confidenceMin": 0.85,
+    "parserId": "icici",
+    "hasRef": true,
+    "occurredAtIsoDate": "2026-10-27"
+   }
+  },
+  {
+   "id": "icici_0042",
+   "kind": "sms",
+   "packageKey": null,
+   "sender": "VM-ICICIB",
+   "text": "Your A/c XX1234 debited for Rs.148.50 on 27-10-26. Info: ZOMATO. UPI:412345678901.",
+   "expect": {
+    "class": "auto",
+    "amountPaise": 14850,
+    "direction": "debit",
+    "merchantClean": "Zomato",
+    "confidenceMin": 0.85,
+    "parserId": "icici",
+    "hasRef": true,
+    "occurredAtIsoDate": "2026-10-27"
+   }
+  },
+  {
+   "id": "icici_0043",
+   "kind": "sms",
+   "packageKey": null,
+   "sender": "VM-ICICIB",
+   "text": "Your A/c XX1234 debited for Rs.1,250 on 27-10-26. Info: BLINKIT. UPI:512345678.",
+   "expect": {
+    "class": "auto",
+    "amountPaise": 125000,
+    "direction": "debit",
+    "merchantClean": "Blinkit",
+    "confidenceMin": 0.85,
+    "parserId": "icici",
+    "hasRef": true,
+    "occurredAtIsoDate": "2026-10-27"
+   }
+  },
+  {
+   "id": "icici_0044",
+   "kind": "sms",
+   "packageKey": null,
+   "sender": "VM-ICICIB",
+   "text": "Your A/c XX1234 debited for Rs.2,500.75 on 27-10-26. Info: AMAZON PAY INDIA. UPI:4123456789012.",
+   "expect": {
+    "class": "auto",
+    "amountPaise": 250075,
+    "direction": "debit",
+    "merchantClean": "Amazon Pay",
+    "confidenceMin": 0.85,
+    "parserId": "icici",
+    "hasRef": true,
+    "occurredAtIsoDate": "2026-10-27"
+   }
+  },
+  {
+   "id": "icici_0045",
+   "kind": "sms",
+   "packageKey": null,
+   "sender": "VM-ICICIB",
+   "text": "Your A/c XX1234 credited for Rs.148.50 on 27-10-26. Info: BIGBASKET. UPI: 412345678901.",
+   "expect": {
+    "class": "auto",
+    "amountPaise": 14850,
+    "direction": "credit",
+    "merchantClean": "BigBasket",
+    "confidenceMin": 0.85,
+    "parserId": "icici",
+    "hasRef": true,
+    "occurredAtIsoDate": "2026-10-27"
+   }
+  },
+  {
+   "id": "icici_0046",
+   "kind": "sms",
+   "packageKey": null,
+   "sender": "VM-ICICIB",
+   "text": "Your A/c XX1234 credited for Rs.1,250 on 27-10-26. Info: DOMINOS PIZZA. UPI: 512345678.",
+   "expect": {
+    "class": "auto",
+    "amountPaise": 125000,
+    "direction": "credit",
+    "merchantClean": "Domino's",
+    "confidenceMin": 0.85,
+    "parserId": "icici",
+    "hasRef": true,
+    "occurredAtIsoDate": "2026-10-27"
+   }
+  },
+  {
+   "id": "icici_0047",
+   "kind": "sms",
+   "packageKey": null,
+   "sender": "VM-ICICIB",
+   "text": "Your A/c XX1234 credited for Rs.2,500.75 on 27-10-26. Info: NETFLIX. UPI: 4123456789012.",
+   "expect": {
+    "class": "auto",
+    "amountPaise": 250075,
+    "direction": "credit",
+    "merchantClean": "Netflix",
+    "confidenceMin": 0.85,
+    "parserId": "icici",
+    "hasRef": true,
+    "occurredAtIsoDate": "2026-10-27"
+   }
+  },
+  {
+   "id": "icici_0048",
+   "kind": "sms",
+   "packageKey": null,
+   "sender": "VM-ICICIB",
+   "text": "Your A/c XX1234 credited for Rs.148 on 27-10-26. Info: TATA POWER. UPI: 512345678901.",
+   "expect": {
+    "class": "auto",
+    "amountPaise": 14800,
+    "direction": "credit",
+    "merchantClean": "Tata Power",
+    "confidenceMin": 0.85,
+    "parserId": "icici",
+    "hasRef": true,
+    "occurredAtIsoDate": "2026-10-27"
+   }
+  },
+  {
+   "id": "icici_0049",
+   "kind": "sms",
+   "packageKey": null,
+   "sender": "VM-ICICIB",
+   "text": "Rs.1,250 debited from A/c XX1234 on 27-10-26. Info: BSES YAMUNA. UPI: 512345678. Avl Bal Rs.5,000.",
+   "expect": {
+    "class": "auto",
+    "amountPaise": 125000,
+    "direction": "debit",
+    "merchantClean": "BSES Yamuna",
+    "confidenceMin": 0.85,
+    "parserId": "icici",
+    "hasRef": true,
+    "occurredAtIsoDate": "2026-10-27"
+   }
+  },
+  {
+   "id": "icici_0050",
+   "kind": "sms",
+   "packageKey": null,
+   "sender": "VM-ICICIB",
+   "text": "Rs.2,500.75 debited from A/c XX1234 on 27-10-26. Info: AIRTEL. UPI: 4123456789012. Avl Bal Rs.5,000.",
+   "expect": {
+    "class": "auto",
+    "amountPaise": 250075,
+    "direction": "debit",
+    "merchantClean": "Airtel",
+    "confidenceMin": 0.85,
+    "parserId": "icici",
+    "hasRef": true,
+    "occurredAtIsoDate": "2026-10-27"
+   }
+  },
+  {
+   "id": "icici_0051",
+   "kind": "sms",
+   "packageKey": null,
+   "sender": "VM-ICICIB",
+   "text": "Rs.148 debited from A/c XX1234 on 27-10-26. Info: RAPIDO. UPI: 512345678901. Avl Bal Rs.5,000.",
+   "expect": {
+    "class": "auto",
+    "amountPaise": 14800,
+    "direction": "debit",
+    "merchantClean": "Rapido",
+    "confidenceMin": 0.85,
+    "parserId": "icici",
+    "hasRef": true,
+    "occurredAtIsoDate": "2026-10-27"
+   }
+  },
+  {
+   "id": "icici_0052",
+   "kind": "sms",
+   "packageKey": null,
+   "sender": "VM-ICICIB",
+   "text": "Rs.148.50 debited from A/c XX1234 on 27-10-26. Info: IRCTC. UPI: 412345678901. Avl Bal Rs.5,000.",
+   "expect": {
+    "class": "auto",
+    "amountPaise": 14850,
+    "direction": "debit",
+    "merchantClean": "IRCTC",
+    "confidenceMin": 0.85,
+    "parserId": "icici",
+    "hasRef": true,
+    "occurredAtIsoDate": "2026-10-27"
+   }
+  },
+  {
+   "id": "icici_0053",
+   "kind": "sms",
+   "packageKey": null,
+   "sender": "VM-ICICIB",
+   "text": "Your A/c XX1234 debited Rs.2,500.75 on 27-10-26. Info: ZEPTO TECHNOLOGIES PVT LTD. UPI Ref 4123456789012.",
+   "expect": {
+    "class": "auto",
+    "amountPaise": 250075,
+    "direction": "debit",
+    "merchantClean": "Zepto",
+    "confidenceMin": 0.85,
+    "parserId": "icici",
+    "occurredAtIsoDate": "2026-10-27"
+   }
+  },
+  {
+   "id": "icici_0054",
+   "kind": "sms",
+   "packageKey": null,
+   "sender": "VM-ICICIB",
+   "text": "Your A/c XX1234 debited Rs.148 on 27-10-26. Info: FLIPKART INDIA PVT LTD. UPI Ref 512345678901.",
+   "expect": {
+    "class": "auto",
+    "amountPaise": 14800,
+    "direction": "debit",
+    "merchantClean": "Flipkart",
+    "confidenceMin": 0.85,
+    "parserId": "icici",
+    "occurredAtIsoDate": "2026-10-27"
+   }
+  },
+  {
+   "id": "icici_0055",
+   "kind": "sms",
+   "packageKey": null,
+   "sender": "VM-ICICIB",
+   "text": "Your A/c XX1234 debited Rs.148.50 on 27-10-26. Info: AVENUE SUPERMARTS LTD. UPI Ref 412345678901.",
+   "expect": {
+    "class": "auto",
+    "amountPaise": 14850,
+    "direction": "debit",
+    "merchantClean": "DMart",
+    "confidenceMin": 0.85,
+    "parserId": "icici",
+    "occurredAtIsoDate": "2026-10-27"
+   }
+  },
+  {
+   "id": "icici_0056",
+   "kind": "sms",
+   "packageKey": null,
+   "sender": "VM-ICICIB",
+   "text": "Your A/c XX1234 debited Rs.1,250 on 27-10-26. Info: RELIANCE FRESH. UPI Ref 512345678.",
+   "expect": {
+    "class": "auto",
+    "amountPaise": 125000,
+    "direction": "debit",
+    "merchantClean": "Reliance Fresh",
+    "confidenceMin": 0.85,
+    "parserId": "icici",
+    "occurredAtIsoDate": "2026-10-27"
+   }
+  },
+  {
+   "id": "icici_0057",
+   "kind": "sms",
+   "packageKey": null,
+   "sender": "VM-ICICIB",
+   "text": "ICICI Bank: Your A/c XX1234 credited Rs.148 on 27-10-26. Info: MCD. UPI:512345678901.",
+   "expect": {
+    "class": "auto",
+    "amountPaise": 14800,
+    "direction": "credit",
+    "merchantClean": "McDonald's",
+    "confidenceMin": 0.85,
+    "parserId": "icici",
+    "hasRef": true,
+    "occurredAtIsoDate": "2026-10-27"
+   }
+  },
+  {
+   "id": "icici_0058",
+   "kind": "sms",
+   "packageKey": null,
+   "sender": "VM-ICICIB",
+   "text": "ICICI Bank: Your A/c XX1234 credited Rs.148.50 on 27-10-26. Info: KFC. UPI:412345678901.",
+   "expect": {
+    "class": "auto",
+    "amountPaise": 14850,
+    "direction": "credit",
+    "merchantClean": "KFC",
+    "confidenceMin": 0.85,
+    "parserId": "icici",
+    "hasRef": true,
+    "occurredAtIsoDate": "2026-10-27"
+   }
+  },
+  {
+   "id": "icici_0059",
+   "kind": "sms",
+   "packageKey": null,
+   "sender": "VM-ICICIB",
+   "text": "ICICI Bank: Your A/c XX1234 credited Rs.1,250 on 27-10-26. Info: NAMMA YATRI. UPI:512345678.",
+   "expect": {
+    "class": "auto",
+    "amountPaise": 125000,
+    "direction": "credit",
+    "merchantClean": "Namma Yatri",
+    "confidenceMin": 0.85,
+    "parserId": "icici",
+    "hasRef": true,
+    "occurredAtIsoDate": "2026-10-27"
+   }
+  },
+  {
+   "id": "icici_0060",
+   "kind": "sms",
+   "packageKey": null,
+   "sender": "VM-ICICIB",
+   "text": "ICICI Bank: Your A/c XX1234 credited Rs.2,500.75 on 27-10-26. Info: CHAI POINT. UPI:4123456789012.",
+   "expect": {
+    "class": "auto",
+    "amountPaise": 250075,
+    "direction": "credit",
+    "merchantClean": "Chai Point",
+    "confidenceMin": 0.85,
+    "parserId": "icici",
+    "hasRef": true,
+    "occurredAtIsoDate": "2026-10-27"
+   }
+  },
+  {
+   "id": "axis_0061",
+   "kind": "sms",
+   "packageKey": null,
+   "sender": "VM-AXISBK",
+   "text": "Rs.148 debited from A/c 12345 on 27-10-26 UPI Ref 512345678901 SWIGGY.",
+   "expect": {
+    "class": "auto",
+    "amountPaise": 14800,
+    "direction": "debit",
+    "merchantClean": "Swiggy",
+    "confidenceMin": 0.85,
+    "parserId": "axis",
+    "hasRef": true,
+    "occurredAtIsoDate": "2026-10-27"
+   }
+  },
+  {
+   "id": "axis_0062",
+   "kind": "sms",
+   "packageKey": null,
+   "sender": "VM-AXISBK",
+   "text": "Rs.148.50 debited from A/c 12345 on 27-10-26 UPI Ref 412345678901 ZOMATO.",
+   "expect": {
+    "class": "auto",
+    "amountPaise": 14850,
+    "direction": "debit",
+    "merchantClean": "Zomato",
+    "confidenceMin": 0.85,
+    "parserId": "axis",
+    "hasRef": true,
+    "occurredAtIsoDate": "2026-10-27"
+   }
+  },
+  {
+   "id": "axis_0063",
+   "kind": "sms",
+   "packageKey": null,
+   "sender": "VM-AXISBK",
+   "text": "Rs.1,250 debited from A/c 12345 on 27-10-26 UPI Ref 512345678 BLINKIT.",
+   "expect": {
+    "class": "auto",
+    "amountPaise": 125000,
+    "direction": "debit",
+    "merchantClean": "Blinkit",
+    "confidenceMin": 0.85,
+    "parserId": "axis",
+    "hasRef": true,
+    "occurredAtIsoDate": "2026-10-27"
+   }
+  },
+  {
+   "id": "axis_0064",
+   "kind": "sms",
+   "packageKey": null,
+   "sender": "VM-AXISBK",
+   "text": "Rs.2,500.75 debited from A/c 12345 on 27-10-26 UPI Ref 4123456789012 AMAZON PAY INDIA.",
+   "expect": {
+    "class": "auto",
+    "amountPaise": 250075,
+    "direction": "debit",
+    "merchantClean": "Amazon Pay",
+    "confidenceMin": 0.85,
+    "parserId": "axis",
+    "hasRef": true,
+    "occurredAtIsoDate": "2026-10-27"
+   }
+  },
+  {
+   "id": "axis_0065",
+   "kind": "sms",
+   "packageKey": null,
+   "sender": "VM-AXISBK",
+   "text": "Rs.148.50 credited to A/c 12345 on 27-10-26 Ref 412345678901 BIGBASKET.",
+   "expect": {
+    "class": "auto",
+    "amountPaise": 14850,
+    "direction": "credit",
+    "merchantClean": "BigBasket",
+    "confidenceMin": 0.85,
+    "parserId": "axis",
+    "hasRef": true,
+    "occurredAtIsoDate": "2026-10-27"
+   }
+  },
+  {
+   "id": "axis_0066",
+   "kind": "sms",
+   "packageKey": null,
+   "sender": "VM-AXISBK",
+   "text": "Rs.1,250 credited to A/c 12345 on 27-10-26 Ref 512345678 DOMINOS PIZZA.",
+   "expect": {
+    "class": "auto",
+    "amountPaise": 125000,
+    "direction": "credit",
+    "merchantClean": "Domino's",
+    "confidenceMin": 0.85,
+    "parserId": "axis",
+    "hasRef": true,
+    "occurredAtIsoDate": "2026-10-27"
+   }
+  },
+  {
+   "id": "axis_0067",
+   "kind": "sms",
+   "packageKey": null,
+   "sender": "VM-AXISBK",
+   "text": "Rs.2,500.75 credited to A/c 12345 on 27-10-26 Ref 4123456789012 NETFLIX.",
+   "expect": {
+    "class": "auto",
+    "amountPaise": 250075,
+    "direction": "credit",
+    "merchantClean": "Netflix",
+    "confidenceMin": 0.85,
+    "parserId": "axis",
+    "hasRef": true,
+    "occurredAtIsoDate": "2026-10-27"
+   }
+  },
+  {
+   "id": "axis_0068",
+   "kind": "sms",
+   "packageKey": null,
+   "sender": "VM-AXISBK",
+   "text": "Rs.148 credited to A/c 12345 on 27-10-26 Ref 512345678901 TATA POWER.",
+   "expect": {
+    "class": "auto",
+    "amountPaise": 14800,
+    "direction": "credit",
+    "merchantClean": "Tata Power",
+    "confidenceMin": 0.85,
+    "parserId": "axis",
+    "hasRef": true,
+    "occurredAtIsoDate": "2026-10-27"
+   }
+  },
+  {
+   "id": "axis_0069",
+   "kind": "sms",
+   "packageKey": null,
+   "sender": "VM-AXISBK",
+   "text": "Rs.1,250 debited from A/c 12345 on 27-10-26 UPI Ref 512345678 BSES YAMUNA. Avl Bal Rs.3,456.78.",
+   "expect": {
+    "class": "auto",
+    "amountPaise": 125000,
+    "direction": "debit",
+    "merchantClean": "BSES Yamuna",
+    "confidenceMin": 0.85,
+    "parserId": "axis",
+    "hasRef": true,
+    "occurredAtIsoDate": "2026-10-27"
+   }
+  },
+  {
+   "id": "axis_0070",
+   "kind": "sms",
+   "packageKey": null,
+   "sender": "VM-AXISBK",
+   "text": "Rs.2,500.75 debited from A/c 12345 on 27-10-26 UPI Ref 4123456789012 AIRTEL. Avl Bal Rs.3,456.78.",
+   "expect": {
+    "class": "auto",
+    "amountPaise": 250075,
+    "direction": "debit",
+    "merchantClean": "Airtel",
+    "confidenceMin": 0.85,
+    "parserId": "axis",
+    "hasRef": true,
+    "occurredAtIsoDate": "2026-10-27"
+   }
+  },
+  {
+   "id": "axis_0071",
+   "kind": "sms",
+   "packageKey": null,
+   "sender": "VM-AXISBK",
+   "text": "Rs.148 debited from A/c 12345 on 27-10-26 UPI Ref 512345678901 RAPIDO. Avl Bal Rs.3,456.78.",
+   "expect": {
+    "class": "auto",
+    "amountPaise": 14800,
+    "direction": "debit",
+    "merchantClean": "Rapido",
+    "confidenceMin": 0.85,
+    "parserId": "axis",
+    "hasRef": true,
+    "occurredAtIsoDate": "2026-10-27"
+   }
+  },
+  {
+   "id": "axis_0072",
+   "kind": "sms",
+   "packageKey": null,
+   "sender": "VM-AXISBK",
+   "text": "Rs.148.50 debited from A/c 12345 on 27-10-26 UPI Ref 412345678901 IRCTC. Avl Bal Rs.3,456.78.",
+   "expect": {
+    "class": "auto",
+    "amountPaise": 14850,
+    "direction": "debit",
+    "merchantClean": "IRCTC",
+    "confidenceMin": 0.85,
+    "parserId": "axis",
+    "hasRef": true,
+    "occurredAtIsoDate": "2026-10-27"
+   }
+  },
+  {
+   "id": "axis_0073",
+   "kind": "sms",
+   "packageKey": null,
+   "sender": "VM-AXISBK",
+   "text": "Axis Bank: Rs.2,500.75 debited from A/c 12345 on 27-10-26 UPI Ref 4123456789012 ZEPTO TECHNOLOGIES PVT LTD.",
+   "expect": {
+    "class": "auto",
+    "amountPaise": 250075,
+    "direction": "debit",
+    "merchantClean": "Zepto",
+    "confidenceMin": 0.85,
+    "parserId": "axis",
+    "hasRef": true,
+    "occurredAtIsoDate": "2026-10-27"
+   }
+  },
+  {
+   "id": "axis_0074",
+   "kind": "sms",
+   "packageKey": null,
+   "sender": "VM-AXISBK",
+   "text": "Axis Bank: Rs.148 debited from A/c 12345 on 27-10-26 UPI Ref 512345678901 FLIPKART INDIA PVT LTD.",
+   "expect": {
+    "class": "auto",
+    "amountPaise": 14800,
+    "direction": "debit",
+    "merchantClean": "Flipkart",
+    "confidenceMin": 0.85,
+    "parserId": "axis",
+    "hasRef": true,
+    "occurredAtIsoDate": "2026-10-27"
+   }
+  },
+  {
+   "id": "axis_0075",
+   "kind": "sms",
+   "packageKey": null,
+   "sender": "VM-AXISBK",
+   "text": "Axis Bank: Rs.148.50 debited from A/c 12345 on 27-10-26 UPI Ref 412345678901 AVENUE SUPERMARTS LTD.",
+   "expect": {
+    "class": "auto",
+    "amountPaise": 14850,
+    "direction": "debit",
+    "merchantClean": "DMart",
+    "confidenceMin": 0.85,
+    "parserId": "axis",
+    "hasRef": true,
+    "occurredAtIsoDate": "2026-10-27"
+   }
+  },
+  {
+   "id": "axis_0076",
+   "kind": "sms",
+   "packageKey": null,
+   "sender": "VM-AXISBK",
+   "text": "Axis Bank: Rs.1,250 debited from A/c 12345 on 27-10-26 UPI Ref 512345678 RELIANCE FRESH.",
+   "expect": {
+    "class": "auto",
+    "amountPaise": 125000,
+    "direction": "debit",
+    "merchantClean": "Reliance Fresh",
+    "confidenceMin": 0.85,
+    "parserId": "axis",
+    "hasRef": true,
+    "occurredAtIsoDate": "2026-10-27"
+   }
+  },
+  {
+   "id": "axis_0077",
+   "kind": "sms",
+   "packageKey": null,
+   "sender": "VM-AXISBK",
+   "text": "Axis Bank: Rs.148 credited to A/c 12345 on 27-10-26 Ref 512345678901 MCD.",
+   "expect": {
+    "class": "auto",
+    "amountPaise": 14800,
+    "direction": "credit",
+    "merchantClean": "McDonald's",
+    "confidenceMin": 0.85,
+    "parserId": "axis",
+    "hasRef": true,
+    "occurredAtIsoDate": "2026-10-27"
+   }
+  },
+  {
+   "id": "axis_0078",
+   "kind": "sms",
+   "packageKey": null,
+   "sender": "VM-AXISBK",
+   "text": "Axis Bank: Rs.148.50 credited to A/c 12345 on 27-10-26 Ref 412345678901 KFC.",
+   "expect": {
+    "class": "auto",
+    "amountPaise": 14850,
+    "direction": "credit",
+    "merchantClean": "KFC",
+    "confidenceMin": 0.85,
+    "parserId": "axis",
+    "hasRef": true,
+    "occurredAtIsoDate": "2026-10-27"
+   }
+  },
+  {
+   "id": "axis_0079",
+   "kind": "sms",
+   "packageKey": null,
+   "sender": "VM-AXISBK",
+   "text": "Axis Bank: Rs.1,250 credited to A/c 12345 on 27-10-26 Ref 512345678 NAMMA YATRI.",
+   "expect": {
+    "class": "auto",
+    "amountPaise": 125000,
+    "direction": "credit",
+    "merchantClean": "Namma Yatri",
+    "confidenceMin": 0.85,
+    "parserId": "axis",
+    "hasRef": true,
+    "occurredAtIsoDate": "2026-10-27"
+   }
+  },
+  {
+   "id": "axis_0080",
+   "kind": "sms",
+   "packageKey": null,
+   "sender": "VM-AXISBK",
+   "text": "Axis Bank: Rs.2,500.75 credited to A/c 12345 on 27-10-26 Ref 4123456789012 CHAI POINT.",
+   "expect": {
+    "class": "auto",
+    "amountPaise": 250075,
+    "direction": "credit",
+    "merchantClean": "Chai Point",
+    "confidenceMin": 0.85,
+    "parserId": "axis",
+    "hasRef": true,
+    "occurredAtIsoDate": "2026-10-27"
+   }
+  },
+  {
+   "id": "kotak_0081",
+   "kind": "sms",
+   "packageKey": null,
+   "sender": "VM-KOTAKB",
+   "text": "Rs.148 debited from your CR A/c 123456 on 27-10-26 towards SWIGGY. Ref 512345678901.",
+   "expect": {
+    "class": "auto",
+    "amountPaise": 14800,
+    "direction": "debit",
+    "merchantClean": "Swiggy",
+    "confidenceMin": 0.85,
+    "parserId": "kotak",
+    "hasRef": true,
+    "occurredAtIsoDate": "2026-10-27"
+   }
+  },
+  {
+   "id": "kotak_0082",
+   "kind": "sms",
+   "packageKey": null,
+   "sender": "VM-KOTAKB",
+   "text": "Rs.148.50 debited from your CR A/c 123456 on 27-10-26 towards ZOMATO. Ref 412345678901.",
+   "expect": {
+    "class": "auto",
+    "amountPaise": 14850,
+    "direction": "debit",
+    "merchantClean": "Zomato",
+    "confidenceMin": 0.85,
+    "parserId": "kotak",
+    "hasRef": true,
+    "occurredAtIsoDate": "2026-10-27"
+   }
+  },
+  {
+   "id": "kotak_0083",
+   "kind": "sms",
+   "packageKey": null,
+   "sender": "VM-KOTAKB",
+   "text": "Rs.1,250 debited from your CR A/c 123456 on 27-10-26 towards BLINKIT. Ref 512345678.",
+   "expect": {
+    "class": "auto",
+    "amountPaise": 125000,
+    "direction": "debit",
+    "merchantClean": "Blinkit",
+    "confidenceMin": 0.85,
+    "parserId": "kotak",
+    "hasRef": true,
+    "occurredAtIsoDate": "2026-10-27"
+   }
+  },
+  {
+   "id": "kotak_0084",
+   "kind": "sms",
+   "packageKey": null,
+   "sender": "VM-KOTAKB",
+   "text": "Rs.2,500.75 debited from your CR A/c 123456 on 27-10-26 towards AMAZON PAY INDIA. Ref 4123456789012.",
+   "expect": {
+    "class": "auto",
+    "amountPaise": 250075,
+    "direction": "debit",
+    "merchantClean": "Amazon Pay",
+    "confidenceMin": 0.85,
+    "parserId": "kotak",
+    "hasRef": true,
+    "occurredAtIsoDate": "2026-10-27"
+   }
+  },
+  {
+   "id": "kotak_0085",
+   "kind": "sms",
+   "packageKey": null,
+   "sender": "VM-KOTAKB",
+   "text": "Rs.148.50 debited from A/c 123456 on 27-10-26 towards BIGBASKET. Ref 412345678901. Avl Bal: Rs.12,000.",
+   "expect": {
+    "class": "auto",
+    "amountPaise": 14850,
+    "direction": "debit",
+    "merchantClean": "BigBasket",
+    "confidenceMin": 0.85,
+    "parserId": "kotak",
+    "hasRef": true,
+    "occurredAtIsoDate": "2026-10-27"
+   }
+  },
+  {
+   "id": "kotak_0086",
+   "kind": "sms",
+   "packageKey": null,
+   "sender": "VM-KOTAKB",
+   "text": "Rs.1,250 debited from A/c 123456 on 27-10-26 towards DOMINOS PIZZA. Ref 512345678. Avl Bal: Rs.12,000.",
+   "expect": {
+    "class": "auto",
+    "amountPaise": 125000,
+    "direction": "debit",
+    "merchantClean": "Domino's",
+    "confidenceMin": 0.85,
+    "parserId": "kotak",
+    "hasRef": true,
+    "occurredAtIsoDate": "2026-10-27"
+   }
+  },
+  {
+   "id": "kotak_0087",
+   "kind": "sms",
+   "packageKey": null,
+   "sender": "VM-KOTAKB",
+   "text": "Rs.2,500.75 debited from A/c 123456 on 27-10-26 towards NETFLIX. Ref 4123456789012. Avl Bal: Rs.12,000.",
+   "expect": {
+    "class": "auto",
+    "amountPaise": 250075,
+    "direction": "debit",
+    "merchantClean": "Netflix",
+    "confidenceMin": 0.85,
+    "parserId": "kotak",
+    "hasRef": true,
+    "occurredAtIsoDate": "2026-10-27"
+   }
+  },
+  {
+   "id": "kotak_0088",
+   "kind": "sms",
+   "packageKey": null,
+   "sender": "VM-KOTAKB",
+   "text": "Rs.148 debited from A/c 123456 on 27-10-26 towards TATA POWER. Ref 512345678901. Avl Bal: Rs.12,000.",
+   "expect": {
+    "class": "auto",
+    "amountPaise": 14800,
+    "direction": "debit",
+    "merchantClean": "Tata Power",
+    "confidenceMin": 0.85,
+    "parserId": "kotak",
+    "hasRef": true,
+    "occurredAtIsoDate": "2026-10-27"
+   }
+  },
+  {
+   "id": "kotak_0089",
+   "kind": "sms",
+   "packageKey": null,
+   "sender": "VM-KOTAKB",
+   "text": "Rs.1,250 credited to your CR A/c 123456 on 27-10-26 towards BSES YAMUNA. Ref 512345678.",
+   "expect": {
+    "class": "auto",
+    "amountPaise": 125000,
+    "direction": "credit",
+    "merchantClean": "BSES Yamuna",
+    "confidenceMin": 0.85,
+    "parserId": "kotak",
+    "hasRef": true,
+    "occurredAtIsoDate": "2026-10-27"
+   }
+  },
+  {
+   "id": "kotak_0090",
+   "kind": "sms",
+   "packageKey": null,
+   "sender": "VM-KOTAKB",
+   "text": "Rs.2,500.75 credited to your CR A/c 123456 on 27-10-26 towards AIRTEL. Ref 4123456789012.",
+   "expect": {
+    "class": "auto",
+    "amountPaise": 250075,
+    "direction": "credit",
+    "merchantClean": "Airtel",
+    "confidenceMin": 0.85,
+    "parserId": "kotak",
+    "hasRef": true,
+    "occurredAtIsoDate": "2026-10-27"
+   }
+  },
+  {
+   "id": "kotak_0091",
+   "kind": "sms",
+   "packageKey": null,
+   "sender": "VM-KOTAKB",
+   "text": "Rs.148 credited to your CR A/c 123456 on 27-10-26 towards RAPIDO. Ref 512345678901.",
+   "expect": {
+    "class": "auto",
+    "amountPaise": 14800,
+    "direction": "credit",
+    "merchantClean": "Rapido",
+    "confidenceMin": 0.85,
+    "parserId": "kotak",
+    "hasRef": true,
+    "occurredAtIsoDate": "2026-10-27"
+   }
+  },
+  {
+   "id": "kotak_0092",
+   "kind": "sms",
+   "packageKey": null,
+   "sender": "VM-KOTAKB",
+   "text": "Rs.148.50 credited to your CR A/c 123456 on 27-10-26 towards IRCTC. Ref 412345678901.",
+   "expect": {
+    "class": "auto",
+    "amountPaise": 14850,
+    "direction": "credit",
+    "merchantClean": "IRCTC",
+    "confidenceMin": 0.85,
+    "parserId": "kotak",
+    "hasRef": true,
+    "occurredAtIsoDate": "2026-10-27"
+   }
+  },
+  {
+   "id": "kotak_0093",
+   "kind": "sms",
+   "packageKey": null,
+   "sender": "VM-KOTAKB",
+   "text": "Your CR A/c 123456 credited Rs.2,500.75 on 27-10-26. Ref 4123456789012.",
+   "expect": {
+    "class": "pending",
+    "amountPaise": 250075,
+    "direction": "credit",
+    "merchantClean": "Unknown",
+    "confidenceMin": 0.7,
+    "parserId": "kotak",
+    "hasRef": true,
+    "occurredAtIsoDate": "2026-10-27"
+   }
+  },
+  {
+   "id": "kotak_0094",
+   "kind": "sms",
+   "packageKey": null,
+   "sender": "VM-KOTAKB",
+   "text": "Your CR A/c 123456 credited Rs.148 on 27-10-26. Ref 512345678901.",
+   "expect": {
+    "class": "pending",
+    "amountPaise": 14800,
+    "direction": "credit",
+    "merchantClean": "Unknown",
+    "confidenceMin": 0.7,
+    "parserId": "kotak",
+    "hasRef": true,
+    "occurredAtIsoDate": "2026-10-27"
+   }
+  },
+  {
+   "id": "kotak_0095",
+   "kind": "sms",
+   "packageKey": null,
+   "sender": "VM-KOTAKB",
+   "text": "Your CR A/c 123456 credited Rs.148.50 on 27-10-26. Ref 412345678901.",
+   "expect": {
+    "class": "pending",
+    "amountPaise": 14850,
+    "direction": "credit",
+    "merchantClean": "Unknown",
+    "confidenceMin": 0.7,
+    "parserId": "kotak",
+    "hasRef": true,
+    "occurredAtIsoDate": "2026-10-27"
+   }
+  },
+  {
+   "id": "kotak_0096",
+   "kind": "sms",
+   "packageKey": null,
+   "sender": "VM-KOTAKB",
+   "text": "Your CR A/c 123456 credited Rs.1,250 on 27-10-26. Ref 512345678.",
+   "expect": {
+    "class": "pending",
+    "amountPaise": 125000,
+    "direction": "credit",
+    "merchantClean": "Unknown",
+    "confidenceMin": 0.7,
+    "parserId": "kotak",
+    "hasRef": true,
+    "occurredAtIsoDate": "2026-10-27"
+   }
+  },
+  {
+   "id": "kotak_0097",
+   "kind": "sms",
+   "packageKey": null,
+   "sender": "VM-KOTAKB",
+   "text": "Kotak Mahindra Bank: Rs.148 debited from A/c 123456 on 27-10-26 towards MCD. Ref 512345678901.",
+   "expect": {
+    "class": "auto",
+    "amountPaise": 14800,
+    "direction": "debit",
+    "merchantClean": "McDonald's",
+    "confidenceMin": 0.85,
+    "parserId": "kotak",
+    "hasRef": true,
+    "occurredAtIsoDate": "2026-10-27"
+   }
+  },
+  {
+   "id": "kotak_0098",
+   "kind": "sms",
+   "packageKey": null,
+   "sender": "VM-KOTAKB",
+   "text": "Kotak Mahindra Bank: Rs.148.50 debited from A/c 123456 on 27-10-26 towards KFC. Ref 412345678901.",
+   "expect": {
+    "class": "auto",
+    "amountPaise": 14850,
+    "direction": "debit",
+    "merchantClean": "KFC",
+    "confidenceMin": 0.85,
+    "parserId": "kotak",
+    "hasRef": true,
+    "occurredAtIsoDate": "2026-10-27"
+   }
+  },
+  {
+   "id": "kotak_0099",
+   "kind": "sms",
+   "packageKey": null,
+   "sender": "VM-KOTAKB",
+   "text": "Kotak Mahindra Bank: Rs.1,250 debited from A/c 123456 on 27-10-26 towards NAMMA YATRI. Ref 512345678.",
+   "expect": {
+    "class": "auto",
+    "amountPaise": 125000,
+    "direction": "debit",
+    "merchantClean": "Namma Yatri",
+    "confidenceMin": 0.85,
+    "parserId": "kotak",
+    "hasRef": true,
+    "occurredAtIsoDate": "2026-10-27"
+   }
+  },
+  {
+   "id": "kotak_0100",
+   "kind": "sms",
+   "packageKey": null,
+   "sender": "VM-KOTAKB",
+   "text": "Kotak Mahindra Bank: Rs.2,500.75 debited from A/c 123456 on 27-10-26 towards CHAI POINT. Ref 4123456789012.",
+   "expect": {
+    "class": "auto",
+    "amountPaise": 250075,
+    "direction": "debit",
+    "merchantClean": "Chai Point",
+    "confidenceMin": 0.85,
+    "parserId": "kotak",
+    "hasRef": true,
+    "occurredAtIsoDate": "2026-10-27"
+   }
+  },
+  {
+   "id": "pnb_0101",
+   "kind": "sms",
+   "packageKey": null,
+   "sender": "VM-PNBIND",
+   "text": "Rs.148 debited from your A/c 1234567890 on 27-10-26 UPI Ref 512345678901 SWIGGY.",
+   "expect": {
+    "class": "auto",
+    "amountPaise": 14800,
+    "direction": "debit",
+    "merchantClean": "Swiggy",
+    "confidenceMin": 0.85,
+    "parserId": "pnb",
+    "hasRef": true,
+    "occurredAtIsoDate": "2026-10-27"
+   }
+  },
+  {
+   "id": "pnb_0102",
+   "kind": "sms",
+   "packageKey": null,
+   "sender": "VM-PNBIND",
+   "text": "Rs.148.50 debited from your A/c 1234567890 on 27-10-26 UPI Ref 412345678901 ZOMATO.",
+   "expect": {
+    "class": "auto",
+    "amountPaise": 14850,
+    "direction": "debit",
+    "merchantClean": "Zomato",
+    "confidenceMin": 0.85,
+    "parserId": "pnb",
+    "hasRef": true,
+    "occurredAtIsoDate": "2026-10-27"
+   }
+  },
+  {
+   "id": "pnb_0103",
+   "kind": "sms",
+   "packageKey": null,
+   "sender": "VM-PNBIND",
+   "text": "Rs.1,250 debited from your A/c 1234567890 on 27-10-26 UPI Ref 512345678 BLINKIT.",
+   "expect": {
+    "class": "auto",
+    "amountPaise": 125000,
+    "direction": "debit",
+    "merchantClean": "Blinkit",
+    "confidenceMin": 0.85,
+    "parserId": "pnb",
+    "hasRef": true,
+    "occurredAtIsoDate": "2026-10-27"
+   }
+  },
+  {
+   "id": "pnb_0104",
+   "kind": "sms",
+   "packageKey": null,
+   "sender": "VM-PNBIND",
+   "text": "Rs.2,500.75 debited from your A/c 1234567890 on 27-10-26 UPI Ref 4123456789012 AMAZON PAY INDIA.",
+   "expect": {
+    "class": "auto",
+    "amountPaise": 250075,
+    "direction": "debit",
+    "merchantClean": "Amazon Pay",
+    "confidenceMin": 0.85,
+    "parserId": "pnb",
+    "hasRef": true,
+    "occurredAtIsoDate": "2026-10-27"
+   }
+  },
+  {
+   "id": "pnb_0105",
+   "kind": "sms",
+   "packageKey": null,
+   "sender": "VM-PNBIND",
+   "text": "Rs.148.50 credited to your A/c 1234567890 on 27-10-26 Ref 412345678901 BIGBASKET.",
+   "expect": {
+    "class": "auto",
+    "amountPaise": 14850,
+    "direction": "credit",
+    "merchantClean": "BigBasket",
+    "confidenceMin": 0.85,
+    "parserId": "pnb",
+    "hasRef": true,
+    "occurredAtIsoDate": "2026-10-27"
+   }
+  },
+  {
+   "id": "pnb_0106",
+   "kind": "sms",
+   "packageKey": null,
+   "sender": "VM-PNBIND",
+   "text": "Rs.1,250 credited to your A/c 1234567890 on 27-10-26 Ref 512345678 DOMINOS PIZZA.",
+   "expect": {
+    "class": "auto",
+    "amountPaise": 125000,
+    "direction": "credit",
+    "merchantClean": "Domino's",
+    "confidenceMin": 0.85,
+    "parserId": "pnb",
+    "hasRef": true,
+    "occurredAtIsoDate": "2026-10-27"
+   }
+  },
+  {
+   "id": "pnb_0107",
+   "kind": "sms",
+   "packageKey": null,
+   "sender": "VM-PNBIND",
+   "text": "Rs.2,500.75 credited to your A/c 1234567890 on 27-10-26 Ref 4123456789012 NETFLIX.",
+   "expect": {
+    "class": "auto",
+    "amountPaise": 250075,
+    "direction": "credit",
+    "merchantClean": "Netflix",
+    "confidenceMin": 0.85,
+    "parserId": "pnb",
+    "hasRef": true,
+    "occurredAtIsoDate": "2026-10-27"
+   }
+  },
+  {
+   "id": "pnb_0108",
+   "kind": "sms",
+   "packageKey": null,
+   "sender": "VM-PNBIND",
+   "text": "Rs.148 credited to your A/c 1234567890 on 27-10-26 Ref 512345678901 TATA POWER.",
+   "expect": {
+    "class": "auto",
+    "amountPaise": 14800,
+    "direction": "credit",
+    "merchantClean": "Tata Power",
+    "confidenceMin": 0.85,
+    "parserId": "pnb",
+    "hasRef": true,
+    "occurredAtIsoDate": "2026-10-27"
+   }
+  },
+  {
+   "id": "pnb_0109",
+   "kind": "sms",
+   "packageKey": null,
+   "sender": "VM-PNBIND",
+   "text": "Your A/c 1234567890 debited Rs.1,250 on 27-10-26 Ref 512345678 BSES YAMUNA.",
+   "expect": {
+    "class": "auto",
+    "amountPaise": 125000,
+    "direction": "debit",
+    "merchantClean": "BSES Yamuna",
+    "confidenceMin": 0.85,
+    "parserId": "pnb",
+    "hasRef": true,
+    "occurredAtIsoDate": "2026-10-27"
+   }
+  },
+  {
+   "id": "pnb_0110",
+   "kind": "sms",
+   "packageKey": null,
+   "sender": "VM-PNBIND",
+   "text": "Your A/c 1234567890 debited Rs.2,500.75 on 27-10-26 Ref 4123456789012 AIRTEL.",
+   "expect": {
+    "class": "auto",
+    "amountPaise": 250075,
+    "direction": "debit",
+    "merchantClean": "Airtel",
+    "confidenceMin": 0.85,
+    "parserId": "pnb",
+    "hasRef": true,
+    "occurredAtIsoDate": "2026-10-27"
+   }
+  },
+  {
+   "id": "pnb_0111",
+   "kind": "sms",
+   "packageKey": null,
+   "sender": "VM-PNBIND",
+   "text": "Your A/c 1234567890 debited Rs.148 on 27-10-26 Ref 512345678901 RAPIDO.",
+   "expect": {
+    "class": "auto",
+    "amountPaise": 14800,
+    "direction": "debit",
+    "merchantClean": "Rapido",
+    "confidenceMin": 0.85,
+    "parserId": "pnb",
+    "hasRef": true,
+    "occurredAtIsoDate": "2026-10-27"
+   }
+  },
+  {
+   "id": "pnb_0112",
+   "kind": "sms",
+   "packageKey": null,
+   "sender": "VM-PNBIND",
+   "text": "Your A/c 1234567890 debited Rs.148.50 on 27-10-26 Ref 412345678901 IRCTC.",
+   "expect": {
+    "class": "auto",
+    "amountPaise": 14850,
+    "direction": "debit",
+    "merchantClean": "IRCTC",
+    "confidenceMin": 0.85,
+    "parserId": "pnb",
+    "hasRef": true,
+    "occurredAtIsoDate": "2026-10-27"
+   }
+  },
+  {
+   "id": "pnb_0113",
+   "kind": "sms",
+   "packageKey": null,
+   "sender": "VM-PNBIND",
+   "text": "Rs.2,500.75 debited from A/c 1234567890 on 27-10-26 UPI Ref 4123456789012 ZEPTO TECHNOLOGIES PVT LTD. Avl Bal Rs.9,999.",
+   "expect": {
+    "class": "auto",
+    "amountPaise": 250075,
+    "direction": "debit",
+    "merchantClean": "Zepto",
+    "confidenceMin": 0.85,
+    "parserId": "pnb",
+    "hasRef": true,
+    "occurredAtIsoDate": "2026-10-27"
+   }
+  },
+  {
+   "id": "pnb_0114",
+   "kind": "sms",
+   "packageKey": null,
+   "sender": "VM-PNBIND",
+   "text": "Rs.148 debited from A/c 1234567890 on 27-10-26 UPI Ref 512345678901 FLIPKART INDIA PVT LTD. Avl Bal Rs.9,999.",
+   "expect": {
+    "class": "auto",
+    "amountPaise": 14800,
+    "direction": "debit",
+    "merchantClean": "Flipkart",
+    "confidenceMin": 0.85,
+    "parserId": "pnb",
+    "hasRef": true,
+    "occurredAtIsoDate": "2026-10-27"
+   }
+  },
+  {
+   "id": "pnb_0115",
+   "kind": "sms",
+   "packageKey": null,
+   "sender": "VM-PNBIND",
+   "text": "Rs.148.50 debited from A/c 1234567890 on 27-10-26 UPI Ref 412345678901 AVENUE SUPERMARTS LTD. Avl Bal Rs.9,999.",
+   "expect": {
+    "class": "auto",
+    "amountPaise": 14850,
+    "direction": "debit",
+    "merchantClean": "DMart",
+    "confidenceMin": 0.85,
+    "parserId": "pnb",
+    "hasRef": true,
+    "occurredAtIsoDate": "2026-10-27"
+   }
+  },
+  {
+   "id": "pnb_0116",
+   "kind": "sms",
+   "packageKey": null,
+   "sender": "VM-PNBIND",
+   "text": "Rs.1,250 debited from A/c 1234567890 on 27-10-26 UPI Ref 512345678 RELIANCE FRESH. Avl Bal Rs.9,999.",
+   "expect": {
+    "class": "auto",
+    "amountPaise": 125000,
+    "direction": "debit",
+    "merchantClean": "Reliance Fresh",
+    "confidenceMin": 0.85,
+    "parserId": "pnb",
+    "hasRef": true,
+    "occurredAtIsoDate": "2026-10-27"
+   }
+  },
+  {
+   "id": "pnb_0117",
+   "kind": "sms",
+   "packageKey": null,
+   "sender": "VM-PNBIND",
+   "text": "Punjab National Bank: Rs.148 debited from A/c 1234567890 on 27-10-26 UPI Ref 512345678901 MCD.",
+   "expect": {
+    "class": "auto",
+    "amountPaise": 14800,
+    "direction": "debit",
+    "merchantClean": "McDonald's",
+    "confidenceMin": 0.85,
+    "parserId": "pnb",
+    "hasRef": true,
+    "occurredAtIsoDate": "2026-10-27"
+   }
+  },
+  {
+   "id": "pnb_0118",
+   "kind": "sms",
+   "packageKey": null,
+   "sender": "VM-PNBIND",
+   "text": "Punjab National Bank: Rs.148.50 debited from A/c 1234567890 on 27-10-26 UPI Ref 412345678901 KFC.",
+   "expect": {
+    "class": "auto",
+    "amountPaise": 14850,
+    "direction": "debit",
+    "merchantClean": "KFC",
+    "confidenceMin": 0.85,
+    "parserId": "pnb",
+    "hasRef": true,
+    "occurredAtIsoDate": "2026-10-27"
+   }
+  },
+  {
+   "id": "pnb_0119",
+   "kind": "sms",
+   "packageKey": null,
+   "sender": "VM-PNBIND",
+   "text": "Punjab National Bank: Rs.1,250 debited from A/c 1234567890 on 27-10-26 UPI Ref 512345678 NAMMA YATRI.",
+   "expect": {
+    "class": "auto",
+    "amountPaise": 125000,
+    "direction": "debit",
+    "merchantClean": "Namma Yatri",
+    "confidenceMin": 0.85,
+    "parserId": "pnb",
+    "hasRef": true,
+    "occurredAtIsoDate": "2026-10-27"
+   }
+  },
+  {
+   "id": "pnb_0120",
+   "kind": "sms",
+   "packageKey": null,
+   "sender": "VM-PNBIND",
+   "text": "Punjab National Bank: Rs.2,500.75 debited from A/c 1234567890 on 27-10-26 UPI Ref 4123456789012 CHAI POINT.",
+   "expect": {
+    "class": "auto",
+    "amountPaise": 250075,
+    "direction": "debit",
+    "merchantClean": "Chai Point",
+    "confidenceMin": 0.85,
+    "parserId": "pnb",
+    "hasRef": true,
+    "occurredAtIsoDate": "2026-10-27"
+   }
+  },
+  {
+   "id": "bob_0121",
+   "kind": "sms",
+   "packageKey": null,
+   "sender": "VM-BARDBKB",
+   "text": "Rs.148 debited from A/c 1234567890 on 27-10-26 (UPI Ref: 512345678901) SWIGGY.",
+   "expect": {
+    "class": "auto",
+    "amountPaise": 14800,
+    "direction": "debit",
+    "merchantClean": "Swiggy",
+    "confidenceMin": 0.85,
+    "parserId": "bob",
+    "hasRef": true,
+    "occurredAtIsoDate": "2026-10-27"
+   }
+  },
+  {
+   "id": "bob_0122",
+   "kind": "sms",
+   "packageKey": null,
+   "sender": "VM-BARDBKB",
+   "text": "Rs.148.50 debited from A/c 1234567890 on 27-10-26 (UPI Ref: 412345678901) ZOMATO.",
+   "expect": {
+    "class": "auto",
+    "amountPaise": 14850,
+    "direction": "debit",
+    "merchantClean": "Zomato",
+    "confidenceMin": 0.85,
+    "parserId": "bob",
+    "hasRef": true,
+    "occurredAtIsoDate": "2026-10-27"
+   }
+  },
+  {
+   "id": "bob_0123",
+   "kind": "sms",
+   "packageKey": null,
+   "sender": "VM-BARDBKB",
+   "text": "Rs.1,250 debited from A/c 1234567890 on 27-10-26 (UPI Ref: 512345678) BLINKIT.",
+   "expect": {
+    "class": "auto",
+    "amountPaise": 125000,
+    "direction": "debit",
+    "merchantClean": "Blinkit",
+    "confidenceMin": 0.85,
+    "parserId": "bob",
+    "hasRef": true,
+    "occurredAtIsoDate": "2026-10-27"
+   }
+  },
+  {
+   "id": "bob_0124",
+   "kind": "sms",
+   "packageKey": null,
+   "sender": "VM-BARDBKB",
+   "text": "Rs.2,500.75 debited from A/c 1234567890 on 27-10-26 (UPI Ref: 4123456789012) AMAZON PAY INDIA.",
+   "expect": {
+    "class": "auto",
+    "amountPaise": 250075,
+    "direction": "debit",
+    "merchantClean": "Amazon Pay",
+    "confidenceMin": 0.85,
+    "parserId": "bob",
+    "hasRef": true,
+    "occurredAtIsoDate": "2026-10-27"
+   }
+  },
+  {
+   "id": "bob_0125",
+   "kind": "sms",
+   "packageKey": null,
+   "sender": "VM-BARDBKB",
+   "text": "Rs.148.50 credited to A/c 1234567890 on 27-10-26 (Ref: 412345678901) BIGBASKET.",
+   "expect": {
+    "class": "auto",
+    "amountPaise": 14850,
+    "direction": "credit",
+    "merchantClean": "BigBasket",
+    "confidenceMin": 0.85,
+    "parserId": "bob",
+    "hasRef": true,
+    "occurredAtIsoDate": "2026-10-27"
+   }
+  },
+  {
+   "id": "bob_0126",
+   "kind": "sms",
+   "packageKey": null,
+   "sender": "VM-BARDBKB",
+   "text": "Rs.1,250 credited to A/c 1234567890 on 27-10-26 (Ref: 512345678) DOMINOS PIZZA.",
+   "expect": {
+    "class": "auto",
+    "amountPaise": 125000,
+    "direction": "credit",
+    "merchantClean": "Domino's",
+    "confidenceMin": 0.85,
+    "parserId": "bob",
+    "hasRef": true,
+    "occurredAtIsoDate": "2026-10-27"
+   }
+  },
+  {
+   "id": "bob_0127",
+   "kind": "sms",
+   "packageKey": null,
+   "sender": "VM-BARDBKB",
+   "text": "Rs.2,500.75 credited to A/c 1234567890 on 27-10-26 (Ref: 4123456789012) NETFLIX.",
+   "expect": {
+    "class": "auto",
+    "amountPaise": 250075,
+    "direction": "credit",
+    "merchantClean": "Netflix",
+    "confidenceMin": 0.85,
+    "parserId": "bob",
+    "hasRef": true,
+    "occurredAtIsoDate": "2026-10-27"
+   }
+  },
+  {
+   "id": "bob_0128",
+   "kind": "sms",
+   "packageKey": null,
+   "sender": "VM-BARDBKB",
+   "text": "Rs.148 credited to A/c 1234567890 on 27-10-26 (Ref: 512345678901) TATA POWER.",
+   "expect": {
+    "class": "auto",
+    "amountPaise": 14800,
+    "direction": "credit",
+    "merchantClean": "Tata Power",
+    "confidenceMin": 0.85,
+    "parserId": "bob",
+    "hasRef": true,
+    "occurredAtIsoDate": "2026-10-27"
+   }
+  },
+  {
+   "id": "bob_0129",
+   "kind": "sms",
+   "packageKey": null,
+   "sender": "VM-BARDBKB",
+   "text": "Rs.1,250 debited from A/c 1234567890 on 27-10-26 (UPI Ref: 512345678) BSES YAMUNA. Avl Bal Rs.9,999.",
+   "expect": {
+    "class": "auto",
+    "amountPaise": 125000,
+    "direction": "debit",
+    "merchantClean": "BSES Yamuna",
+    "confidenceMin": 0.85,
+    "parserId": "bob",
+    "hasRef": true,
+    "occurredAtIsoDate": "2026-10-27"
+   }
+  },
+  {
+   "id": "bob_0130",
+   "kind": "sms",
+   "packageKey": null,
+   "sender": "VM-BARDBKB",
+   "text": "Rs.2,500.75 debited from A/c 1234567890 on 27-10-26 (UPI Ref: 4123456789012) AIRTEL. Avl Bal Rs.9,999.",
+   "expect": {
+    "class": "auto",
+    "amountPaise": 250075,
+    "direction": "debit",
+    "merchantClean": "Airtel",
+    "confidenceMin": 0.85,
+    "parserId": "bob",
+    "hasRef": true,
+    "occurredAtIsoDate": "2026-10-27"
+   }
+  },
+  {
+   "id": "bob_0131",
+   "kind": "sms",
+   "packageKey": null,
+   "sender": "VM-BARDBKB",
+   "text": "Rs.148 debited from A/c 1234567890 on 27-10-26 (UPI Ref: 512345678901) RAPIDO. Avl Bal Rs.9,999.",
+   "expect": {
+    "class": "auto",
+    "amountPaise": 14800,
+    "direction": "debit",
+    "merchantClean": "Rapido",
+    "confidenceMin": 0.85,
+    "parserId": "bob",
+    "hasRef": true,
+    "occurredAtIsoDate": "2026-10-27"
+   }
+  },
+  {
+   "id": "bob_0132",
+   "kind": "sms",
+   "packageKey": null,
+   "sender": "VM-BARDBKB",
+   "text": "Rs.148.50 debited from A/c 1234567890 on 27-10-26 (UPI Ref: 412345678901) IRCTC. Avl Bal Rs.9,999.",
+   "expect": {
+    "class": "auto",
+    "amountPaise": 14850,
+    "direction": "debit",
+    "merchantClean": "IRCTC",
+    "confidenceMin": 0.85,
+    "parserId": "bob",
+    "hasRef": true,
+    "occurredAtIsoDate": "2026-10-27"
+   }
+  },
+  {
+   "id": "bob_0133",
+   "kind": "sms",
+   "packageKey": null,
+   "sender": "VM-BARDBKB",
+   "text": "Bank of Baroda: Rs.2,500.75 debited from A/c 1234567890 on 27-10-26 (UPI Ref: 4123456789012) ZEPTO TECHNOLOGIES PVT LTD.",
+   "expect": {
+    "class": "auto",
+    "amountPaise": 250075,
+    "direction": "debit",
+    "merchantClean": "Zepto",
+    "confidenceMin": 0.85,
+    "parserId": "bob",
+    "hasRef": true,
+    "occurredAtIsoDate": "2026-10-27"
+   }
+  },
+  {
+   "id": "bob_0134",
+   "kind": "sms",
+   "packageKey": null,
+   "sender": "VM-BARDBKB",
+   "text": "Bank of Baroda: Rs.148 debited from A/c 1234567890 on 27-10-26 (UPI Ref: 512345678901) FLIPKART INDIA PVT LTD.",
+   "expect": {
+    "class": "auto",
+    "amountPaise": 14800,
+    "direction": "debit",
+    "merchantClean": "Flipkart",
+    "confidenceMin": 0.85,
+    "parserId": "bob",
+    "hasRef": true,
+    "occurredAtIsoDate": "2026-10-27"
+   }
+  },
+  {
+   "id": "bob_0135",
+   "kind": "sms",
+   "packageKey": null,
+   "sender": "VM-BARDBKB",
+   "text": "Bank of Baroda: Rs.148.50 debited from A/c 1234567890 on 27-10-26 (UPI Ref: 412345678901) AVENUE SUPERMARTS LTD.",
+   "expect": {
+    "class": "auto",
+    "amountPaise": 14850,
+    "direction": "debit",
+    "merchantClean": "DMart",
+    "confidenceMin": 0.85,
+    "parserId": "bob",
+    "hasRef": true,
+    "occurredAtIsoDate": "2026-10-27"
+   }
+  },
+  {
+   "id": "bob_0136",
+   "kind": "sms",
+   "packageKey": null,
+   "sender": "VM-BARDBKB",
+   "text": "Bank of Baroda: Rs.1,250 debited from A/c 1234567890 on 27-10-26 (UPI Ref: 512345678) RELIANCE FRESH.",
+   "expect": {
+    "class": "auto",
+    "amountPaise": 125000,
+    "direction": "debit",
+    "merchantClean": "Reliance Fresh",
+    "confidenceMin": 0.85,
+    "parserId": "bob",
+    "hasRef": true,
+    "occurredAtIsoDate": "2026-10-27"
+   }
+  },
+  {
+   "id": "bob_0137",
+   "kind": "sms",
+   "packageKey": null,
+   "sender": "VM-BARDBKB",
+   "text": "Rs.148 credited to A/c 1234567890 on 27-10-26 (UPI Ref: 512345678901) MCD. Avl Bal Rs.21,000.",
+   "expect": {
+    "class": "auto",
+    "amountPaise": 14800,
+    "direction": "credit",
+    "merchantClean": "McDonald's",
+    "confidenceMin": 0.85,
+    "parserId": "bob",
+    "hasRef": true,
+    "occurredAtIsoDate": "2026-10-27"
+   }
+  },
+  {
+   "id": "bob_0138",
+   "kind": "sms",
+   "packageKey": null,
+   "sender": "VM-BARDBKB",
+   "text": "Rs.148.50 credited to A/c 1234567890 on 27-10-26 (UPI Ref: 412345678901) KFC. Avl Bal Rs.21,000.",
+   "expect": {
+    "class": "auto",
+    "amountPaise": 14850,
+    "direction": "credit",
+    "merchantClean": "KFC",
+    "confidenceMin": 0.85,
+    "parserId": "bob",
+    "hasRef": true,
+    "occurredAtIsoDate": "2026-10-27"
+   }
+  },
+  {
+   "id": "bob_0139",
+   "kind": "sms",
+   "packageKey": null,
+   "sender": "VM-BARDBKB",
+   "text": "Rs.1,250 credited to A/c 1234567890 on 27-10-26 (UPI Ref: 512345678) NAMMA YATRI. Avl Bal Rs.21,000.",
+   "expect": {
+    "class": "auto",
+    "amountPaise": 125000,
+    "direction": "credit",
+    "merchantClean": "Namma Yatri",
+    "confidenceMin": 0.85,
+    "parserId": "bob",
+    "hasRef": true,
+    "occurredAtIsoDate": "2026-10-27"
+   }
+  },
+  {
+   "id": "bob_0140",
+   "kind": "sms",
+   "packageKey": null,
+   "sender": "VM-BARDBKB",
+   "text": "Rs.2,500.75 credited to A/c 1234567890 on 27-10-26 (UPI Ref: 4123456789012) CHAI POINT. Avl Bal Rs.21,000.",
+   "expect": {
+    "class": "auto",
+    "amountPaise": 250075,
+    "direction": "credit",
+    "merchantClean": "Chai Point",
+    "confidenceMin": 0.85,
+    "parserId": "bob",
+    "hasRef": true,
+    "occurredAtIsoDate": "2026-10-27"
+   }
+  },
+  {
+   "id": "adv_0186",
+   "kind": "sms",
+   "packageKey": null,
+   "sender": "VM-HDFCBK",
+   "text": "Your OTP is 4832 for HDFC Bank netbanking login. Do not share with anyone.",
+   "expect": {
+    "class": "drop",
+    "dropReason": "otp_security"
+   }
+  },
+  {
+   "id": "adv_0187",
+   "kind": "sms",
+   "packageKey": null,
+   "sender": "VM-ICICIB",
+   "text": "123456 is your One Time Password (OTP). Valid for 5 minutes. -ICICI Bank",
+   "expect": {
+    "class": "drop",
+    "dropReason": "otp_security"
+   }
+  },
+  {
+   "id": "adv_0188",
+   "kind": "sms",
+   "packageKey": null,
+   "sender": "VM-HDFCBK",
+   "text": "Use verification code 998877 to complete your ICICI Bank login.",
+   "expect": {
+    "class": "drop",
+    "dropReason": "otp_security"
+   }
+  },
+  {
+   "id": "adv_0189",
+   "kind": "sms",
+   "packageKey": null,
+   "sender": null,
+   "text": "Dear Customer, never share your CVV. Security code 4321 alert.",
+   "expect": {
+    "class": "drop",
+    "dropReason": "otp_security"
+   }
+  },
+  {
+   "id": "adv_0190",
+   "kind": "sms",
+   "packageKey": null,
+   "sender": "VM-SBI",
+   "text": "OTP for Rs.5000 transaction: 778899. Do not share. SBI",
+   "expect": {
+    "class": "drop",
+    "dropReason": "otp_security"
+   }
+  },
+  {
+   "id": "adv_0192",
+   "kind": "sms",
+   "packageKey": null,
+   "sender": null,
+   "text": "FLAT 50% OFF on all orders above Rs.500! Order now on Swiggy. Offer valid today only.",
+   "expect": {
+    "class": "drop",
+    "dropReason": "promo_marketing"
+   }
+  },
+  {
+   "id": "adv_0193",
+   "kind": "sms",
+   "packageKey": null,
+   "sender": null,
+   "text": "Congratulations! You have won a Rs.10000 prize. Click now to claim your reward.",
+   "expect": {
+    "class": "drop",
+    "dropReason": "promo_marketing"
+   }
+  },
+  {
+   "id": "adv_0194",
+   "kind": "sms",
+   "packageKey": null,
+   "sender": null,
+   "text": "Amazon Great Indian Sale - deal of the day: up to 80% discount!",
+   "expect": {
+    "class": "drop",
+    "dropReason": "promo_marketing"
+   }
+  },
+  {
+   "id": "adv_0196",
+   "kind": "sms",
+   "packageKey": null,
+   "sender": null,
+   "text": "Reply STOP to unsubscribe from these offers.",
+   "expect": {
+    "class": "drop",
+    "dropReason": "promo_marketing"
+   }
+  },
+  {
+   "id": "adv_0197",
+   "kind": "sms",
+   "packageKey": null,
+   "sender": "VM-HDFCBK",
+   "text": "Dear Customer, your KYC is pending. Please visit your branch.",
+   "expect": {
+    "class": "drop",
+    "dropReason": "no_parser_match"
+   }
+  },
+  {
+   "id": "adv_0198",
+   "kind": "sms",
+   "packageKey": null,
+   "sender": null,
+   "text": "Mom called, call back when free",
+   "expect": {
+    "class": "drop",
+    "dropReason": "no_parser_match"
+   }
+  },
+  {
+   "id": "adv_0199",
+   "kind": "sms",
+   "packageKey": null,
+   "sender": null,
+   "text": "UPI transaction failed. Please retry after some time.",
+   "expect": {
+    "class": "drop",
+    "dropReason": "no_parser_match"
+   }
+  },
+  {
+   "id": "adv_0200",
+   "kind": "sms",
+   "packageKey": null,
+   "sender": "VM-ICICIB",
+   "text": "Your A/c XX1234 will be credited with salary on 1st of next month.",
+   "expect": {
+    "class": "drop",
+    "dropReason": "no_parser_match"
+   }
+  },
+  {
+   "id": "adv_0201",
+   "kind": "sms",
+   "packageKey": null,
+   "sender": "VM-HDFCBK",
+   "text": "Transaction of Rs.500 at SWIGGY using card ending 4321",
+   "expect": {
+    "class": "drop",
+    "dropReason": "no_parser_match"
+   }
+  },
+  {
+   "id": "adv_0202",
+   "kind": "sms",
+   "packageKey": null,
+   "sender": "VM-SBI",
+   "text": "Your account balance is Rs.12,345.67 as on 27-10-26.",
+   "expect": {
+    "class": "drop",
+    "dropReason": "no_parser_match"
+   }
+  },
+  {
+   "id": "adv_0203",
+   "kind": "sms",
+   "packageKey": null,
+   "sender": "VM-AXISBK",
+   "text": "EMI reminder: Rs.2,450 due on 05-11-26 from A/c 12345.",
+   "expect": {
+    "class": "drop",
+    "dropReason": "no_parser_match"
+   }
+  },
+  {
+   "id": "adv_0205",
+   "kind": "sms",
+   "packageKey": null,
+   "sender": "VM-ICICIB",
+   "text": "Rs.350 debited from A/c XX1234 on 27-10-26.",
+   "expect": {
+    "class": "pending",
+    "amountPaise": 35000,
+    "direction": "debit",
+    "merchantClean": "Unknown",
+    "confidenceMin": 0.7,
+    "parserId": "icici",
+    "occurredAtIsoDate": "2026-10-27"
+   }
+  },
+  {
+   "id": "adv_0206",
+   "kind": "sms",
+   "packageKey": null,
+   "sender": "VM-BARDBKB",
+   "text": "Rs.350 debited from A/c 1234567890 on 27-10-26 (UPI Ref: 412345678901).",
+   "expect": {
+    "class": "pending",
+    "amountPaise": 35000,
+    "direction": "debit",
+    "merchantClean": "Unknown",
+    "confidenceMin": 0.7,
+    "parserId": "bob",
+    "hasRef": true,
+    "occurredAtIsoDate": "2026-10-27"
+   }
+  },
+  {
+   "id": "adv_0207",
+   "kind": "sms",
+   "packageKey": null,
+   "sender": null,
+   "text": "₹१५० का भुगतान SWIGGY को भेजा गया via UPI",
+   "expect": {
+    "class": "pending",
+    "amountPaise": 15000,
+    "direction": "debit",
+    "merchantClean": "Unknown",
+    "confidenceMin": 0.65,
+    "parserId": "generic_upi",
+    "hasVpa": false,
+    "occurredAtIsoDate": "2026-10-27"
+   }
+  },
+  {
+   "id": "adv_0208",
+   "kind": "sms",
+   "packageKey": null,
+   "sender": null,
+   "text": "Paid Rs.120 to RAMESH KIRANA via BHIM UPI",
+   "expect": {
+    "class": "pending",
+    "amountPaise": 12000,
+    "direction": "debit",
+    "merchantClean": "Ramesh Kirana",
+    "confidenceMin": 0.65,
+    "parserId": "generic_upi",
+    "hasVpa": false,
+    "occurredAtIsoDate": "2026-10-27"
+   }
+  },
+  {
+   "id": "adv_0209",
+   "kind": "sms",
+   "packageKey": null,
+   "sender": null,
+   "text": "₹500 received from PRIYA SHARMA via UPI",
+   "expect": {
+    "class": "pending",
+    "amountPaise": 50000,
+    "direction": "credit",
+    "merchantClean": "Priya Sharma",
+    "confidenceMin": 0.65,
+    "parserId": "generic_upi",
+    "hasVpa": false,
+    "occurredAtIsoDate": "2026-10-27"
+   }
+  },
+  {
+   "id": "adv_0213",
+   "kind": "sms",
+   "packageKey": null,
+   "sender": "VM-HDFCBK",
+   "text": "Avl Bal Rs.45,000. Rs.250 debited from A/c XX11 on 27-10-26 REF 512345678 SWIGGY.",
+   "expect": {
+    "class": "auto",
+    "amountPaise": 25000,
+    "direction": "debit",
+    "merchantClean": "Swiggy",
+    "confidenceMin": 0.85,
+    "parserId": "hdfc",
+    "hasRef": true,
+    "occurredAtIsoDate": "2026-10-27"
+   }
+  },
+  {
+   "id": "adv_0214",
+   "kind": "sms",
+   "packageKey": null,
+   "sender": "VM-HDFCBK",
+   "text": "Rs.1,2,34,567.00 debited from A/c XX9988 on 27-10-26 REF 515151515151 LUXURY CARS PVT LTD.",
+   "expect": {
+    "class": "auto",
+    "amountPaise": 123456700,
+    "direction": "debit",
+    "merchantClean": "Luxury Cars",
+    "confidenceMin": 0.85,
+    "parserId": "hdfc",
+    "hasRef": true,
+    "occurredAtIsoDate": "2026-10-27"
+   }
+  },
+  {
+   "id": "adv_0215",
+   "kind": "sms",
+   "packageKey": null,
+   "sender": "VM-HDFCBK",
+   "text": "Rs.15,000.00 credited to A/c XX5678 on 27-10-26 REF 512345678901 SALARY OCTOBER.",
+   "expect": {
+    "class": "auto",
+    "amountPaise": 1500000,
+    "direction": "credit",
+    "merchantClean": "Salary October",
+    "confidenceMin": 0.85,
+    "parserId": "hdfc",
+    "hasRef": true,
+    "occurredAtIsoDate": "2026-10-27"
+   }
+  },
+  {
+   "id": "adv_0220",
+   "kind": "sms",
+   "packageKey": null,
+   "sender": "VM-SBI",
+   "text": "Your A/c XX1234 debited on 27-10-26 for Rs.72.50 by UBER INDIA (UPI Ref No 412345678901).",
+   "expect": {
+    "class": "auto",
+    "amountPaise": 7250,
+    "direction": "debit",
+    "merchantClean": "Uber",
+    "confidenceMin": 0.85,
+    "parserId": "sbi",
+    "hasRef": true,
+    "occurredAtIsoDate": "2026-10-27"
+   }
+  },
+  {
+   "id": "adv_0221",
+   "kind": "sms",
+   "packageKey": null,
+   "sender": "VM-ICICIB",
+   "text": "Your A/c XX1234 debited for Rs.399 on 27-10-26. Info: HOTSTAR. UPI:512345678901.",
+   "expect": {
+    "class": "auto",
+    "amountPaise": 39900,
+    "direction": "debit",
+    "merchantClean": "Hotstar",
+    "confidenceMin": 0.85,
+    "parserId": "icici",
+    "hasRef": true,
+    "occurredAtIsoDate": "2026-10-27"
+   }
+  },
+  {
+   "id": "adv_0222",
+   "kind": "sms",
+   "packageKey": null,
+   "sender": "VM-KOTAKB",
+   "text": "Rs.55 debited from A/c 123456 on 27-10-26 towards CHAI POINT. Avl Bal Rs.4,321.00.",
+   "expect": {
+    "class": "auto",
+    "amountPaise": 5500,
+    "direction": "debit",
+    "merchantClean": "Chai Point",
+    "confidenceMin": 0.85,
+    "parserId": "kotak",
+    "occurredAtIsoDate": "2026-10-27"
+   }
+  },
+  {
+   "id": "adv_0223",
+   "kind": "sms",
+   "packageKey": null,
+   "sender": "VM-PNBIND",
+   "text": "Rs.2,500 debited from your A/c 1234567890 on 27-10-26 UPI Ref 412345678901 AVENUE SUPERMARTS LTD.",
+   "expect": {
+    "class": "auto",
+    "amountPaise": 250000,
+    "direction": "debit",
+    "merchantClean": "DMart",
+    "confidenceMin": 0.85,
+    "parserId": "pnb",
+    "hasRef": true,
+    "occurredAtIsoDate": "2026-10-27"
+   }
+  },
+  {
+   "id": "adv_0224",
+   "kind": "sms",
+   "packageKey": null,
+   "sender": "VM-BARDBKB",
+   "text": "Rs.148.00 debited from A/c 1234567890 on 27-10-26 (UPI Ref: 412345678901) ZEPTO TECHNOLOGIES PVT LTD.",
+   "expect": {
+    "class": "auto",
+    "amountPaise": 14800,
+    "direction": "debit",
+    "merchantClean": "Zepto",
+    "confidenceMin": 0.85,
+    "parserId": "bob",
+    "hasRef": true,
+    "occurredAtIsoDate": "2026-10-27"
+   }
+  },
+  {
+   "id": "adv_0225",
+   "kind": "sms",
+   "packageKey": null,
+   "sender": "VM-AXISBK",
+   "text": "Rs.75 debited from A/c 12345 on 27-10-26 UPI Ref 412345678901 NAMMA YATRI.",
+   "expect": {
+    "class": "auto",
+    "amountPaise": 7500,
+    "direction": "debit",
+    "merchantClean": "Namma Yatri",
+    "confidenceMin": 0.85,
+    "parserId": "axis",
+    "hasRef": true,
+    "occurredAtIsoDate": "2026-10-27"
+   }
+  },
+  {
+   "id": "adv_0228",
+   "kind": "sms",
+   "packageKey": null,
+   "sender": "VM-HDFCBK",
+   "text": "Rs.249 spent on A/c **1234 on 27-10-26 REF 512345678 STARBUCKS.",
+   "expect": {
+    "class": "auto",
+    "amountPaise": 24900,
+    "direction": "debit",
+    "merchantClean": "Starbucks",
+    "confidenceMin": 0.85,
+    "parserId": "hdfc",
+    "hasRef": true,
+    "occurredAtIsoDate": "2026-10-27"
+   }
+  },
+  {
+   "id": "adv_0229",
+   "kind": "sms",
+   "packageKey": null,
+   "sender": "VM-PAYTMB",
+   "text": "Rs.200 debited from Paytm Payments Bank A/c XX11 on 27-10-26 UPI:512345678901.",
+   "expect": {
+    "class": "pending",
+    "amountPaise": 20000,
+    "direction": "debit",
+    "merchantClean": "Unknown",
+    "confidenceMin": 0.7,
+    "parserId": "paytm",
+    "occurredAtIsoDate": "2026-10-27"
+   }
+  },
+  {
+   "id": "adv_0230",
+   "kind": "sms",
+   "packageKey": null,
+   "sender": "VM-HDFCBK",
+   "text": "Rs.99 debited from A/c XX11 on 27-10-26 REF 512345678 PAYTM FASTAG.",
+   "expect": {
+    "class": "auto",
+    "amountPaise": 9900,
+    "direction": "debit",
+    "merchantClean": "Paytm Fastag",
+    "confidenceMin": 0.85,
+    "parserId": "hdfc",
+    "hasRef": true,
+    "occurredAtIsoDate": "2026-10-27"
+   }
+  },
+  {
+   "id": "adv_0231",
+   "kind": "sms",
+   "packageKey": null,
+   "sender": "VM-KOTAKB",
+   "text": "Rs.60 debited from your CR A/c 123456 on 27-10-26. Ref 512345678901.",
+   "expect": {
+    "class": "pending",
+    "amountPaise": 6000,
+    "direction": "debit",
+    "merchantClean": "Unknown",
+    "confidenceMin": 0.7,
+    "parserId": "kotak",
+    "hasRef": true,
+    "occurredAtIsoDate": "2026-10-27"
+   }
+  },
+  {
+   "id": "adv_0232",
+   "kind": "sms",
+   "packageKey": null,
+   "sender": "VM-ICICIB",
+   "text": "Your A/c XX1234 credited for Rs.25,000.00 on 27-10-26. Info: GOOGLE INDIA PVT LTD. UPI:512345678901.",
+   "expect": {
+    "class": "auto",
+    "amountPaise": 2500000,
+    "direction": "credit",
+    "merchantClean": "Google",
+    "confidenceMin": 0.85,
+    "parserId": "icici",
+    "hasRef": true,
+    "occurredAtIsoDate": "2026-10-27"
+   }
+  },
+  {
+   "id": "adv_0233",
+   "kind": "sms",
+   "packageKey": null,
+   "sender": "VM-SBI",
+   "text": "Your A/c XX1234 credited on 27-10-26 for Rs.1,100 by FLIPKART SERVICES (Ref No 412345678901).",
+   "expect": {
+    "class": "auto",
+    "amountPaise": 110000,
+    "direction": "credit",
+    "merchantClean": "Flipkart",
+    "confidenceMin": 0.85,
+    "parserId": "sbi",
+    "hasRef": true,
+    "occurredAtIsoDate": "2026-10-27"
+   }
+  },
+  {
+   "id": "adv_0234",
+   "kind": "sms",
+   "packageKey": null,
+   "sender": null,
+   "text": "Rs.45 paid to RAMESH GENERAL STORE via UPI",
+   "expect": {
+    "class": "pending",
+    "amountPaise": 4500,
+    "direction": "debit",
+    "merchantClean": "Ramesh General",
+    "confidenceMin": 0.65,
+    "parserId": "generic_upi",
+    "hasVpa": false,
+    "occurredAtIsoDate": "2026-10-27"
+   }
+  },
+  {
+   "id": "adv_0236",
+   "kind": "sms",
+   "packageKey": null,
+   "sender": "VM-HDFCBK",
+   "text": "Rs.999.99 debited from A/c **1234 on 27-10-26 REF 512345678901 MYNTRA. Avl Bal Rs.1,000.00.",
+   "expect": {
+    "class": "auto",
+    "amountPaise": 99999,
+    "direction": "debit",
+    "merchantClean": "Myntra",
+    "confidenceMin": 0.85,
+    "parserId": "hdfc",
+    "hasRef": true,
+    "occurredAtIsoDate": "2026-10-27"
+   }
+  },
+  {
+   "id": "adv_0237",
+   "kind": "sms",
+   "packageKey": null,
+   "sender": "VM-AXISBK",
+   "text": "Rs.4,000 credited to A/c 12345 on 27-10-26 Ref 412345678901 AMAZON PAY INDIA.",
+   "expect": {
+    "class": "auto",
+    "amountPaise": 400000,
+    "direction": "credit",
+    "merchantClean": "Amazon Pay",
+    "confidenceMin": 0.85,
+    "parserId": "axis",
+    "hasRef": true,
+    "occurredAtIsoDate": "2026-10-27"
+   }
+  },
+  {
+   "id": "adv_0238",
+   "kind": "sms",
+   "packageKey": null,
+   "sender": "VM-BARDBKB",
+   "text": "Rs.30 debited from A/c 1234567890 on 27-10-26 (UPI Ref: 412345678901) BSES YAMUNA. Avl Bal Rs.9,999.",
+   "expect": {
+    "class": "auto",
+    "amountPaise": 3000,
+    "direction": "debit",
+    "merchantClean": "BSES Yamuna",
+    "confidenceMin": 0.85,
+    "parserId": "bob",
+    "hasRef": true,
+    "occurredAtIsoDate": "2026-10-27"
+   }
+  },
+  {
+   "id": "adv_0241",
+   "kind": "sms",
+   "packageKey": null,
+   "sender": null,
+   "text": "Rs.210 debited via UPI to vendor",
+   "expect": {
+    "class": "pending",
+    "amountPaise": 21000,
+    "direction": "debit",
+    "merchantClean": "Unknown",
+    "confidenceMin": 0.65,
+    "parserId": "generic_upi",
+    "hasVpa": false,
+    "occurredAtIsoDate": "2026-10-27"
+   }
+  },
+  {
+   "id": "adv_0242",
+   "kind": "sms",
+   "packageKey": null,
+   "sender": "VM-HDFCBK",
+   "text": "INR 350 debited from A/c XX1234 on 27-10-26 REF 512345678 AIRTEL.",
+   "expect": {
+    "class": "auto",
+    "amountPaise": 35000,
+    "direction": "debit",
+    "merchantClean": "Airtel",
+    "confidenceMin": 0.85,
+    "parserId": "hdfc",
+    "hasRef": true,
+    "occurredAtIsoDate": "2026-10-27"
+   }
+  },
+  {
+   "id": "adv_0243",
+   "kind": "sms",
+   "packageKey": null,
+   "sender": "VM-HDFCBK",
+   "text": "Rs 45 debited from A/c XX1234 on 27-10-26 REF 512345678 SPOTIFY.",
+   "expect": {
+    "class": "auto",
+    "amountPaise": 4500,
+    "direction": "debit",
+    "merchantClean": "Spotify",
+    "confidenceMin": 0.85,
+    "parserId": "hdfc",
+    "hasRef": true,
+    "occurredAtIsoDate": "2026-10-27"
+   }
+  },
+  {
+   "id": "adv_0245",
+   "kind": "sms",
+   "packageKey": null,
+   "sender": "VM-HDFCBK",
+   "text": "Your A/c **1234 debited Rs.88 on 27-10-26 REF 512345678 CAFE COFFEE DAY.",
+   "expect": {
+    "class": "auto",
+    "amountPaise": 8800,
+    "direction": "debit",
+    "merchantClean": "CCD",
+    "confidenceMin": 0.85,
+    "parserId": "hdfc",
+    "hasRef": true,
+    "occurredAtIsoDate": "2026-10-27"
+   }
+  },
+  {
+   "id": "adv_0250",
+   "kind": "sms",
+   "packageKey": null,
+   "sender": "VM-PNBIND",
+   "text": "Rs.900 credited to your A/c 1234567890 on 27-10-26 Ref 412345678901 VI RECHARGE.",
+   "expect": {
+    "class": "auto",
+    "amountPaise": 90000,
+    "direction": "credit",
+    "merchantClean": "VI Recharge",
+    "confidenceMin": 0.85,
+    "parserId": "pnb",
+    "hasRef": true,
+    "occurredAtIsoDate": "2026-10-27"
+   }
+  }
+ ]
+}

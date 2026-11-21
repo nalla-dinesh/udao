@@ -1,0 +1,13 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!--
+      PLAY flavor overlay: inherits everything from src/main and
+      deliberately adds NOTHING.
+
+      This manifest exists to make the policy position explicit and
+      greppable: the Play-distributed build requests no SMS access and
+      no network access of any kind (see ADR-0001, ADR-0002 and the CI
+      permission audit in tools/bootstrap.sh).
+    -->
+
+</manifest>

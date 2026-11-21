@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Pre-engine window background: solid, theme-aware via @color/launch_bg
+     (day: #F7F5F0 ink paper, night: #0B0C10 ink). -->
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@color/launch_bg" />
+</layer-list>

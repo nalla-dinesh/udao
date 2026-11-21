@@ -1,0 +1,53 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!--
+      POWER FLAVOR ONLY — NEVER SHIPPED TO GOOGLE PLAY.
+
+      Adds bank-SMS capture so UDAO can parse transactional SMS that
+      never generate notifications (small UPI debits below bank SMS
+      thresholds are rare, but statement-grade coverage needs SMS).
+
+      Why this is sideload-only (ADR-0002):
+        Google Play's SMS policy restricts RECEIVE_SMS/READ_SMS to a
+        narrow exception set ("SMS-based money management" / call
+        handling / etc.) with declaration + review. UDAO's Play flavor
+        ships notification-only capture instead — cleaner review, no
+        risk to the listing. The power flavor serves power users who
+        sideload from GitHub/F-Droid and explicitly grant SMS access
+        at runtime (runtime permission flow arrives in Phase 04).
+
+      The INTERNET permission is NOT added here either — power is just
+      as offline as play.
+    -->
+    <uses-permission android:name="android.permission.RECEIVE_SMS" />
+    <uses-permission android:name="android.permission.READ_SMS" />
+    <!--
+      Phase 05 T3 (ADR-0002/0006): power flavor ONLY. Allows the
+      direct ACTION_REQUEST_IGNORE_BATTERY_OPTIMIZATIONS system
+      dialog for capture reliability on aggressive OEMs. Play
+      policy restricts this permission, so the play flavor does
+      NOT declare it — play users get the battery-optimization
+      LIST screen instead (equally functional, one extra tap).
+    -->
+    <uses-permission android:name="android.permission.REQUEST_IGNORE_BATTERY_OPTIMIZATIONS" />
+
+    <application>
+        <!--
+          Phase 04 T1: transactional-SMS capture. Exported because the
+          system is the broadcaster; the SMS_RECEIVED broadcast itself
+          is only delivered to apps holding RECEIVE_SMS (declared
+          above). All admission logic lives in SmsGate (main source
+          set, unit-tested); this receiver is Telephony glue only.
+          No live-sink push — WAL first, replay owns the rest (the
+          engine is normally dead when an SMS lands).
+        -->
+        <receiver
+            android:name="in.udao.app.capture.UdaoSmsReceiver"
+            android:exported="true">
+            <intent-filter android:priority="999">
+                <action android:name="android.provider.Telephony.SMS_RECEIVED" />
+            </intent-filter>
+        </receiver>
+    </application>
+
+</manifest>

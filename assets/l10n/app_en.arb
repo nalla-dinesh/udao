@@ -1,0 +1,641 @@
+{
+  "@@locale": "en",
+  "aajEmptyBody": "The moment your first rupee flies, it shows up here.",
+  "aajEmptyTitle": "Nothing yet today",
+  "appName": "UDAO",
+  "chatEmptyBody": "Talk to UDAO — accounting with attitude.",
+  "chatEmptyTitle": "Cat got your tongue?",
+  "emptyAction": "Let us begin",
+  "gapAllGoodBody": "No capture gaps detected in the last two weeks.",
+  "gapAllGoodTitle": "All clear",
+  "gapBaselineCopy": "Your baseline: {baseline} captured payments/day (active days, last 30).",
+  "gapImportCta": "Import a statement",
+  "gapIntroCopy": "This week something looks missed — {silentDays} day(s) with no captured payments. Check?",
+  "gapListenerBody": "No notification-source payments for {hours}h while SMS still arrives — the notification listener is probably off.",
+  "gapListenerCta": "Check the listener",
+  "gapListenerTitle": "Listener looks stuck",
+  "gapSilenceBody": "Some weekdays show zero captured payments while your baseline says that is unusual. A statement import fills those days.",
+  "gapSilenceTitle": "Silent days",
+  "gapTitle": "Missed something?",
+  "gapWeeklyCopy": "This week something looks missed — tap to check.",
+  "gateAndroid15Note": "On Android 15 sideloaded installs, one extra confirmation appears — that is normal.",
+  "gateCapturedChip": "Captured!",
+  "gateDoneCta": "Done — continue",
+  "gateOpenCta": "Open notification access",
+  "gatePrimeBody": "UDAO reads bank and UPI app notifications and builds the ledger itself. Everything stays encrypted, on your phone only.",
+  "gatePrimeTitle": "Let UDAO count your money",
+  "gateReturnedNote": "Access is still off — find \"UDAO Capture\" in the list and switch it on.",
+  "gateStatusListening": "Capture ON — listening",
+  "gateStatusNever": "Nothing captured yet",
+  "gateStatusOff": "Capture is still OFF",
+  "gateTestBody": "Make a tiny payment now — 30-second monitor.",
+  "gateTestHint": "Send ₹1 via GPay or PhonePe",
+  "gateTestTitle": "Test flight",
+  "gateTitle": "Notification access",
+  "importConfirmCta": "Add {count} transactions",
+  "importCsvBlurb": "Pick a UDAO-exported CSV to restore or merge a backup.",
+  "importDoneSummary": "{inserted} added, {dups} duplicates skipped.",
+  "importDupExplainer": "Duplicates (by reference, fingerprint, or same-day match) are skipped automatically — overlapping ranges never double-count.",
+  "importDupFingerprint": "dup",
+  "importDupFuzzy": "dup (that day)",
+  "importDupInSet": "dup (in file)",
+  "importDupRef": "dup (ref)",
+  "importErrCsvRead": "Could not read this CSV.",
+  "importErrGeneric": "Something went wrong reading this file.",
+  "importErrPdfOpen": "Could not open this PDF.",
+  "importErrUnsupportedBank": "This bank is not supported yet (HDFC, SBI, ICICI, Axis, Kotak).",
+  "importErrUnsupportedCsv": "Not a UDAO-exported CSV.",
+  "importErrWrite": "The import was rolled back — nothing was written.",
+  "importPasswordHint": "PDF password",
+  "importPasswordOpen": "Open statement",
+  "importPasswordTitle": "Statement password",
+  "importPdfBlurb": "Pick a bank-statement PDF (HDFC, SBI, ICICI, Axis, Kotak). Password-protected files open in memory only — the password is never saved.",
+  "importPickCta": "Choose file",
+  "importPickFailed": "Could not open the picker.",
+  "importRowsHeader": "Rows",
+  "importSkippedHeader": "Skipped lines",
+  "importStatDup": "Duplicates",
+  "importStatNew": "New",
+  "importStatSkipped": "Skipped",
+  "importTitle": "Import statement",
+  "khelEmptyBody": "The Chindi Ladder unlocks in Phase 07.",
+  "khelEmptyTitle": "The game is yet to begin",
+  "ledgerEmptyBody": "Not a single entry — either you are a saint or beyond saving.",
+  "ledgerEmptyTitle": "Empty ledger",
+  "navAaj": "Today",
+  "navChat": "Chat",
+  "navKhel": "Play",
+  "navLedger": "Ledger",
+  "navSettings": "Settings",
+  "obBack": "Back",
+  "obBrandTagline": "Watch your money fly. You will get laughs AND sense.",
+  "obDone": "Start",
+  "obDoneMessage": "Setup done. Now live your life — UDAO keeps the books.",
+  "obHowCaptureBody": "Payment notifications get caught automatically — you do nothing.",
+  "obHowCaptureTitle": "Silent Capture",
+  "obHowKhelBody": "Climb the Chindi Ladder, build streaks, earn badges.",
+  "obHowKhelTitle": "The Game",
+  "obHowRoastBody": "A verdict every evening: honest, and a bit too blunt.",
+  "obHowRoastTitle": "Roast Engine",
+  "obHowTitle": "How this works",
+  "obNameHint": "Like: Dinesh",
+  "obNameTitle": "Tell me your name (optional)",
+  "obNext": "Next",
+  "obNotifBody": "UDAO needs notification access to catch payments and deliver the evening roast. Everything stays on your phone — nothing is uploaded, ever.",
+  "obNotifCta": "I will allow",
+  "obNotifDemoBody": "Rs 420 flew away today. 15 percent of your GDP, in the name of chai.",
+  "obNotifDemoTitle": "It will look like this",
+  "obNotifLater": "Later",
+  "obNotifTitle": "Notifications for the verdict",
+  "obPersonalityTitle": "Pick your personality",
+  "personalityHype": "Hype",
+  "personalityHypeDesc": "Save money, get hyped.",
+  "personalitySavage": "Savage",
+  "personalitySavageDesc": "Default. Unfiltered roast.",
+  "personalitySensei": "Sensei",
+  "personalitySenseiDesc": "Wisdom, condensed.",
+  "personalitySilent": "Silent",
+  "personalitySilentDesc": "Just numbers, no drama.",
+  "quickAddBillBlurb": "Photograph a bill — offline OCR fills the form, you confirm.",
+  "quickAddBillCta": "Open bill",
+  "quickAddBillTab": "Bill",
+  "quickAddBoloBlurb": "Say it: \"sawa sau auto ka\" — we turn it into a transaction you confirm.",
+  "quickAddBoloTab": "Bolo",
+  "quickAddConfirmQuestion": "Is this right? ₹{amount} · {merchant}",
+  "quickAddFabLabel": "Add",
+  "quickAddLikhoTab": "Type",
+  "quickAddListening": "Listening…",
+  "quickAddMerchantLabel": "Merchant",
+  "quickAddMicCta": "Start speaking",
+  "quickAddSaveCta": "Save",
+  "quickAddSaveFailed": "Could not save.",
+  "quickAddSaved": "Saved.",
+  "quickAddTitle": "Quick add",
+  "quickAddUnknownWords": "Not understood: {words}",
+  "quickAddVoiceHeardNothing": "Nothing was heard. Try again?",
+  "quickAddVoiceNoAmount": "Could not hear an amount. Try again?",
+  "quickAddVoiceUnavailable": "No speech service on this phone.",
+  "receiptAmountInvalid": "Enter a valid amount first.",
+  "receiptAmountLabel": "Amount",
+  "receiptCameraCta": "Photograph the bill",
+  "receiptConfirmCta": "Add to ledger",
+  "receiptCredit": "Refund / in",
+  "receiptDebit": "Spent",
+  "receiptDupWarning": "Heads up: the same amount at the same shop already exists today. Add anyway if this is a different bill.",
+  "receiptGalleryCta": "Pick from gallery",
+  "receiptMerchantLabel": "Shop / merchant",
+  "receiptOcrFailed": "Could not read the receipt.",
+  "receiptOfflineNote": "OCR runs fully on your phone — the photo never leaves the device, and only a smaller encrypted copy is kept.",
+  "receiptSaveFailed": "Could not save.",
+  "receiptSaved": "Added {amount}",
+  "receiptToday": "Today",
+  "receiptYesterday": "Yesterday",
+  "settingsCaptureLast": "Last event",
+  "settingsCaptureOff": "Notification capture OFF",
+  "settingsCaptureOn": "Notification capture ON",
+  "settingsCaptureTile": "Capture",
+  "settingsEmptyBody": "Full control arrives in Phase 07. Check the theme showcase meanwhile.",
+  "settingsEmptyTitle": "Settings on the way",
+  "settingsGapTile": "Gap check",
+  "settingsImportTile": "Import statement",
+  "settingsShowcaseTile": "Theme showcase",
+  "settingsSmsTile": "SMS capture (power)",
+  "settingsTitle": "Settings",
+  "settingsToolsSection": "Tools",
+  "settingsVersion": "UDAO v0.1.0",
+  "shareAction": "Share",
+  "showcaseSectionButtons": "Buttons",
+  "showcaseSectionCards": "Cards",
+  "showcaseSectionColors": "Colors",
+  "showcaseSectionFeedback": "Feedback",
+  "showcaseSectionGame": "Game",
+  "showcaseSectionMoney": "Money",
+  "showcaseSectionNav": "Nav",
+  "showcaseSectionRoast": "Roast",
+  "showcaseSectionStats": "Stats",
+  "showcaseSectionTypography": "Typography",
+  "showcaseTitle": "Theme Showcase",
+  "showcaseToggleTheme": "Flip theme",
+  "smsGateAllowCta": "Allow SMS access",
+  "smsGateFactOffline": "Nothing leaves the phone. Ever.",
+  "smsGateFactOtp": "OTPs are dropped too — even from your bank. Never stored, never logged.",
+  "smsGateFactPromo": "Promos and marketing die at the gate.",
+  "smsGateFactRead": "Only transactional senders (VM-HDFCBK style) are read; everything else is dropped before storage.",
+  "smsGateFactRetention": "Raw SMS text lives 24 hours in an encrypted file, then it is gone; only the parsed transaction remains.",
+  "smsGateFactsTitle": "The straight facts",
+  "smsGateGrantedBody": "No test flight here — an SMS cannot be triggered on demand. Your next real bank SMS will show up in the ledger.",
+  "smsGateGrantedTitle": "Bank SMS capture is ON",
+  "smsGateOffBody": "The Play build of UDAO never reads SMS — notification capture only. The power build (sideloaded) adds bank-SMS capture.",
+  "smsGateOffTitle": "SMS is off in this build",
+  "smsGateOpenSettings": "Open system settings",
+  "smsGatePermDeniedBody": "You denied this permanently. Enable it from system settings.",
+  "smsGatePrimeBody": "Some payments never make a notification. With SMS access, UDAO catches those too — same encrypted ledger, same phone-only rule.",
+  "smsGatePrimeTitle": "Bank SMS se poora hisaab",
+  "smsGateTitle": "SMS capture",
+  "streakUnit": "days",
+  "survivalHealthTitle": "Capture health",
+  "survivalStampSharp": "SHARP",
+  "survivalStampSharpBody": "Ears open, ledger live — everything is landing.",
+  "survivalStampWatch": "PAY ATTENTION",
+  "survivalStampWatchBody": "Listener is connected but quiet for a while — keep an eye.",
+  "survivalStampDead": "OFF",
+  "survivalStampDeadBody": "Notification access is disconnected — UDAO is deaf right now. Fix below.",
+  "survivalLastEvent": "Last captured event: {age} ago",
+  "survivalGapAlertTitle": "Gaps found this week",
+  "survivalGapAlertSilent": "{days} weekday(s) with zero captured payments.",
+  "survivalGapAlertSilentAndStale": "{days} silent weekday(s); notification capture silent for {hours} h.",
+  "survivalGapAlertSeen": "Seen — clear it",
+  "survivalListenerTitle": "Notification listener",
+  "survivalListenerBound": "Bound — system binding is live.",
+  "survivalListenerUnbound": "Not bound — the system binding is missing.",
+  "survivalComponentEnabled": "Service component: enabled",
+  "survivalComponentDisabled": "Service component: DISABLED",
+  "survivalRebindCta": "Rebind",
+  "survivalToggleCta": "Hard rebind (toggle)",
+  "survivalRebindSent": "Rebind request sent — give it a few seconds.",
+  "survivalToggleSent": "Component toggle issued — checking in a moment.",
+  "survivalWatchdogTitle": "Watchdog (30 min)",
+  "survivalWatchdogLastPing": "Last ping: {age} ago",
+  "survivalWatchdogNeverRan": "Watchdog has not run yet — it arms on first app start.",
+  "survivalWatchdogOemNote": "This maker is known to kill background apps — the OEM guide below matters.",
+  "survivalSparkTitle": "Last 7 days",
+  "survivalSparkSubtitle": "Notifications seen per day (ledger counters).",
+  "survivalSparkEmpty": "No capture counters yet — first transactions will show up here.",
+  "survivalStatSeen": "Seen",
+  "survivalStatParsed": "Parsed",
+  "survivalStatDeduped": "Dupes dropped",
+  "survivalKeepAliveTitle": "Keep-alive service (optional)",
+  "survivalKeepAliveOn": "Running — {beats} beats so far.",
+  "survivalKeepAliveOff": "Off — arm it only if capture keeps dying on this phone.",
+  "survivalKeepAliveNote": "Shows a permanent low-priority notice; survives swipe-away; stops only when you say so.",
+  "survivalKeepAliveStart": "Arm keep-alive",
+  "survivalKeepAliveStop": "Stop keep-alive",
+  "survivalKeepAliveStarted": "Keep-alive armed.",
+  "survivalKeepAliveStopped": "Keep-alive stopped.",
+  "survivalBattExemptTitle": "Battery optimization: exempted",
+  "survivalBattExemptBody": "The OS is not throttling UDAO. Nothing to do here.",
+  "survivalBattNotExemptTitle": "Battery optimization: ON (bad for capture)",
+  "survivalBattNotExemptBody": "Doze may defer UDAO in idle. Exempt it: battery settings → UDAO → unrestricted.",
+  "survivalBattPlayNote": "Play build opens the system list — find UDAO there.",
+  "survivalBattDirectCta": "Open direct dialog",
+  "survivalBattListCta": "Open battery list",
+  "survivalBattDetailsCta": "App details",
+  "survivalBattOpened": "Opened — flip the setting there.",
+  "survivalBattOpenFailed": "Could not open — try app details instead.",
+  "survivalDeviceTruthTitle": "What the OS says (right now)",
+  "survivalTruthBatteryOpt": "Battery optimization",
+  "survivalTruthExempt": "exempted",
+  "survivalTruthOptimized": "optimizing (throttling)",
+  "survivalTruthPowerSaver": "Power saver mode",
+  "survivalTruthOn": "ON",
+  "survivalTruthOff": "off",
+  "survivalTruthBackgroundRestricted": "Background restricted",
+  "survivalTruthYes": "yes",
+  "survivalTruthNo": "no",
+  "survivalTruthUnknown": "cannot check on this device",
+  "survivalTruthStandbyBucket": "App standby bucket",
+  "survivalTruthDeviceIdle": "Device in doze (right now)",
+  "survivalExitTitle": "Why the app died before (last 5)",
+  "survivalExitEmpty": "Nothing recorded (Android 11+ keeps this list; all good so far).",
+  "survivalOemTitle": "This phone's maker",
+  "survivalOemDetected": "Detected: {label}",
+  "survivalOemSetupCta": "Open setup guide",
+  "survivalOemSetupTitle": "Survival setup — {label}",
+  "survivalOemSetupSummaryTitle": "Why this phone needs it",
+  "survivalOemStepTitle": "Step {n}",
+  "survivalOemNotesTitle": "Good to know",
+  "survivalOemAckCta": "Done — I set this up",
+  "survivalOemAckDone": "Marked done",
+  "survivalOemAckSaved": "Noted. We will only re-ask after a big change.",
+  "survivalOemLinkOpened": "Opened the OEM screen — flip the setting there.",
+  "survivalOemLinkMissed": "This path does not exist on your version — use the manual steps below.",
+  "survivalOemDkmaNote": "Community-kept reference: {url}",
+  "survivalExportTitle": "Diagnostics export",
+  "survivalExportBody": "Share a JSON summary (counts + states only — never your transaction text).",
+  "survivalExportCta": "Share JSON",
+  "survivalExportFailed": "Export failed — try again.",
+  "survivalBatteryHonesty": "Battery honesty: passive listening costs <1%/day. The optional keep-alive service costs more — it is your call, not ours.",
+  "settingsHealthTile": "Capture health",
+  "chatTitle": {
+    "translation": "UDAO Chat"
+  },
+  "chatPlaceholder": {
+    "translation": "Poochho kuch bhi — paisa, kharcha, roast…"
+  },
+  "chatSendTooltip": {
+    "translation": "Send"
+  },
+  "chatStopTooltip": {
+    "translation": "Stop"
+  },
+  "chatVoiceTooltip": {
+    "translation": "Speak"
+  },
+  "chatAttachTooltip": {
+    "translation": "Attach receipt"
+  },
+  "chatTemplateOnlyBanner": {
+    "translation": "Model absent — seedha-jawab mode on hai. Settings se model import karo."
+  },
+  "chatSuggested1": {
+    "translation": "is mahine kitna kharcha kiya?"
+  },
+  "chatSuggested2": {
+    "translation": "Swiggy pe kitna udaya hai?"
+  },
+  "chatSuggested3": {
+    "translation": "budget bata do"
+  },
+  "chatGuardedChip": {
+    "translation": "softened by guardrail"
+  },
+  "chatCappedChip": {
+    "translation": "tool rounds capped"
+  },
+  "chatClearAll": {
+    "translation": "Clear chat history?"
+  },
+  "chatClearAllBody": {
+    "translation": "All messages are deleted from this device. This cannot be undone."
+  },
+  "chatClearConfirm": {
+    "translation": "Clear"
+  },
+  "chatClearCancel": {
+    "translation": "Keep"
+  },
+  "chatToolChip": {
+    "translation": "→ $name$args · $ms ms",
+    "placeholders": {
+      "args": {
+        "type": "String"
+      },
+      "ms": {
+        "type": "int"
+      },
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "chatPersonaTag": {
+    "translation": "voice: $id",
+    "placeholders": {
+      "id": {
+        "type": "String"
+      }
+    }
+  },
+  "personaStressNotice": {
+    "translation": "Thoda halka mode on kar diya — wapas savage chahiye to bata dena."
+  },
+  "personaStressExit": {
+    "translation": "Savage please"
+  },
+  "aiSettingsTitle": {
+    "translation": "AI settings"
+  },
+  "settingsAiTile": {
+    "translation": "AI / Dimaag"
+  },
+  "aiSettingsModelTitle": {
+    "translation": "On-device model"
+  },
+  "aiSettingsModelAbsent": {
+    "translation": "No model on this device. UDAO runs in template-only mode — roasts and tools still work, free-form chat needs a model."
+  },
+  "aiSettingsTemplateOnlyBody": {
+    "translation": "Import a .task model file (see docs/ai/models.md for exact downloads). The file is validated (size + SHA-256) and stays on this device."
+  },
+  "aiSettingsImportCta": {
+    "translation": "Import model"
+  },
+  "aiSettingsImportDone": {
+    "translation": "Model imported."
+  },
+  "aiSettingsImportFailed": {
+    "translation": "Import failed: $reason",
+    "placeholders": {
+      "reason": {
+        "type": "String"
+      }
+    }
+  },
+  "aiSettingsDeleteCta": {
+    "translation": "Delete model"
+  },
+  "aiSettingsDeleteDone": {
+    "translation": "Model deleted."
+  },
+  "aiSettingsLoadCta": {
+    "translation": "Load model"
+  },
+  "aiSettingsModelLoaded": {
+    "translation": "Model loaded."
+  },
+  "aiSettingsModelLoadFailed": {
+    "translation": "Load failed: $reason",
+    "placeholders": {
+      "reason": {
+        "type": "String"
+      }
+    }
+  },
+  "aiSettingsFileLabel": {
+    "translation": "File"
+  },
+  "aiSettingsSizeLabel": {
+    "translation": "Size"
+  },
+  "aiSettingsShaLabel": {
+    "translation": "SHA-256 (start)"
+  },
+  "aiSettingsStatusLabel": {
+    "translation": "Status"
+  },
+  "aiSettingsStatusLoaded": {
+    "translation": "loaded"
+  },
+  "aiSettingsStatusLoading": {
+    "translation": "loading…"
+  },
+  "aiSettingsStatusReady": {
+    "translation": "ready"
+  },
+  "aiSettingsTierTitle": {
+    "translation": "Device tier"
+  },
+  "aiSettingsTierBody": {
+    "translation": "s RAM suggests tier $tier ($file). Bigger models are never blocked — just slower.\"\n      : ",
+    "placeholders": {
+      "file": {
+        "type": "String"
+      },
+      "tier": {
+        "type": "String"
+      }
+    }
+  },
+  "aiSettingsPreloadTitle": {
+    "translation": "Keep the brain warm"
+  },
+  "aiSettingsPreloadBody": {
+    "translation": "Preload keeps the model in RAM. Battery honest: it costs more. Default off — the model loads on demand and unloads after 5 idle minutes."
+  },
+  "aiSettingsPreloadToggle": {
+    "translation": "Preload"
+  },
+  "aiSettingsTestRoastTitle": {
+    "translation": "Test roast"
+  },
+  "aiSettingsTestRoastBody": {
+    "translation": "Runs one fixed prompt through the active path (template floor or model) and reports latency + estimated tokens."
+  },
+  "aiSettingsTestRoastCta": {
+    "translation": "Run test"
+  },
+  "aiSettingsTestRoastDone": {
+    "translation": "Done in $ms ms · ~$tokens estimated tokens",
+    "placeholders": {
+      "ms": {
+        "type": "int"
+      },
+      "tokens": {
+        "type": "int"
+      }
+    }
+  },
+  "aiSettingsPersonaTitle": {
+    "translation": "Voice"
+  },
+  "aiSettingsPersonaSaved": {
+    "translation": "Voice saved (pinned)."
+  },
+  "aiSettingsPersonaPinBody": {
+    "translation": "Picking from settings pins the voice — the stress auto-switch (Sensei) will not override it."
+  },
+  "aiSettingsLearnedTitle": {
+    "translation": "Learned bank formats"
+  },
+  "aiSettingsLearnedEmpty": {
+    "translation": "Nothing learned yet. When the AI parses an unknown format, its proposed regex appears here for your approval."
+  },
+  "aiSettingsLearnedRow": {
+    "translation": "Regex: $pattern",
+    "placeholders": {
+      "pattern": {
+        "type": "String"
+      }
+    }
+  },
+  "aiSettingsLearnedSample": {
+    "translation": "Learned from: $sample",
+    "placeholders": {
+      "sample": {
+        "type": "String"
+      }
+    }
+  },
+  "aiSettingsLearnedApprove": {
+    "translation": "Save"
+  },
+  "aiSettingsLearnedDismiss": {
+    "translation": "Discard"
+  },
+  "aiSettingsLearnedTestOk": {
+    "translation": "Test: pattern matches its sample"
+  },
+  "aiSettingsLearnedTestFail": {
+    "translation": "Test: pattern does NOT match — discard it"
+  },
+  "aiSettingsTelemetryTitle": {
+    "translation": "AI telemetry (local only)"
+  },
+  "aiSettingsTelemetryBody": {
+    "translation": "Estimated tokens: $tokens · avg latency: $latencyMs ms · tool calls ok/fail: $toolOk/$toolFail · guardrail blocks: $blocks. No message content is ever stored.",
+    "placeholders": {
+      "blocks": {
+        "type": "int"
+      },
+      "latencyMs": {
+        "type": "int"
+      },
+      "tokens": {
+        "type": "int"
+      },
+      "toolFail": {
+        "type": "int"
+      },
+      "toolOk": {
+        "type": "int"
+      }
+    }
+  },
+  "khelTitle": "The Game",
+  "khelStreakLabel": "No-spend streak",
+  "khelLongestLabel": "Best",
+  "khelFreezesLabel": "Freezes",
+  "khelTodayClean": "Clean so far today — the streak breathes. {days} day(s) and counting.",
+  "khelTodaySpent": "Spent ₹{rupees} today — the streak breaks at midnight unless you freeze it.",
+  "khelTodaySpentFrozen": "Spent ₹{rupees} today — but a freeze is committed. The streak survives, it just won’t grow.",
+  "khelFreezeButton": "COMMIT FREEZE",
+  "khelFreezeApplied": "Freeze committed for today",
+  "khelNoFreezes": "No freezes left — earn them via challenges",
+  "khelLadderTitle": "Chindi Ladder",
+  "khelBadgesTitle": "Badges",
+  "khelChallengesTitle": "Challenges",
+  "khelLevel1": "Straight",
+  "khelLevel2": "Wise",
+  "khelLevel3": "Chindi",
+  "khelLevel4": "Miser",
+  "khelLevel5": "Kanjoos",
+  "khelLevel6": "Chindi Samrat",
+  "khelBadgeFirstDay": "First Clean Day",
+  "khelBadgeFirstDayDesc": "One whole day, zero spends.",
+  "khelBadgeL1": "Rung 1 — 3 days",
+  "khelBadgeL1Desc": "Three straight no-spend days.",
+  "khelBadgeL2": "Rung 2 — 7 days",
+  "khelBadgeL2Desc": "A full week of restraint.",
+  "khelBadgeL3": "Rung 3 — 14 days",
+  "khelBadgeL3Desc": "Two weeks. The wallet approves.",
+  "khelBadgeL4": "Rung 4 — 21 days",
+  "khelBadgeL4Desc": "Three weeks of saying no.",
+  "khelBadgeL5": "Rung 5 — 30 days",
+  "khelBadgeL5Desc": "A whole month. Legendary.",
+  "khelBadgeL6": "Rung 6 — 50 days",
+  "khelBadgeL6Desc": "Fifty days. Chindi Samrat.",
+  "khelBadgeComeback": "Comeback",
+  "khelBadgeComebackDesc": "Broke a streak, built a new 3-day one.",
+  "khelBadgeFreeze": "First Freeze",
+  "khelBadgeFreezeDesc": "Used a freeze to save a streak.",
+  "khelBadgeChallenge30": "The 30 Challenge",
+  "khelBadgeChallenge30Desc": "Completed the 30-day challenge.",
+  "khelChallengeLabel": "{current} / {target} days — reward: {reward} freeze(s)",
+  "@khelTodayClean": {
+    "placeholders": {
+      "days": {
+        "type": "int"
+      }
+    }
+  },
+  "@khelTodaySpent": {
+    "placeholders": {
+      "rupees": {
+        "type": "String"
+      }
+    }
+  },
+  "@khelTodaySpentFrozen": {
+    "placeholders": {
+      "rupees": {
+        "type": "String"
+      }
+    }
+  },
+  "@khelChallengeLabel": {
+    "placeholders": {
+      "current": {
+        "type": "int"
+      },
+      "target": {
+        "type": "int"
+      },
+      "reward": {
+        "type": "String"
+      }
+    }
+  },
+  "aajSpentTodayLabel": "Spent today",
+  "aajEntriesChip": "{count} entries",
+  "aajMovementTitle": "Today's movement",
+  "aajYesterdayChip": "vs yesterday",
+  "ledgerTitle": "Ledger",
+  "ledgerDayToday": "Today",
+  "ledgerDayYesterday": "Yesterday",
+  "@aajEntriesChip": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "budgetTitle": "Lakshman Rekha",
+  "budgetSectionCategories": "By category",
+  "budgetEmptyTitle": "Koi rekha nahi",
+  "budgetEmptyBody": "Draw a Lakshman Rekha on your wallet — UDAO will guard it, and roast you if you cross.",
+  "budgetNewTitle": "Nayi rekha",
+  "budgetEditTitle": "Rekha edit",
+  "budgetNewCta": "Nayi rekha",
+  "budgetTargetLabel": "Kahan rekha?",
+  "budgetWalletLabel": "Poora wallet",
+  "budgetLimitLabel": "Kitni? (₹)",
+  "budgetLimitHint": "e.g. 5000",
+  "budgetLimitError": "Rekha ₹0 se upar honi chahiye",
+  "budgetPeriodLabel": "Kis hisaab se",
+  "budgetPeriodWeekly": "Haftewar",
+  "budgetPeriodMonthly": "Mahinewar",
+  "budgetRolloverLabel": "Bacha hua aage le jao",
+  "budgetRolloverSub": "Jo bacha, wo agle period mein jud jayega",
+  "budgetSaveCta": "Rekha lagao",
+  "budgetDeleteCta": "Hatao",
+  "budgetDaysLeft": "{count} din bache",
+  "budgetLeftLabel": "Bacha",
+  "budgetExceededStamp": "REKHA CROSS",
+  "budgetCarryChip": "{amount} pichhle se aaya",
+  "budgetSavedSnack": "Rekha lag gayi",
+  "budgetDeletedSnack": "Rekha hata di",
+  "@budgetDaysLeft": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "@budgetCarryChip": {
+    "placeholders": {
+      "amount": {
+        "type": "String"
+      }
+    }
+  }
+}

@@ -1,0 +1,11 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!--
+      Dev-only overlay: INTERNET is required for the Dart VM service
+      (hot reload / `flutter run` / DevTools). This file is merged ONLY
+      into debug builds — release APKs/AABs of every flavor have NO
+      INTERNET permission. tools/bootstrap.sh audits this.
+    -->
+    <uses-permission android:name="android.permission.INTERNET" />
+
+</manifest>

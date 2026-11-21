@@ -1,0 +1,10 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!--
+      Profile-build-only overlay (flutter run in profile mode): the
+      INTERNET permission is required for the VM service / timeline
+      streaming. Never merged into release.
+    -->
+    <uses-permission android:name="android.permission.INTERNET" />
+
+</manifest>

@@ -1,0 +1,641 @@
+{
+  "@@locale": "hi",
+  "aajEmptyBody": "Jab pehla paisa udga, yahan dikh jayega.",
+  "aajEmptyTitle": "Aaj ka kuch nahi",
+  "appName": "UDAO",
+  "chatEmptyBody": "UDAO se baat kar — gaaliyon wali hisaab kitaab.",
+  "chatEmptyTitle": "Chup hai kya?",
+  "emptyAction": "Chalo shuru karein",
+  "gapAllGoodBody": "Pichhle do hafte koi capture gap nahi mila.",
+  "gapAllGoodTitle": "Sab theek",
+  "gapBaselineCopy": "Tumhara baseline: {baseline} payment/din (active din, pichhle 30).",
+  "gapImportCta": "Statement import karo",
+  "gapIntroCopy": "Is hafte kuch miss hua lag raha hai — {silentDays} din koi payment nahi dikhi. Check kar lein?",
+  "gapListenerBody": "{hours} ghante se notification wala koi payment nahi, jabki SMS aa rahi hai — notification listener shayad band hai.",
+  "gapListenerCta": "Listener check karo",
+  "gapListenerTitle": "Listener atka hua lagta hai",
+  "gapSilenceBody": "Kuch weekdays pe koi payment nahi dikhi jabki tumhara baseline kuch aur kehta hai. Statement import un dinon ko bhar dega.",
+  "gapSilenceTitle": "Chup din",
+  "gapTitle": "Kya miss hua?",
+  "gapWeeklyCopy": "Is hafte kuch miss hua lag raha hai — check kar lein?",
+  "gateAndroid15Note": "Android 15 pe sideload kiya ho to ek extra confirmation dikhega — bilkul normal hai.",
+  "gateCapturedChip": "Pakda gaya!",
+  "gateDoneCta": "Ho gaya — aage badho",
+  "gateOpenCta": "Notification access kholo",
+  "gatePrimeBody": "UDAO bank aur UPI apps ki notifications padhkar khud ledger banata hai. Sab kuch encrypted, sirf tumhare phone mein.",
+  "gatePrimeTitle": "Apne paison ko ginne do",
+  "gateReturnedNote": "Access abhi bhi band hai — list mein \"UDAO Capture\" dhoondo aur ON karo.",
+  "gateStatusListening": "Capture ON — sun raha hai",
+  "gateStatusNever": "Abhi tak kuch nahi pakda gaya",
+  "gateStatusOff": "Capture abhi bhi OFF hai",
+  "gateTestBody": "Ab ek chhota payment karke dekho — 30 second monitor.",
+  "gateTestHint": "GPay ya PhonePe se ₹1 bhejo",
+  "gateTestTitle": "Test flight",
+  "gateTitle": "Notification access",
+  "importConfirmCta": "{count} transaction jodo",
+  "importCsvBlurb": "UDAO se export hua CSV chuno — backup restore ya merge ke liye.",
+  "importDoneSummary": "{inserted} jude, {dups} duplicate chhode.",
+  "importDupExplainer": "Duplicate (reference, fingerprint, ya usi-din ke match se) apne aap chhod diye jaate hain — overlap kabhi double-count nahi hota.",
+  "importDupFingerprint": "dup",
+  "importDupFuzzy": "dup (us din)",
+  "importDupInSet": "dup (file mein)",
+  "importDupRef": "dup (ref)",
+  "importErrCsvRead": "Ye CSV nahi padha gaya.",
+  "importErrGeneric": "File padhne mein kuch galat hua.",
+  "importErrPdfOpen": "Ye PDF nahi khula.",
+  "importErrUnsupportedBank": "Ye bank abhi support nahi (HDFC, SBI, ICICI, Axis, Kotak).",
+  "importErrUnsupportedCsv": "Ye UDAO ka export CSV nahi hai.",
+  "importErrWrite": "Import rollback ho gaya — kuch likha nahi gaya.",
+  "importPasswordHint": "PDF password",
+  "importPasswordOpen": "Statement kholo",
+  "importPasswordTitle": "Statement ka password",
+  "importPdfBlurb": "Bank statement PDF chuno (HDFC, SBI, ICICI, Axis, Kotak). Password wali file sirf memory mein khulti hai — password kabhi save nahi hota.",
+  "importPickCta": "File chuno",
+  "importPickFailed": "Picker nahi khul paaya.",
+  "importRowsHeader": "Rows",
+  "importSkippedHeader": "Chhodi gayi lines",
+  "importStatDup": "Duplicate",
+  "importStatNew": "Naye",
+  "importStatSkipped": "Chhuke",
+  "importTitle": "Statement import",
+  "khelEmptyBody": "Chindi Ladder Phase 07 mein khulta hai.",
+  "khelEmptyTitle": "Khel abhi baaki hai",
+  "ledgerEmptyBody": "Ek bhi entry nahi — ya toh bahut sant hai tu, ya bahut besharam.",
+  "ledgerEmptyTitle": "Khaali kitaab",
+  "navAaj": "Aaj",
+  "navChat": "Chat",
+  "navKhel": "Khel",
+  "navLedger": "Ledger",
+  "navSettings": "Settings",
+  "obBack": "Wapas",
+  "obBrandTagline": "Paise udte dekho. Hasi aur hosh dono aayenge.",
+  "obDone": "Shuru karo",
+  "obDoneMessage": "Setup done. Ab jeeyo apni zindagi, hisaab UDAO sambhalega.",
+  "obHowCaptureBody": "Payment notifications khud pakde jaate hain — tujhe kuch nahi karna.",
+  "obHowCaptureTitle": "Chup-Chaap Capture",
+  "obHowKhelBody": "Chindi Ladder chadho, streak banao, badges jeeto.",
+  "obHowKhelTitle": "Khel",
+  "obHowRoastBody": "Har shaam verdict: seedha-jawab, thoda zyada.",
+  "obHowRoastTitle": "Roast Engine",
+  "obHowTitle": "Ye kaise kaam karta hai",
+  "obNameHint": "Jaise: Dinesh",
+  "obNameTitle": "Naam bata (optional)",
+  "obNext": "Aage",
+  "obNotifBody": "UDAO ko notification access chahiye taaki payments pakde jaayein aur shaam ko roast bhej sake. Sab kuch phone ke andar rehta hai — kahin upload nahi hota.",
+  "obNotifCta": "Allow karunga",
+  "obNotifDemoBody": "Aaj 420 rupaye ud gaye. Chai ke naam par 15 percent GDP.",
+  "obNotifDemoTitle": "Aisa dikhega",
+  "obNotifLater": "Baad mein",
+  "obNotifTitle": "Verdict ke liye notification",
+  "obPersonalityTitle": "Apni personality chun",
+  "personalityHype": "Hype",
+  "personalityHypeDesc": "Bacha toh toffi milegi.",
+  "personalitySavage": "Savage",
+  "personalitySavageDesc": "Default. Bina filter ke roast.",
+  "personalitySensei": "Sensei",
+  "personalitySenseiDesc": "Gyaan ke saar mein.",
+  "personalitySilent": "Silent",
+  "personalitySilentDesc": "Sirf numbers, bina drama.",
+  "quickAddBillBlurb": "Bill ka photo kheencho — offline OCR form bharta hai, tum confirm karo.",
+  "quickAddBillCta": "Bill kholo",
+  "quickAddBillTab": "Bill",
+  "quickAddBoloBlurb": "Bolo: \"sawa sau auto ka\" — hum use transaction bana denge, tum confirm karo.",
+  "quickAddBoloTab": "Bolo",
+  "quickAddConfirmQuestion": "Kya ye sahi hai? ₹{amount} · {merchant}",
+  "quickAddFabLabel": "Jodo",
+  "quickAddLikhoTab": "Likho",
+  "quickAddListening": "Sun rahe hain…",
+  "quickAddMerchantLabel": "Merchant",
+  "quickAddMicCta": "Bolna shuru",
+  "quickAddSaveCta": "Save karo",
+  "quickAddSaveFailed": "Save nahi hua.",
+  "quickAddSaved": "Save ho gaya.",
+  "quickAddTitle": "Turant jodo",
+  "quickAddUnknownWords": "Samajh nahi aaya: {words}",
+  "quickAddVoiceHeardNothing": "Kuch sunayi nahi diya. Phir try karo?",
+  "quickAddVoiceNoAmount": "Rakam samajh nahi aayi. Phir bolo?",
+  "quickAddVoiceUnavailable": "Is phone pe speech service nahi hai.",
+  "receiptAmountInvalid": "Pehle sahi rakam likho.",
+  "receiptAmountLabel": "Rakam",
+  "receiptCameraCta": "Camera se bill ka photo",
+  "receiptConfirmCta": "Ledger mein jodo",
+  "receiptCredit": "Wapsi / aaya",
+  "receiptDebit": "Kharch",
+  "receiptDupWarning": "Dhyan do: aaj usi dukaan pe itna hi amount already hai. Agar alag bill hai to phir bhi jodo.",
+  "receiptGalleryCta": "Gallery se chuno",
+  "receiptMerchantLabel": "Dukaan / merchant",
+  "receiptOcrFailed": "Receipt nahi padh paye.",
+  "receiptOfflineNote": "OCR poora phone pe chalta hai — photo device se bahar nahi jaati, aur sirf chhota encrypted copy rakha jaata hai.",
+  "receiptSaveFailed": "Save nahi ho paya.",
+  "receiptSaved": "{amount} jud gaya",
+  "receiptToday": "Aaj",
+  "receiptYesterday": "Kal",
+  "settingsCaptureLast": "Aakhri event",
+  "settingsCaptureOff": "Notification capture OFF hai",
+  "settingsCaptureOn": "Notification capture ON hai",
+  "settingsCaptureTile": "Capture",
+  "settingsEmptyBody": "Poora control Phase 07 mein milta hai. Abhi theme showcase dekh le.",
+  "settingsEmptyTitle": "Settings aa rahi hai",
+  "settingsGapTile": "Gap check",
+  "settingsImportTile": "Statement import",
+  "settingsShowcaseTile": "Theme showcase",
+  "settingsSmsTile": "SMS capture (power)",
+  "settingsTitle": "Settings",
+  "settingsToolsSection": "Tools",
+  "settingsVersion": "UDAO v0.1.0",
+  "shareAction": "Share",
+  "showcaseSectionButtons": "Buttons",
+  "showcaseSectionCards": "Cards",
+  "showcaseSectionColors": "Colors",
+  "showcaseSectionFeedback": "Feedback",
+  "showcaseSectionGame": "Game",
+  "showcaseSectionMoney": "Money",
+  "showcaseSectionNav": "Nav",
+  "showcaseSectionRoast": "Roast",
+  "showcaseSectionStats": "Stats",
+  "showcaseSectionTypography": "Typography",
+  "showcaseTitle": "Theme Showcase",
+  "showcaseToggleTheme": "Theme badlo",
+  "smsGateAllowCta": "SMS access do",
+  "smsGateFactOffline": "Kuch bhi phone se bahar nahi jaata. Kabhi nahi.",
+  "smsGateFactOtp": "OTP bhi drop hote hain — bank se aaya ho tab bhi. Kabhi store nahi, log nahi.",
+  "smsGateFactPromo": "Promo aur marketing gate par hi mar jaate hain.",
+  "smsGateFactRead": "Sirf transactional senders (VM-HDFCBK jaise) padhe jaate hain; baaki sab storage tak pahunchne se pehle drop.",
+  "smsGateFactRetention": "Raw SMS text 24 ghante encrypted file mein rehta hai, phir mit jaata hai; sirf parse hua transaction bachta hai.",
+  "smsGateFactsTitle": "Seedhi baat",
+  "smsGateGrantedBody": "Yahan test flight nahi — SMS demand pe trigger nahi hota. Agli asli bank SMS ledger mein dikhegi.",
+  "smsGateGrantedTitle": "Bank SMS capture ON hai",
+  "smsGateOffBody": "UDAO ka Play build SMS kabhi nahi padhta — sirf notification capture. Power build (sideload) mein bank-SMS capture milta hai.",
+  "smsGateOffTitle": "Is build mein SMS band hai",
+  "smsGateOpenSettings": "System settings kholo",
+  "smsGatePermDeniedBody": "Aapne hamesha ke liye mana kiya. System settings se enable karo.",
+  "smsGatePrimeBody": "Kuch payments ki notification aati hi nahi. SMS access ke saath UDAO unhe bhi pakad leta hai — wahi encrypted ledger, wahi sirf-phone rule.",
+  "smsGatePrimeTitle": "Bank SMS se poora hisaab",
+  "smsGateTitle": "SMS capture",
+  "streakUnit": "din",
+  "survivalHealthTitle": "Capture sehat",
+  "survivalStampSharp": "SHARP",
+  "survivalStampSharpBody": "Kaan khule hain, ledger chal raha hai — sab land ho raha hai.",
+  "survivalStampWatch": "DHYAN DO",
+  "survivalStampWatchBody": "Listener juda hai par thodi der se chup hai — nazar rakho.",
+  "survivalStampDead": "BAND",
+  "survivalStampDeadBody": "Notification access kata hua hai — UDAO abhi bahra hai. Neeche theek karo.",
+  "survivalLastEvent": "Aakhri capture: {age} pehle",
+  "survivalGapAlertTitle": "Is hafte gap mile",
+  "survivalGapAlertSilent": "{days} din (weekday) par koi payment capture nahi hui.",
+  "survivalGapAlertSilentAndStale": "{days} chup din; notification capture {hours} ghante se chup hai.",
+  "survivalGapAlertSeen": "Dekh liya — hata do",
+  "survivalListenerTitle": "Notification listener",
+  "survivalListenerBound": "Bound — system binding live hai.",
+  "survivalListenerUnbound": "Bound nahi hai — system binding nahi dikh rahi.",
+  "survivalComponentEnabled": "Service component: on hai",
+  "survivalComponentDisabled": "Service component: BAND hai",
+  "survivalRebindCta": "Rebind karo",
+  "survivalToggleCta": "Hard rebind (toggle)",
+  "survivalRebindSent": "Rebind request bhej di — kuch second do.",
+  "survivalToggleSent": "Component toggle ho gaya — abhi check karte hain.",
+  "survivalWatchdogTitle": "Watchdog (30 min)",
+  "survivalWatchdogLastPing": "Aakhri ping: {age} pehle",
+  "survivalWatchdogNeverRan": "Watchdog abhi chala nahi — pehle app start par judta hai.",
+  "survivalWatchdogOemNote": "Ye maker background apps band karne ke liye mashhoor hai — neeche ka OEM guide zaroori hai.",
+  "survivalSparkTitle": "Pichhle 7 din",
+  "survivalSparkSubtitle": "Roz dikhne wale notifications (ledger counters).",
+  "survivalSparkEmpty": "Abhi koi counter nahi — pehli transactions yahan dikhengi.",
+  "survivalStatSeen": "Dikhe",
+  "survivalStatParsed": "Parse hue",
+  "survivalStatDeduped": "Duplicate hate",
+  "survivalKeepAliveTitle": "Keep-alive service (optional)",
+  "survivalKeepAliveOn": "Chal raha hai — ab tak {beats} beat.",
+  "survivalKeepAliveOff": "Band hai — tabhi on karo jab is phone par capture baar-baar band ho.",
+  "survivalKeepAliveNote": "Ek hamesha-wala low-priority notice dikhata hai; swipe-away se bachta hai; sirf tumhare kehne par band hota hai.",
+  "survivalKeepAliveStart": "Keep-alive on karo",
+  "survivalKeepAliveStop": "Keep-alive band karo",
+  "survivalKeepAliveStarted": "Keep-alive on ho gaya.",
+  "survivalKeepAliveStopped": "Keep-alive band ho gaya.",
+  "survivalBattExemptTitle": "Battery optimization: exempt hai",
+  "survivalBattExemptBody": "OS UDAO ko rok nahi raha. Yahan kuch nahi karna.",
+  "survivalBattNotExemptTitle": "Battery optimization: ON (capture ke liye kharab)",
+  "survivalBattNotExemptBody": "Doze mein UDAO defer ho sakta hai. Exempt karo: battery settings → UDAO → unrestricted.",
+  "survivalBattPlayNote": "Play build system list kholta hai — wahan UDAO dhoondo.",
+  "survivalBattDirectCta": "Direct dialog kholo",
+  "survivalBattListCta": "Battery list kholo",
+  "survivalBattDetailsCta": "App details",
+  "survivalBattOpened": "Khul gaya — wahan setting badlo.",
+  "survivalBattOpenFailed": "Nahi khula — app details try karo.",
+  "survivalDeviceTruthTitle": "OS kya kehta hai (abhi)",
+  "survivalTruthBatteryOpt": "Battery optimization",
+  "survivalTruthExempt": "exempt hai",
+  "survivalTruthOptimized": "optimize kar raha hai",
+  "survivalTruthPowerSaver": "Power saver mode",
+  "survivalTruthOn": "ON",
+  "survivalTruthOff": "off",
+  "survivalTruthBackgroundRestricted": "Background restricted",
+  "survivalTruthYes": "haan",
+  "survivalTruthNo": "nahi",
+  "survivalTruthUnknown": "is device par check nahi ho sakta",
+  "survivalTruthStandbyBucket": "App standby bucket",
+  "survivalTruthDeviceIdle": "Device doze mein (abhi)",
+  "survivalExitTitle": "Pehle app kyu band hua (aakhri 5)",
+  "survivalExitEmpty": "Kuch record nahi (Android 11+ hi ye list rakhta hai; ab tak sab theek).",
+  "survivalOemTitle": "Ye phone kis ka hai",
+  "survivalOemDetected": "Detect hua: {label}",
+  "survivalOemSetupCta": "Setup guide kholo",
+  "survivalOemSetupTitle": "Survival setup — {label}",
+  "survivalOemSetupSummaryTitle": "Is phone ko kyu chahiye",
+  "survivalOemStepTitle": "Step {n}",
+  "survivalOemNotesTitle": "Jaanne layak",
+  "survivalOemAckCta": "Ho gaya — set kar diya",
+  "survivalOemAckDone": "Done mark ho gaya",
+  "survivalOemAckSaved": "Note kar liya. Bade change ke baad hi wapas poochenge.",
+  "survivalOemLinkOpened": "OEM screen khul gaya — wahan setting badlo.",
+  "survivalOemLinkMissed": "Ye path aapke version par nahi hai — neeche ke manual steps use karo.",
+  "survivalOemDkmaNote": "Community reference: {url}",
+  "survivalExportTitle": "Diagnostics export",
+  "survivalExportBody": "JSON summary share karo (sirf counts + states — kabhi transaction text nahi).",
+  "survivalExportCta": "JSON share karo",
+  "survivalExportFailed": "Export fail hua — dobara try karo.",
+  "survivalBatteryHonesty": "Battery sach: passive sunne ka kharcha <1%/din. Optional keep-alive service thoda zyada khaata hai — ye tumhara call hai, humara nahi.",
+  "settingsHealthTile": "Capture sehat",
+  "chatTitle": {
+    "translation": "UDAO Chat"
+  },
+  "chatPlaceholder": {
+    "translation": "Poochho kuch bhi — paisa, kharcha, roast…"
+  },
+  "chatSendTooltip": {
+    "translation": "Bhejo"
+  },
+  "chatStopTooltip": {
+    "translation": "Rok do"
+  },
+  "chatVoiceTooltip": {
+    "translation": "Bolo"
+  },
+  "chatAttachTooltip": {
+    "translation": "Receipt jodo"
+  },
+  "chatTemplateOnlyBanner": {
+    "translation": "Model absent — seedha-jawab mode on hai. Settings se model import karo."
+  },
+  "chatSuggested1": {
+    "translation": "is mahine kitna kharcha kiya?"
+  },
+  "chatSuggested2": {
+    "translation": "Swiggy pe kitna udaya hai?"
+  },
+  "chatSuggested3": {
+    "translation": "budget bata do"
+  },
+  "chatGuardedChip": {
+    "translation": "guardrail ne halka kar diya"
+  },
+  "chatCappedChip": {
+    "translation": "tool rounds ki limit aa gayi"
+  },
+  "chatClearAll": {
+    "translation": "Chat history mita dein?"
+  },
+  "chatClearAllBody": {
+    "translation": "Saare messages is device se delete ho jayenge. Wapas nahi aayenge."
+  },
+  "chatClearConfirm": {
+    "translation": "Mita do"
+  },
+  "chatClearCancel": {
+    "translation": "Rakh do"
+  },
+  "chatToolChip": {
+    "translation": "→ $name$args · $ms ms",
+    "placeholders": {
+      "args": {
+        "type": "String"
+      },
+      "ms": {
+        "type": "int"
+      },
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "chatPersonaTag": {
+    "translation": "\n      : ",
+    "placeholders": {
+      "id": {
+        "type": "String"
+      }
+    }
+  },
+  "personaStressNotice": {
+    "translation": "Thoda halka mode on kar diya — wapas savage chahiye to bata dena."
+  },
+  "personaStressExit": {
+    "translation": "Savage wapas"
+  },
+  "aiSettingsTitle": {
+    "translation": "AI settings"
+  },
+  "settingsAiTile": {
+    "translation": "AI / Dimaag"
+  },
+  "aiSettingsModelTitle": {
+    "translation": "On-device model"
+  },
+  "aiSettingsModelAbsent": {
+    "translation": "Is device pe koi model nahi. UDAO template-only mode mein chal raha hai — roast aur tools chalte hain, free-form chat ke liye model chahiye."
+  },
+  "aiSettingsTemplateOnlyBody": {
+    "translation": "Ek .task model file import karo (exact download links docs/ai/models.md mein). File validate hoti hai (size + SHA-256) aur isi device pe rehti hai."
+  },
+  "aiSettingsImportCta": {
+    "translation": "Model import karo"
+  },
+  "aiSettingsImportDone": {
+    "translation": "Model import ho gaya."
+  },
+  "aiSettingsImportFailed": {
+    "translation": "\n      : ",
+    "placeholders": {
+      "reason": {
+        "type": "String"
+      }
+    }
+  },
+  "aiSettingsDeleteCta": {
+    "translation": "Model delete karo"
+  },
+  "aiSettingsDeleteDone": {
+    "translation": "Model delete ho gaya."
+  },
+  "aiSettingsLoadCta": {
+    "translation": "Model load karo"
+  },
+  "aiSettingsModelLoaded": {
+    "translation": "Model load ho gaya."
+  },
+  "aiSettingsModelLoadFailed": {
+    "translation": "\n      : ",
+    "placeholders": {
+      "reason": {
+        "type": "String"
+      }
+    }
+  },
+  "aiSettingsFileLabel": {
+    "translation": "File"
+  },
+  "aiSettingsSizeLabel": {
+    "translation": "Size"
+  },
+  "aiSettingsShaLabel": {
+    "translation": "SHA-256 (shuruaat)"
+  },
+  "aiSettingsStatusLabel": {
+    "translation": "Status"
+  },
+  "aiSettingsStatusLoaded": {
+    "translation": "loaded"
+  },
+  "aiSettingsStatusLoading": {
+    "translation": "load ho raha…"
+  },
+  "aiSettingsStatusReady": {
+    "translation": "ready"
+  },
+  "aiSettingsTierTitle": {
+    "translation": "Device tier"
+  },
+  "aiSettingsTierBody": {
+    "translation": "Is phone ka RAM tier $tier suggest karta hai ($file). Bade models block nahi hote — bas slow chalte hain.",
+    "placeholders": {
+      "file": {
+        "type": "String"
+      },
+      "tier": {
+        "type": "String"
+      }
+    }
+  },
+  "aiSettingsPreloadTitle": {
+    "translation": "Brain warm rakhna"
+  },
+  "aiSettingsPreloadBody": {
+    "translation": "\n      : "
+  },
+  "aiSettingsPreloadToggle": {
+    "translation": "Preload"
+  },
+  "aiSettingsTestRoastTitle": {
+    "translation": "Test roast"
+  },
+  "aiSettingsTestRoastBody": {
+    "translation": "Ek fixed prompt chalata hai (template ya model) aur latency + estimated tokens batata hai."
+  },
+  "aiSettingsTestRoastCta": {
+    "translation": "Test chalao"
+  },
+  "aiSettingsTestRoastDone": {
+    "translation": "$ms ms mein done · ~$tokens estimated tokens",
+    "placeholders": {
+      "ms": {
+        "type": "int"
+      },
+      "tokens": {
+        "type": "int"
+      }
+    }
+  },
+  "aiSettingsPersonaTitle": {
+    "translation": "Awaaz"
+  },
+  "aiSettingsPersonaSaved": {
+    "translation": "Awaaz save ho gayi (pinned)."
+  },
+  "aiSettingsPersonaPinBody": {
+    "translation": "Settings se chunna = pin. Stress auto-switch (Sensei) isse override nahi karega."
+  },
+  "aiSettingsLearnedTitle": {
+    "translation": "Naye bank formats"
+  },
+  "aiSettingsLearnedEmpty": {
+    "translation": "Abhi kuch nahi seekha. Jab AI koi unknown format parse kare, uska regex yahan approval ke liye aayega."
+  },
+  "aiSettingsLearnedRow": {
+    "translation": "\n      : ",
+    "placeholders": {
+      "pattern": {
+        "type": "String"
+      }
+    }
+  },
+  "aiSettingsLearnedSample": {
+    "translation": "\n      : ",
+    "placeholders": {
+      "sample": {
+        "type": "String"
+      }
+    }
+  },
+  "aiSettingsLearnedApprove": {
+    "translation": "Save karo"
+  },
+  "aiSettingsLearnedDismiss": {
+    "translation": "Nikaal do"
+  },
+  "aiSettingsLearnedTestOk": {
+    "translation": "\n      : "
+  },
+  "aiSettingsLearnedTestFail": {
+    "translation": "\n      : "
+  },
+  "aiSettingsTelemetryTitle": {
+    "translation": "AI telemetry (sirf local)"
+  },
+  "aiSettingsTelemetryBody": {
+    "translation": "\n          : ",
+    "placeholders": {
+      "blocks": {
+        "type": "int"
+      },
+      "latencyMs": {
+        "type": "int"
+      },
+      "tokens": {
+        "type": "int"
+      },
+      "toolFail": {
+        "type": "int"
+      },
+      "toolOk": {
+        "type": "int"
+      }
+    }
+  },
+  "khelTitle": "Khel",
+  "khelStreakLabel": "No-spend streak",
+  "khelLongestLabel": "Best",
+  "khelFreezesLabel": "Freezes",
+  "khelTodayClean": "Aaj abhi saaf — streak saans le raha hai. {days} din ho gaye.",
+  "khelTodaySpent": "Aaj ₹{rupees} kharch ho gaya — raat 12 baje streak tootega, freeze nahi lagaya toh.",
+  "khelTodaySpentFrozen": "Aaj ₹{rupees} kharch hua — par freeze lagaya hai. Streak bacha rahega, badega nahi.",
+  "khelFreezeButton": "FREEZE LAGAO",
+  "khelFreezeApplied": "Aaj ke liye freeze lag gaya",
+  "khelNoFreezes": "Koi freeze nahi bacha — challenges se kamao",
+  "khelLadderTitle": "Chindi Ladder",
+  "khelBadgesTitle": "Badges",
+  "khelChallengesTitle": "Challenges",
+  "khelLevel1": "Seedha",
+  "khelLevel2": "Samajhdar",
+  "khelLevel3": "Chindi",
+  "khelLevel4": "Miser",
+  "khelLevel5": "Kanjoos",
+  "khelLevel6": "Chindi Samrat",
+  "khelBadgeFirstDay": "Pehla Saaf Din",
+  "khelBadgeFirstDayDesc": "Poora ek din, zero kharcha.",
+  "khelBadgeL1": "Rung 1 — 3 days",
+  "khelBadgeL1Desc": "Teen lagataar no-spend din.",
+  "khelBadgeL2": "Rung 2 — 7 days",
+  "khelBadgeL2Desc": "Poora hafta sanyam.",
+  "khelBadgeL3": "Rung 3 — 14 days",
+  "khelBadgeL3Desc": "Do hafte. Wallet pershaan hai.",
+  "khelBadgeL4": "Rung 4 — 21 days",
+  "khelBadgeL4Desc": "Teen hafte na bolne ki kala.",
+  "khelBadgeL5": "Rung 5 — 30 days",
+  "khelBadgeL5Desc": "Poora mahina. Dhamakedaar.",
+  "khelBadgeL6": "Rung 6 — 50 days",
+  "khelBadgeL6Desc": "Pachas din. Chindi Samrat.",
+  "khelBadgeComeback": "Comeback",
+  "khelBadgeComebackDesc": "Streak toota, phir naya 3-din bana.",
+  "khelBadgeFreeze": "Pehli Freeze",
+  "khelBadgeFreezeDesc": "Streak bachane ke liye freeze lagayi.",
+  "khelBadgeChallenge30": "30 ka Challenge",
+  "khelBadgeChallenge30Desc": "30-din challenge complete kiya.",
+  "khelChallengeLabel": "{current} / {target} din — inaam: {reward} freeze",
+  "@khelTodayClean": {
+    "placeholders": {
+      "days": {
+        "type": "int"
+      }
+    }
+  },
+  "@khelTodaySpent": {
+    "placeholders": {
+      "rupees": {
+        "type": "String"
+      }
+    }
+  },
+  "@khelTodaySpentFrozen": {
+    "placeholders": {
+      "rupees": {
+        "type": "String"
+      }
+    }
+  },
+  "@khelChallengeLabel": {
+    "placeholders": {
+      "current": {
+        "type": "int"
+      },
+      "target": {
+        "type": "int"
+      },
+      "reward": {
+        "type": "String"
+      }
+    }
+  },
+  "aajSpentTodayLabel": "Aaj ka kharcha",
+  "aajEntriesChip": "{count} entries",
+  "aajMovementTitle": "Aaj ki movement",
+  "aajYesterdayChip": "kal se",
+  "ledgerTitle": "Kitaab",
+  "ledgerDayToday": "Aaj",
+  "ledgerDayYesterday": "Kal",
+  "@aajEntriesChip": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "budgetTitle": "Lakshman Rekha",
+  "budgetSectionCategories": "Category-wise",
+  "budgetEmptyTitle": "Koi rekha nahi",
+  "budgetEmptyBody": "Wallet pe rekha kheencho — UDAO uski raksha karega, cross kiya toh roast pakka.",
+  "budgetNewTitle": "Nayi rekha",
+  "budgetEditTitle": "Rekha edit",
+  "budgetNewCta": "Nayi rekha",
+  "budgetTargetLabel": "Kahan rekha?",
+  "budgetWalletLabel": "Poora wallet",
+  "budgetLimitLabel": "Kitni? (₹)",
+  "budgetLimitHint": "jaise 5000",
+  "budgetLimitError": "Rekha ₹0 se upar honi chahiye",
+  "budgetPeriodLabel": "Kis hisaab se",
+  "budgetPeriodWeekly": "Haftewar",
+  "budgetPeriodMonthly": "Mahinewar",
+  "budgetRolloverLabel": "Bacha hua aage le jao",
+  "budgetRolloverSub": "Jo bacha, wo agle period mein jud jayega",
+  "budgetSaveCta": "Rekha lagao",
+  "budgetDeleteCta": "Hatao",
+  "budgetDaysLeft": "{count} din bache",
+  "budgetLeftLabel": "Bacha",
+  "budgetExceededStamp": "REKHA CROSS",
+  "budgetCarryChip": "{amount} pichhle se aaya",
+  "budgetSavedSnack": "Rekha lag gayi",
+  "budgetDeletedSnack": "Rekha hata di",
+  "@budgetDaysLeft": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "@budgetCarryChip": {
+    "placeholders": {
+      "amount": {
+        "type": "String"
+      }
+    }
+  }
+}
